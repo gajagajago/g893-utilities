@@ -1,0 +1,28 @@
+
+Source: /tmp/amdgpu/drivers/gpu/drm/amd/amdgpu/amdgpu_gmc.c
+PASS disabled: original hive-wide request path
+PASS empty selector: original behavior
+PASS target-only: exactly one firmware request, only during teardown
+PASS other GPUs: sysfs and firmware-boundary requests rejected
+PASS cancellation: writing active mode clears pending change
+PASS replacement: latest valid request wins
+PASS unsupported modes: no firmware requests
+PASS stale non-target/hive requests: never broadcast in test mode
+PASS invalid selector: fails closed
+PASS VF/APU: experimental requests rejected
+PASS firmware failure: error propagated, no broadcast fallback
+PASS rollback request: target-only NPS4 to NPS1
+
+Source: /tmp/amdgpu-nps-test/patched/amd/amdgpu/amdgpu_gmc.c
+PASS disabled: original hive-wide request path
+PASS empty selector: original behavior
+PASS target-only: exactly one firmware request, only during teardown
+PASS other GPUs: sysfs and firmware-boundary requests rejected
+PASS cancellation: writing active mode clears pending change
+PASS replacement: latest valid request wins
+PASS unsupported modes: no firmware requests
+PASS stale non-target/hive requests: never broadcast in test mode
+PASS invalid selector: fails closed
+PASS VF/APU: experimental requests rejected
+PASS firmware failure: error propagated, no broadcast fallback
+PASS rollback request: target-only NPS4 to NPS1

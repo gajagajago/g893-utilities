@@ -1,0 +1,48 @@
+{'bdf': '0000:06:00.0', 'compute': 'SPX', 'memory': 'NPS1'}
+{'bdf': '0000:16:00.0', 'compute': 'SPX', 'memory': 'NPS1'}
+{'bdf': '0000:66:00.0', 'compute': 'SPX', 'memory': 'NPS1'}
+{'bdf': '0000:76:00.0', 'compute': 'SPX', 'memory': 'NPS1'}
+{'bdf': '0000:86:00.0', 'compute': 'SPX', 'memory': 'NPS1'}
+{'bdf': '0000:96:00.0', 'compute': 'SPX', 'memory': 'NPS1'}
+{'bdf': '0000:e6:00.0', 'compute': 'SPX', 'memory': 'NPS1'}
+{'bdf': '0000:f6:00.0', 'compute': 'CPX', 'memory': 'NPS4'}
+KFD GPU nodes: 15
+[777605.150170] amdgpu 0000:f6:00.0: amdgpu: NPS-TEST: queued per-device mode=4 (0=cancel); hive request unchanged; applies on driver removal
+[777626.888700] amdgpu 0000:f6:00.0: amdgpu: NPS-TEST: firmware request NPS4
+[777626.888704] amdgpu 0000:f6:00.0: amdgpu: Requesting 4 memory partition change through PSP
+[777626.889756] amdgpu 0000:f6:00.0: amdgpu: NPS-TEST: firmware request NPS4 returned 0
+[777915.265328] amdgpu 0000:76:00.0: amdgpu: NPS-TEST: participating in existing hive reset on init
+[777918.039280] amdgpu 0000:06:00.0: amdgpu: NPS-TEST: participating in existing hive reset on init
+[777920.870846] amdgpu 0000:66:00.0: amdgpu: NPS-TEST: participating in existing hive reset on init
+[777923.648844] amdgpu 0000:16:00.0: amdgpu: NPS-TEST: participating in existing hive reset on init
+[777926.424017] kobject: kobject_add_internal failed for xcp with -EEXIST, don't try to register things with the same name in the same directory.
+[777926.447724] amdgpu 0000:f6:00.0: amdgpu: NPS-TEST: participating in existing hive reset on init
+[777929.234013] amdgpu 0000:86:00.0: amdgpu: NPS-TEST: participating in existing hive reset on init
+[777932.024728] amdgpu 0000:e6:00.0: amdgpu: NPS-TEST: participating in existing hive reset on init
+[777934.823950] amdgpu 0000:96:00.0: amdgpu: NPS-TEST: participating in existing hive reset on init
+[778147.092217] amdgpu 0000:f6:00.0: amdgpu: NPS-TEST: queued per-device mode=1 (0=cancel); hive request unchanged; applies on driver removal
+[778148.580522] amdgpu 0000:f6:00.0: amdgpu: NPS-TEST: firmware request NPS1
+[778148.580525] amdgpu 0000:f6:00.0: amdgpu: Requesting 1 memory partition change through PSP
+[778148.581523] amdgpu 0000:f6:00.0: amdgpu: NPS-TEST: firmware request NPS1 returned 0
+[778232.104174] amdgpu 0000:76:00.0: amdgpu: NPS-TEST: participating in existing hive reset on init
+[778234.874533] amdgpu 0000:06:00.0: amdgpu: NPS-TEST: participating in existing hive reset on init
+[778237.733478] amdgpu 0000:66:00.0: amdgpu: NPS-TEST: participating in existing hive reset on init
+[778240.515912] amdgpu 0000:16:00.0: amdgpu: NPS-TEST: participating in existing hive reset on init
+[778243.289868] kobject: kobject_add_internal failed for xcp with -EEXIST, don't try to register things with the same name in the same directory.
+[778243.313255] amdgpu 0000:f6:00.0: amdgpu: NPS-TEST: participating in existing hive reset on init
+[778246.095840] amdgpu 0000:86:00.0: amdgpu: NPS-TEST: participating in existing hive reset on init
+[778248.891400] amdgpu 0000:e6:00.0: amdgpu: NPS-TEST: participating in existing hive reset on init
+[778251.689971] amdgpu 0000:96:00.0: amdgpu: NPS-TEST: participating in existing hive reset on init
+[778336.538606] amdgpu 0000:f6:00.0: amdgpu: NPS-TEST: queued per-device mode=4 (0=cancel); hive request unchanged; applies on driver removal
+[778337.858488] amdgpu 0000:f6:00.0: amdgpu: NPS-TEST: firmware request NPS4
+[778337.858491] amdgpu 0000:f6:00.0: amdgpu: Requesting 4 memory partition change through PSP
+[778337.859540] amdgpu 0000:f6:00.0: amdgpu: NPS-TEST: firmware request NPS4 returned 0
+[778366.491481] amdgpu 0000:76:00.0: amdgpu: NPS-TEST: participating in existing hive reset on init
+[778369.265303] amdgpu 0000:06:00.0: amdgpu: NPS-TEST: participating in existing hive reset on init
+[778372.041771] amdgpu 0000:66:00.0: amdgpu: NPS-TEST: participating in existing hive reset on init
+[778374.820907] amdgpu 0000:16:00.0: amdgpu: NPS-TEST: participating in existing hive reset on init
+[778377.593640] kobject: kobject_add_internal failed for xcp with -EEXIST, don't try to register things with the same name in the same directory.
+[778377.616913] amdgpu 0000:f6:00.0: amdgpu: NPS-TEST: participating in existing hive reset on init
+[778380.404058] amdgpu 0000:86:00.0: amdgpu: NPS-TEST: participating in existing hive reset on init
+[778383.192498] amdgpu 0000:e6:00.0: amdgpu: NPS-TEST: participating in existing hive reset on init
+[778385.992041] amdgpu 0000:96:00.0: amdgpu: NPS-TEST: participating in existing hive reset on init

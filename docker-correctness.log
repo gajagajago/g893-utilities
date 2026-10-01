@@ -1,0 +1,20 @@
+GPU7 render nodes: [160, 161, 162, 163, 164, 165, 166, 167]
+HIP devices: 8
+LOCAL PASS device=0 bdf=0000:f6:00.0 memory=25769803776 CUs=38
+LOCAL PASS device=1 bdf=0000:f6:00.1 memory=25769803776 CUs=38
+LOCAL PASS device=2 bdf=0000:f6:00.2 memory=25769803776 CUs=38
+LOCAL PASS device=3 bdf=0000:f6:00.3 memory=25769803776 CUs=38
+LOCAL PASS device=4 bdf=0000:f6:00.4 memory=25769803776 CUs=38
+LOCAL PASS device=5 bdf=0000:f6:00.5 memory=25769803776 CUs=38
+LOCAL PASS device=6 bdf=0000:f6:00.6 memory=25761415168 CUs=38
+LOCAL PASS device=7 bdf=0000:f6:00.7 memory=25761415168 CUs=38
+PEER PASS directed_pairs=56 unsupported_pairs=0 excluded_cross_group_pairs=0 bytes_per_pair=4194304
+CONCURRENT PASS device=6 rounds=47537
+CONCURRENT PASS device=1 rounds=47448
+CONCURRENT PASS device=0 rounds=47652
+CONCURRENT PASS device=2 rounds=47799
+CONCURRENT PASS device=3 rounds=47659
+CONCURRENT PASS device=5 rounds=47502
+CONCURRENT PASS device=4 rounds=47378
+CONCURRENT PASS device=7 rounds=47393
+ALL CHECKS PASSED

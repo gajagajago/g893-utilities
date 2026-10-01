@@ -1,0 +1,1526 @@
+[777307.110054] amdgpu 0000:96:00.0: amdgpu: amdgpu: finishing device.
+[777307.245164] amdgpu 0000:96:00.0: amdgpu: amdgpu: ttm finalized
+[777307.259712] amdgpu 0000:e6:00.0: amdgpu: amdgpu: finishing device.
+[777307.386923] amdgpu 0000:e6:00.0: amdgpu: amdgpu: ttm finalized
+[777307.401998] amdgpu 0000:86:00.0: amdgpu: amdgpu: finishing device.
+[777307.529095] amdgpu 0000:86:00.0: amdgpu: amdgpu: ttm finalized
+[777307.544581] amdgpu 0000:f6:00.0: amdgpu: amdgpu: finishing device.
+[777307.667363] amdgpu 0000:f6:00.0: amdgpu: amdgpu: ttm finalized
+[777307.682759] amdgpu 0000:16:00.0: amdgpu: amdgpu: finishing device.
+[777307.812223] amdgpu 0000:16:00.0: amdgpu: amdgpu: ttm finalized
+[777307.828066] amdgpu 0000:66:00.0: amdgpu: amdgpu: finishing device.
+[777307.962286] amdgpu 0000:66:00.0: amdgpu: amdgpu: ttm finalized
+[777307.977603] amdgpu 0000:06:00.0: amdgpu: amdgpu: finishing device.
+[777308.100260] amdgpu 0000:06:00.0: amdgpu: amdgpu: ttm finalized
+[777308.112385] amdgpu 0000:76:00.0: amdgpu: amdgpu: finishing device.
+[777308.242286] amdgpu 0000:76:00.0: amdgpu: amdgpu: ttm finalized
+[777364.685550] audit: type=1400 audit(1790805195.617:383): apparmor="AUDIT" operation="userns_create" class="namespace" info="Userns create - transitioning profile" profile="unconfined" pid=1541032 comm="3" requested="userns_create" target="unprivileged_userns"
+[777364.688479] audit: type=1400 audit(1790805195.620:384): apparmor="DENIED" operation="capable" class="cap" profile="unprivileged_userns" pid=1541034 comm="3" capability=8  capname="setpcap"
+[777364.688519] audit: type=1400 audit(1790805195.620:385): apparmor="DENIED" operation="capable" class="cap" profile="unprivileged_userns" pid=1541034 comm="3" capability=12  capname="net_admin"
+[777364.691084] audit: type=1400 audit(1790805195.623:386): apparmor="AUDIT" operation="userns_create" class="namespace" info="Userns create - transitioning profile" profile="unconfined" pid=1541036 comm="3" requested="userns_create" target="unprivileged_userns"
+[777364.694317] audit: type=1400 audit(1790805195.626:387): apparmor="DENIED" operation="capable" class="cap" profile="unprivileged_userns" pid=1541037 comm="3" capability=8  capname="setpcap"
+[777364.694358] audit: type=1400 audit(1790805195.626:388): apparmor="DENIED" operation="capable" class="cap" profile="unprivileged_userns" pid=1541037 comm="3" capability=12  capname="net_admin"
+[777385.537958] [drm] amdgpu kernel modesetting enabled.
+[777385.537963] [drm] amdgpu version: 6.16.13
+[777385.537964] [drm] OS DRM version: 6.8.0
+[777385.538438] amdgpu: Virtual CRAT table created for CPU
+[777385.538454] amdgpu: Topology: Add CPU node
+[777385.542035] amdgpu 0000:76:00.0: amdgpu: initializing kernel modesetting (IP DISCOVERY 0x1002:0x74A1 0x1002:0x74A1 0x00).
+[777385.542175] amdgpu 0000:76:00.0: amdgpu: register mmio base: 0xEBC00000
+[777385.542177] amdgpu 0000:76:00.0: amdgpu: register mmio size: 2097152
+[777385.546521] amdgpu 0000:76:00.0: amdgpu: detected ip block number 0 <common_v2_0_0> (soc15_common)
+[777385.546524] amdgpu 0000:76:00.0: amdgpu: detected ip block number 1 <gmc_v9_0_0> (gmc_v9_0)
+[777385.546526] amdgpu 0000:76:00.0: amdgpu: detected ip block number 2 <ih_v4_2_0> (vega20_ih)
+[777385.546527] amdgpu 0000:76:00.0: amdgpu: detected ip block number 3 <psp_v13_0_0> (psp)
+[777385.546528] amdgpu 0000:76:00.0: amdgpu: detected ip block number 4 <smu_v13_0_0> (smu)
+[777385.546529] amdgpu 0000:76:00.0: amdgpu: detected ip block number 5 <gfx_v9_4_3> (gfx_v9_4_3)
+[777385.546530] amdgpu 0000:76:00.0: amdgpu: detected ip block number 6 <sdma_v4_4_2> (sdma_v4_4_2)
+[777385.546531] amdgpu 0000:76:00.0: amdgpu: detected ip block number 7 <ras_v1_0_0> (ras_v1_0)
+[777385.546532] amdgpu 0000:76:00.0: amdgpu: detected ip block number 8 <vcn_v4_0_3> (vcn_v4_0_3)
+[777385.546532] amdgpu 0000:76:00.0: amdgpu: detected ip block number 9 <jpeg_v4_0_3> (jpeg_v4_0_3)
+[777385.551283] amdgpu 0000:76:00.0: amdgpu: Fetched VBIOS from platform
+[777385.551285] amdgpu: ATOM BIOS: 113-M3000100-103
+[777385.552457] amdgpu 0000:76:00.0: amdgpu: Trusted Memory Zone (TMZ) feature not supported
+[777385.552568] amdgpu 0000:76:00.0: amdgpu: RAS INFO: ras initialized successfully, hardware ability[fdbff] ras_mask[fdbff]
+[777385.552720] amdgpu 0000:76:00.0: amdgpu: vm size is 262144 GB, 4 levels, block size is 9-bit, fragment size is 9-bit
+[777385.552739] amdgpu 0000:76:00.0: amdgpu: VRAM: 196592M 0x0000023000000000 - 0x0000025FFEFFFFFF (196592M used)
+[777385.552741] amdgpu 0000:76:00.0: amdgpu: GART: 512M 0x0000000000000000 - 0x000000001FFFFFFF
+[777385.552751] [drm] Detected VRAM RAM=196592M, BAR=262144M
+[777385.552752] [drm] RAM width 8192bits HBM
+[777385.552947] amdgpu 0000:76:00.0: amdgpu: amdgpu: 196592M of VRAM memory ready
+[777385.552950] amdgpu 0000:76:00.0: amdgpu: amdgpu: 773820M of GTT memory ready.
+[777385.552973] [drm] GART: num cpu pages 131072, num gpu pages 131072
+[777385.553957] [drm] PCIE GART of 512M enabled.
+[777385.553959] [drm] PTB located at 0x0000025FED700000
+[777385.561103] amdgpu 0000:76:00.0: amdgpu: [VCN instance 0] Found VCN firmware Version ENC: 1.24 DEC: 9 VEP: 0 Revision: 26
+[777385.561162] amdgpu 0000:76:00.0: amdgpu: [VCN instance 1] Found VCN firmware Version ENC: 1.24 DEC: 9 VEP: 0 Revision: 26
+[777385.561217] amdgpu 0000:76:00.0: amdgpu: [VCN instance 2] Found VCN firmware Version ENC: 1.24 DEC: 9 VEP: 0 Revision: 26
+[777385.561272] amdgpu 0000:76:00.0: amdgpu: [VCN instance 3] Found VCN firmware Version ENC: 1.24 DEC: 9 VEP: 0 Revision: 26
+[777388.262439] amdgpu 0000:76:00.0: amdgpu: RAP: optional rap ta ucode is not available
+[777388.264085] amdgpu 0000:76:00.0: amdgpu: SMU is initialized successfully!
+[777388.265752] amdgpu 0000:76:00.0: amdgpu: Requesting 1 partitions through PSP
+[777388.272832] amdgpu 0000:76:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777388.273362] amdgpu 0000:76:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777388.273931] amdgpu 0000:76:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777388.274508] amdgpu 0000:76:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777388.275102] amdgpu 0000:76:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777388.275693] amdgpu 0000:76:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777388.276302] amdgpu 0000:76:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777388.276956] amdgpu 0000:76:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777388.301825] amdgpu 0000:76:00.0: amdgpu: XGMI: Add node 1, hive 0xbfdb3d0edaa60097.
+[777388.550933] amdgpu: HMM registered 196592MB device memory
+[777388.551847] kfd kfd: amdgpu: Allocated 3969056 bytes on gart
+[777388.551910] kfd kfd: amdgpu: Total number of KFD nodes to be created: 1
+[777388.551912] kfd kfd: amdgpu: KFD node 0 partition 0 size 196592M
+[777388.551916] kfd kfd: amdgpu: Node: 0, interrupt_bitmap: 7777
+[777388.552247] amdgpu: Virtual CRAT table created for GPU
+[777388.552699] amdgpu: Topology: Add dGPU node [0x74a1:0x1002]
+[777388.873777] amdgpu 0000:76:00.0: added peer-to-peer DMA memory 0x34000000000-0x37fffffffff
+[777388.873784] amdgpu 0000:76:00.0: amdgpu: AIS: registered 196592MB device memory
+[777388.873787] kfd kfd: amdgpu: added device 1002:74a1
+[777388.888363] amdgpu 0000:76:00.0: amdgpu: SE 4, SH per SE 1, CU per SH 10, active_cu_number 304
+[777388.888372] amdgpu 0000:76:00.0: amdgpu: ring comp_0.1.0.0 uses VM inv eng 0 on hub 0
+[777388.888373] amdgpu 0000:76:00.0: amdgpu: ring comp_0.1.1.0 uses VM inv eng 1 on hub 0
+[777388.888374] amdgpu 0000:76:00.0: amdgpu: ring comp_0.1.2.0 uses VM inv eng 4 on hub 0
+[777388.888374] amdgpu 0000:76:00.0: amdgpu: ring comp_0.1.3.0 uses VM inv eng 5 on hub 0
+[777388.888375] amdgpu 0000:76:00.0: amdgpu: ring comp_0.1.0.1 uses VM inv eng 6 on hub 0
+[777388.888376] amdgpu 0000:76:00.0: amdgpu: ring comp_0.1.1.1 uses VM inv eng 7 on hub 0
+[777388.888376] amdgpu 0000:76:00.0: amdgpu: ring comp_0.1.2.1 uses VM inv eng 8 on hub 0
+[777388.888377] amdgpu 0000:76:00.0: amdgpu: ring comp_0.1.3.1 uses VM inv eng 9 on hub 0
+[777388.888378] amdgpu 0000:76:00.0: amdgpu: ring kiq_0.2.1.0 uses VM inv eng 10 on hub 0
+[777388.888378] amdgpu 0000:76:00.0: amdgpu: ring comp_1.1.0.0 uses VM inv eng 0 on hub 1
+[777388.888379] amdgpu 0000:76:00.0: amdgpu: ring comp_1.1.1.0 uses VM inv eng 1 on hub 1
+[777388.888380] amdgpu 0000:76:00.0: amdgpu: ring comp_1.1.2.0 uses VM inv eng 4 on hub 1
+[777388.888380] amdgpu 0000:76:00.0: amdgpu: ring comp_1.1.3.0 uses VM inv eng 5 on hub 1
+[777388.888381] amdgpu 0000:76:00.0: amdgpu: ring comp_1.1.0.1 uses VM inv eng 6 on hub 1
+[777388.888382] amdgpu 0000:76:00.0: amdgpu: ring comp_1.1.1.1 uses VM inv eng 7 on hub 1
+[777388.888382] amdgpu 0000:76:00.0: amdgpu: ring comp_1.1.2.1 uses VM inv eng 8 on hub 1
+[777388.888383] amdgpu 0000:76:00.0: amdgpu: ring comp_1.1.3.1 uses VM inv eng 9 on hub 1
+[777388.888383] amdgpu 0000:76:00.0: amdgpu: ring kiq_1.2.1.0 uses VM inv eng 10 on hub 1
+[777388.888384] amdgpu 0000:76:00.0: amdgpu: ring comp_2.1.0.0 uses VM inv eng 0 on hub 2
+[777388.888384] amdgpu 0000:76:00.0: amdgpu: ring comp_2.1.1.0 uses VM inv eng 1 on hub 2
+[777388.888385] amdgpu 0000:76:00.0: amdgpu: ring comp_2.1.2.0 uses VM inv eng 4 on hub 2
+[777388.888386] amdgpu 0000:76:00.0: amdgpu: ring comp_2.1.3.0 uses VM inv eng 5 on hub 2
+[777388.888386] amdgpu 0000:76:00.0: amdgpu: ring comp_2.1.0.1 uses VM inv eng 6 on hub 2
+[777388.888387] amdgpu 0000:76:00.0: amdgpu: ring comp_2.1.1.1 uses VM inv eng 7 on hub 2
+[777388.888387] amdgpu 0000:76:00.0: amdgpu: ring comp_2.1.2.1 uses VM inv eng 8 on hub 2
+[777388.888388] amdgpu 0000:76:00.0: amdgpu: ring comp_2.1.3.1 uses VM inv eng 9 on hub 2
+[777388.888388] amdgpu 0000:76:00.0: amdgpu: ring kiq_2.2.1.0 uses VM inv eng 10 on hub 2
+[777388.888389] amdgpu 0000:76:00.0: amdgpu: ring comp_3.1.0.0 uses VM inv eng 0 on hub 3
+[777388.888389] amdgpu 0000:76:00.0: amdgpu: ring comp_3.1.1.0 uses VM inv eng 1 on hub 3
+[777388.888390] amdgpu 0000:76:00.0: amdgpu: ring comp_3.1.2.0 uses VM inv eng 4 on hub 3
+[777388.888390] amdgpu 0000:76:00.0: amdgpu: ring comp_3.1.3.0 uses VM inv eng 5 on hub 3
+[777388.888391] amdgpu 0000:76:00.0: amdgpu: ring comp_3.1.0.1 uses VM inv eng 6 on hub 3
+[777388.888392] amdgpu 0000:76:00.0: amdgpu: ring comp_3.1.1.1 uses VM inv eng 7 on hub 3
+[777388.888392] amdgpu 0000:76:00.0: amdgpu: ring comp_3.1.2.1 uses VM inv eng 8 on hub 3
+[777388.888393] amdgpu 0000:76:00.0: amdgpu: ring comp_3.1.3.1 uses VM inv eng 9 on hub 3
+[777388.888393] amdgpu 0000:76:00.0: amdgpu: ring kiq_3.2.1.0 uses VM inv eng 10 on hub 3
+[777388.888394] amdgpu 0000:76:00.0: amdgpu: ring comp_4.1.0.0 uses VM inv eng 0 on hub 4
+[777388.888394] amdgpu 0000:76:00.0: amdgpu: ring comp_4.1.1.0 uses VM inv eng 1 on hub 4
+[777388.888395] amdgpu 0000:76:00.0: amdgpu: ring comp_4.1.2.0 uses VM inv eng 4 on hub 4
+[777388.888395] amdgpu 0000:76:00.0: amdgpu: ring comp_4.1.3.0 uses VM inv eng 5 on hub 4
+[777388.888396] amdgpu 0000:76:00.0: amdgpu: ring comp_4.1.0.1 uses VM inv eng 6 on hub 4
+[777388.888396] amdgpu 0000:76:00.0: amdgpu: ring comp_4.1.1.1 uses VM inv eng 7 on hub 4
+[777388.888397] amdgpu 0000:76:00.0: amdgpu: ring comp_4.1.2.1 uses VM inv eng 8 on hub 4
+[777388.888397] amdgpu 0000:76:00.0: amdgpu: ring comp_4.1.3.1 uses VM inv eng 9 on hub 4
+[777388.888398] amdgpu 0000:76:00.0: amdgpu: ring kiq_4.2.1.0 uses VM inv eng 10 on hub 4
+[777388.888398] amdgpu 0000:76:00.0: amdgpu: ring comp_5.1.0.0 uses VM inv eng 0 on hub 5
+[777388.888399] amdgpu 0000:76:00.0: amdgpu: ring comp_5.1.1.0 uses VM inv eng 1 on hub 5
+[777388.888400] amdgpu 0000:76:00.0: amdgpu: ring comp_5.1.2.0 uses VM inv eng 4 on hub 5
+[777388.888400] amdgpu 0000:76:00.0: amdgpu: ring comp_5.1.3.0 uses VM inv eng 5 on hub 5
+[777388.888401] amdgpu 0000:76:00.0: amdgpu: ring comp_5.1.0.1 uses VM inv eng 6 on hub 5
+[777388.888401] amdgpu 0000:76:00.0: amdgpu: ring comp_5.1.1.1 uses VM inv eng 7 on hub 5
+[777388.888402] amdgpu 0000:76:00.0: amdgpu: ring comp_5.1.2.1 uses VM inv eng 8 on hub 5
+[777388.888402] amdgpu 0000:76:00.0: amdgpu: ring comp_5.1.3.1 uses VM inv eng 9 on hub 5
+[777388.888403] amdgpu 0000:76:00.0: amdgpu: ring kiq_5.2.1.0 uses VM inv eng 10 on hub 5
+[777388.888403] amdgpu 0000:76:00.0: amdgpu: ring comp_6.1.0.0 uses VM inv eng 0 on hub 6
+[777388.888404] amdgpu 0000:76:00.0: amdgpu: ring comp_6.1.1.0 uses VM inv eng 1 on hub 6
+[777388.888405] amdgpu 0000:76:00.0: amdgpu: ring comp_6.1.2.0 uses VM inv eng 4 on hub 6
+[777388.888405] amdgpu 0000:76:00.0: amdgpu: ring comp_6.1.3.0 uses VM inv eng 5 on hub 6
+[777388.888406] amdgpu 0000:76:00.0: amdgpu: ring comp_6.1.0.1 uses VM inv eng 6 on hub 6
+[777388.888406] amdgpu 0000:76:00.0: amdgpu: ring comp_6.1.1.1 uses VM inv eng 7 on hub 6
+[777388.888407] amdgpu 0000:76:00.0: amdgpu: ring comp_6.1.2.1 uses VM inv eng 8 on hub 6
+[777388.888407] amdgpu 0000:76:00.0: amdgpu: ring comp_6.1.3.1 uses VM inv eng 9 on hub 6
+[777388.888408] amdgpu 0000:76:00.0: amdgpu: ring kiq_6.2.1.0 uses VM inv eng 10 on hub 6
+[777388.888409] amdgpu 0000:76:00.0: amdgpu: ring comp_7.1.0.0 uses VM inv eng 0 on hub 7
+[777388.888409] amdgpu 0000:76:00.0: amdgpu: ring comp_7.1.1.0 uses VM inv eng 1 on hub 7
+[777388.888410] amdgpu 0000:76:00.0: amdgpu: ring comp_7.1.2.0 uses VM inv eng 4 on hub 7
+[777388.888410] amdgpu 0000:76:00.0: amdgpu: ring comp_7.1.3.0 uses VM inv eng 5 on hub 7
+[777388.888411] amdgpu 0000:76:00.0: amdgpu: ring comp_7.1.0.1 uses VM inv eng 6 on hub 7
+[777388.888411] amdgpu 0000:76:00.0: amdgpu: ring comp_7.1.1.1 uses VM inv eng 7 on hub 7
+[777388.888412] amdgpu 0000:76:00.0: amdgpu: ring comp_7.1.2.1 uses VM inv eng 8 on hub 7
+[777388.888412] amdgpu 0000:76:00.0: amdgpu: ring comp_7.1.3.1 uses VM inv eng 9 on hub 7
+[777388.888413] amdgpu 0000:76:00.0: amdgpu: ring kiq_7.2.1.0 uses VM inv eng 10 on hub 7
+[777388.888413] amdgpu 0000:76:00.0: amdgpu: ring sdma0.0 uses VM inv eng 0 on hub 8
+[777388.888414] amdgpu 0000:76:00.0: amdgpu: ring sdma0.1 uses VM inv eng 1 on hub 8
+[777388.888415] amdgpu 0000:76:00.0: amdgpu: ring sdma0.2 uses VM inv eng 4 on hub 8
+[777388.888415] amdgpu 0000:76:00.0: amdgpu: ring sdma0.3 uses VM inv eng 5 on hub 8
+[777388.888416] amdgpu 0000:76:00.0: amdgpu: ring sdma1.0 uses VM inv eng 0 on hub 9
+[777388.888416] amdgpu 0000:76:00.0: amdgpu: ring sdma1.1 uses VM inv eng 1 on hub 9
+[777388.888417] amdgpu 0000:76:00.0: amdgpu: ring sdma1.2 uses VM inv eng 4 on hub 9
+[777388.888417] amdgpu 0000:76:00.0: amdgpu: ring sdma1.3 uses VM inv eng 5 on hub 9
+[777388.888418] amdgpu 0000:76:00.0: amdgpu: ring sdma2.0 uses VM inv eng 0 on hub 10
+[777388.888418] amdgpu 0000:76:00.0: amdgpu: ring sdma2.1 uses VM inv eng 1 on hub 10
+[777388.888419] amdgpu 0000:76:00.0: amdgpu: ring sdma2.2 uses VM inv eng 4 on hub 10
+[777388.888419] amdgpu 0000:76:00.0: amdgpu: ring sdma2.3 uses VM inv eng 5 on hub 10
+[777388.888420] amdgpu 0000:76:00.0: amdgpu: ring sdma3.0 uses VM inv eng 0 on hub 11
+[777388.888421] amdgpu 0000:76:00.0: amdgpu: ring sdma3.1 uses VM inv eng 1 on hub 11
+[777388.888421] amdgpu 0000:76:00.0: amdgpu: ring sdma3.2 uses VM inv eng 4 on hub 11
+[777388.888422] amdgpu 0000:76:00.0: amdgpu: ring sdma3.3 uses VM inv eng 5 on hub 11
+[777388.888422] amdgpu 0000:76:00.0: amdgpu: ring vcn_unified_0 uses VM inv eng 6 on hub 8
+[777388.888423] amdgpu 0000:76:00.0: amdgpu: ring vcn_unified_1 uses VM inv eng 6 on hub 9
+[777388.888424] amdgpu 0000:76:00.0: amdgpu: ring vcn_unified_2 uses VM inv eng 6 on hub 10
+[777388.888424] amdgpu 0000:76:00.0: amdgpu: ring vcn_unified_3 uses VM inv eng 6 on hub 11
+[777388.888425] amdgpu 0000:76:00.0: amdgpu: ring jpeg_dec_0.0 uses VM inv eng 7 on hub 8
+[777388.888425] amdgpu 0000:76:00.0: amdgpu: ring jpeg_dec_0.1 uses VM inv eng 8 on hub 8
+[777388.888426] amdgpu 0000:76:00.0: amdgpu: ring jpeg_dec_0.2 uses VM inv eng 9 on hub 8
+[777388.888426] amdgpu 0000:76:00.0: amdgpu: ring jpeg_dec_0.3 uses VM inv eng 10 on hub 8
+[777388.888427] amdgpu 0000:76:00.0: amdgpu: ring jpeg_dec_0.4 uses VM inv eng 11 on hub 8
+[777388.888428] amdgpu 0000:76:00.0: amdgpu: ring jpeg_dec_0.5 uses VM inv eng 12 on hub 8
+[777388.888428] amdgpu 0000:76:00.0: amdgpu: ring jpeg_dec_0.6 uses VM inv eng 13 on hub 8
+[777388.888429] amdgpu 0000:76:00.0: amdgpu: ring jpeg_dec_0.7 uses VM inv eng 14 on hub 8
+[777388.888429] amdgpu 0000:76:00.0: amdgpu: ring jpeg_dec_1.0 uses VM inv eng 7 on hub 9
+[777388.888430] amdgpu 0000:76:00.0: amdgpu: ring jpeg_dec_1.1 uses VM inv eng 8 on hub 9
+[777388.888430] amdgpu 0000:76:00.0: amdgpu: ring jpeg_dec_1.2 uses VM inv eng 9 on hub 9
+[777388.888431] amdgpu 0000:76:00.0: amdgpu: ring jpeg_dec_1.3 uses VM inv eng 10 on hub 9
+[777388.888431] amdgpu 0000:76:00.0: amdgpu: ring jpeg_dec_1.4 uses VM inv eng 11 on hub 9
+[777388.888432] amdgpu 0000:76:00.0: amdgpu: ring jpeg_dec_1.5 uses VM inv eng 12 on hub 9
+[777388.888432] amdgpu 0000:76:00.0: amdgpu: ring jpeg_dec_1.6 uses VM inv eng 13 on hub 9
+[777388.888433] amdgpu 0000:76:00.0: amdgpu: ring jpeg_dec_1.7 uses VM inv eng 14 on hub 9
+[777388.888433] amdgpu 0000:76:00.0: amdgpu: ring jpeg_dec_2.0 uses VM inv eng 7 on hub 10
+[777388.888434] amdgpu 0000:76:00.0: amdgpu: ring jpeg_dec_2.1 uses VM inv eng 8 on hub 10
+[777388.888435] amdgpu 0000:76:00.0: amdgpu: ring jpeg_dec_2.2 uses VM inv eng 9 on hub 10
+[777388.888435] amdgpu 0000:76:00.0: amdgpu: ring jpeg_dec_2.3 uses VM inv eng 10 on hub 10
+[777388.888436] amdgpu 0000:76:00.0: amdgpu: ring jpeg_dec_2.4 uses VM inv eng 11 on hub 10
+[777388.888436] amdgpu 0000:76:00.0: amdgpu: ring jpeg_dec_2.5 uses VM inv eng 12 on hub 10
+[777388.888437] amdgpu 0000:76:00.0: amdgpu: ring jpeg_dec_2.6 uses VM inv eng 13 on hub 10
+[777388.888438] amdgpu 0000:76:00.0: amdgpu: ring jpeg_dec_2.7 uses VM inv eng 14 on hub 10
+[777388.888438] amdgpu 0000:76:00.0: amdgpu: ring jpeg_dec_3.0 uses VM inv eng 7 on hub 11
+[777388.888439] amdgpu 0000:76:00.0: amdgpu: ring jpeg_dec_3.1 uses VM inv eng 8 on hub 11
+[777388.888439] amdgpu 0000:76:00.0: amdgpu: ring jpeg_dec_3.2 uses VM inv eng 9 on hub 11
+[777388.888440] amdgpu 0000:76:00.0: amdgpu: ring jpeg_dec_3.3 uses VM inv eng 10 on hub 11
+[777388.888440] amdgpu 0000:76:00.0: amdgpu: ring jpeg_dec_3.4 uses VM inv eng 11 on hub 11
+[777388.888441] amdgpu 0000:76:00.0: amdgpu: ring jpeg_dec_3.5 uses VM inv eng 12 on hub 11
+[777388.888441] amdgpu 0000:76:00.0: amdgpu: ring jpeg_dec_3.6 uses VM inv eng 13 on hub 11
+[777388.888442] amdgpu 0000:76:00.0: amdgpu: ring jpeg_dec_3.7 uses VM inv eng 14 on hub 11
+[777388.901502] amdgpu 0000:76:00.0: amdgpu: Runtime PM not available
+[777388.901601] [drm] Initialized amdgpu 3.64.0 20150101 for 0000:76:00.0 on minor 1
+[777388.901654] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_0 on minor 2
+[777388.901693] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_1 on minor 3
+[777388.901732] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_2 on minor 4
+[777388.901775] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_3 on minor 5
+[777388.901830] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_4 on minor 6
+[777388.901879] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_5 on minor 7
+[777388.901919] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_6 on minor 8
+[777388.906754] [drm] Using MTYPE_RW for local memory
+[777388.907382] amdgpu 0000:06:00.0: amdgpu: initializing kernel modesetting (IP DISCOVERY 0x1002:0x74A1 0x1002:0x74A1 0x00).
+[777388.907473] amdgpu 0000:06:00.0: amdgpu: register mmio base: 0xF0600000
+[777388.907475] amdgpu 0000:06:00.0: amdgpu: register mmio size: 2097152
+[777388.911653] amdgpu 0000:06:00.0: amdgpu: detected ip block number 0 <common_v2_0_0> (soc15_common)
+[777388.911655] amdgpu 0000:06:00.0: amdgpu: detected ip block number 1 <gmc_v9_0_0> (gmc_v9_0)
+[777388.911657] amdgpu 0000:06:00.0: amdgpu: detected ip block number 2 <ih_v4_2_0> (vega20_ih)
+[777388.911658] amdgpu 0000:06:00.0: amdgpu: detected ip block number 3 <psp_v13_0_0> (psp)
+[777388.911659] amdgpu 0000:06:00.0: amdgpu: detected ip block number 4 <smu_v13_0_0> (smu)
+[777388.911660] amdgpu 0000:06:00.0: amdgpu: detected ip block number 5 <gfx_v9_4_3> (gfx_v9_4_3)
+[777388.911661] amdgpu 0000:06:00.0: amdgpu: detected ip block number 6 <sdma_v4_4_2> (sdma_v4_4_2)
+[777388.911662] amdgpu 0000:06:00.0: amdgpu: detected ip block number 7 <ras_v1_0_0> (ras_v1_0)
+[777388.911663] amdgpu 0000:06:00.0: amdgpu: detected ip block number 8 <vcn_v4_0_3> (vcn_v4_0_3)
+[777388.911664] amdgpu 0000:06:00.0: amdgpu: detected ip block number 9 <jpeg_v4_0_3> (jpeg_v4_0_3)
+[777388.916638] amdgpu 0000:06:00.0: amdgpu: Fetched VBIOS from platform
+[777388.916642] amdgpu: ATOM BIOS: 113-M3000100-103
+[777388.917431] amdgpu 0000:06:00.0: amdgpu: Trusted Memory Zone (TMZ) feature not supported
+[777388.917553] amdgpu 0000:06:00.0: amdgpu: RAS INFO: ras initialized successfully, hardware ability[fdbff] ras_mask[fdbff]
+[777388.917708] amdgpu 0000:06:00.0: amdgpu: vm size is 262144 GB, 4 levels, block size is 9-bit, fragment size is 9-bit
+[777388.917728] amdgpu 0000:06:00.0: amdgpu: VRAM: 196592M 0x0000020000000000 - 0x0000022FFEFFFFFF (196592M used)
+[777388.917729] amdgpu 0000:06:00.0: amdgpu: GART: 512M 0x0000000000000000 - 0x000000001FFFFFFF
+[777388.917741] [drm] Detected VRAM RAM=196592M, BAR=262144M
+[777388.917741] [drm] RAM width 8192bits HBM
+[777388.918696] amdgpu 0000:06:00.0: amdgpu: amdgpu: 196592M of VRAM memory ready
+[777388.918699] amdgpu 0000:06:00.0: amdgpu: amdgpu: 773820M of GTT memory ready.
+[777388.918728] [drm] GART: num cpu pages 131072, num gpu pages 131072
+[777388.919746] [drm] PCIE GART of 512M enabled.
+[777388.919748] [drm] PTB located at 0x0000022FED700000
+[777388.926980] amdgpu 0000:06:00.0: amdgpu: [VCN instance 0] Found VCN firmware Version ENC: 1.24 DEC: 9 VEP: 0 Revision: 26
+[777388.927037] amdgpu 0000:06:00.0: amdgpu: [VCN instance 1] Found VCN firmware Version ENC: 1.24 DEC: 9 VEP: 0 Revision: 26
+[777388.927091] amdgpu 0000:06:00.0: amdgpu: [VCN instance 2] Found VCN firmware Version ENC: 1.24 DEC: 9 VEP: 0 Revision: 26
+[777388.927145] amdgpu 0000:06:00.0: amdgpu: [VCN instance 3] Found VCN firmware Version ENC: 1.24 DEC: 9 VEP: 0 Revision: 26
+[777391.629237] amdgpu 0000:06:00.0: amdgpu: RAP: optional rap ta ucode is not available
+[777391.631169] amdgpu 0000:06:00.0: amdgpu: SMU is initialized successfully!
+[777391.632842] amdgpu 0000:06:00.0: amdgpu: Requesting 1 partitions through PSP
+[777391.639834] amdgpu 0000:06:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777391.640363] amdgpu 0000:06:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777391.640940] amdgpu 0000:06:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777391.641519] amdgpu 0000:06:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777391.642111] amdgpu 0000:06:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777391.642705] amdgpu 0000:06:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777391.643316] amdgpu 0000:06:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777391.643938] amdgpu 0000:06:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777391.747451] amdgpu 0000:06:00.0: amdgpu: XGMI: Add node 0, hive 0xbfdb3d0edaa60097.
+[777391.994961] amdgpu: HMM registered 196592MB device memory
+[777391.995902] kfd kfd: amdgpu: Allocated 3969056 bytes on gart
+[777391.995964] kfd kfd: amdgpu: Total number of KFD nodes to be created: 1
+[777391.995966] kfd kfd: amdgpu: KFD node 0 partition 0 size 196592M
+[777391.995969] kfd kfd: amdgpu: Node: 0, interrupt_bitmap: 7777
+[777391.996312] amdgpu: Virtual CRAT table created for GPU
+[777391.997637] amdgpu: Topology: Add dGPU node [0x74a1:0x1002]
+[777392.316753] amdgpu 0000:06:00.0: added peer-to-peer DMA memory 0xb4000000000-0xb7fffffffff
+[777392.316761] amdgpu 0000:06:00.0: amdgpu: AIS: registered 196592MB device memory
+[777392.316764] kfd kfd: amdgpu: added device 1002:74a1
+[777392.331761] amdgpu 0000:06:00.0: amdgpu: SE 4, SH per SE 1, CU per SH 10, active_cu_number 304
+[777392.331769] amdgpu 0000:06:00.0: amdgpu: ring comp_0.1.0.0 uses VM inv eng 0 on hub 0
+[777392.331771] amdgpu 0000:06:00.0: amdgpu: ring comp_0.1.1.0 uses VM inv eng 1 on hub 0
+[777392.331772] amdgpu 0000:06:00.0: amdgpu: ring comp_0.1.2.0 uses VM inv eng 4 on hub 0
+[777392.331772] amdgpu 0000:06:00.0: amdgpu: ring comp_0.1.3.0 uses VM inv eng 5 on hub 0
+[777392.331773] amdgpu 0000:06:00.0: amdgpu: ring comp_0.1.0.1 uses VM inv eng 6 on hub 0
+[777392.331773] amdgpu 0000:06:00.0: amdgpu: ring comp_0.1.1.1 uses VM inv eng 7 on hub 0
+[777392.331774] amdgpu 0000:06:00.0: amdgpu: ring comp_0.1.2.1 uses VM inv eng 8 on hub 0
+[777392.331774] amdgpu 0000:06:00.0: amdgpu: ring comp_0.1.3.1 uses VM inv eng 9 on hub 0
+[777392.331775] amdgpu 0000:06:00.0: amdgpu: ring kiq_0.2.1.0 uses VM inv eng 10 on hub 0
+[777392.331776] amdgpu 0000:06:00.0: amdgpu: ring comp_1.1.0.0 uses VM inv eng 0 on hub 1
+[777392.331776] amdgpu 0000:06:00.0: amdgpu: ring comp_1.1.1.0 uses VM inv eng 1 on hub 1
+[777392.331777] amdgpu 0000:06:00.0: amdgpu: ring comp_1.1.2.0 uses VM inv eng 4 on hub 1
+[777392.331777] amdgpu 0000:06:00.0: amdgpu: ring comp_1.1.3.0 uses VM inv eng 5 on hub 1
+[777392.331778] amdgpu 0000:06:00.0: amdgpu: ring comp_1.1.0.1 uses VM inv eng 6 on hub 1
+[777392.331778] amdgpu 0000:06:00.0: amdgpu: ring comp_1.1.1.1 uses VM inv eng 7 on hub 1
+[777392.331779] amdgpu 0000:06:00.0: amdgpu: ring comp_1.1.2.1 uses VM inv eng 8 on hub 1
+[777392.331779] amdgpu 0000:06:00.0: amdgpu: ring comp_1.1.3.1 uses VM inv eng 9 on hub 1
+[777392.331780] amdgpu 0000:06:00.0: amdgpu: ring kiq_1.2.1.0 uses VM inv eng 10 on hub 1
+[777392.331780] amdgpu 0000:06:00.0: amdgpu: ring comp_2.1.0.0 uses VM inv eng 0 on hub 2
+[777392.331781] amdgpu 0000:06:00.0: amdgpu: ring comp_2.1.1.0 uses VM inv eng 1 on hub 2
+[777392.331781] amdgpu 0000:06:00.0: amdgpu: ring comp_2.1.2.0 uses VM inv eng 4 on hub 2
+[777392.331782] amdgpu 0000:06:00.0: amdgpu: ring comp_2.1.3.0 uses VM inv eng 5 on hub 2
+[777392.331783] amdgpu 0000:06:00.0: amdgpu: ring comp_2.1.0.1 uses VM inv eng 6 on hub 2
+[777392.331783] amdgpu 0000:06:00.0: amdgpu: ring comp_2.1.1.1 uses VM inv eng 7 on hub 2
+[777392.331784] amdgpu 0000:06:00.0: amdgpu: ring comp_2.1.2.1 uses VM inv eng 8 on hub 2
+[777392.331784] amdgpu 0000:06:00.0: amdgpu: ring comp_2.1.3.1 uses VM inv eng 9 on hub 2
+[777392.331785] amdgpu 0000:06:00.0: amdgpu: ring kiq_2.2.1.0 uses VM inv eng 10 on hub 2
+[777392.331785] amdgpu 0000:06:00.0: amdgpu: ring comp_3.1.0.0 uses VM inv eng 0 on hub 3
+[777392.331786] amdgpu 0000:06:00.0: amdgpu: ring comp_3.1.1.0 uses VM inv eng 1 on hub 3
+[777392.331786] amdgpu 0000:06:00.0: amdgpu: ring comp_3.1.2.0 uses VM inv eng 4 on hub 3
+[777392.331787] amdgpu 0000:06:00.0: amdgpu: ring comp_3.1.3.0 uses VM inv eng 5 on hub 3
+[777392.331787] amdgpu 0000:06:00.0: amdgpu: ring comp_3.1.0.1 uses VM inv eng 6 on hub 3
+[777392.331788] amdgpu 0000:06:00.0: amdgpu: ring comp_3.1.1.1 uses VM inv eng 7 on hub 3
+[777392.331788] amdgpu 0000:06:00.0: amdgpu: ring comp_3.1.2.1 uses VM inv eng 8 on hub 3
+[777392.331789] amdgpu 0000:06:00.0: amdgpu: ring comp_3.1.3.1 uses VM inv eng 9 on hub 3
+[777392.331790] amdgpu 0000:06:00.0: amdgpu: ring kiq_3.2.1.0 uses VM inv eng 10 on hub 3
+[777392.331790] amdgpu 0000:06:00.0: amdgpu: ring comp_4.1.0.0 uses VM inv eng 0 on hub 4
+[777392.331791] amdgpu 0000:06:00.0: amdgpu: ring comp_4.1.1.0 uses VM inv eng 1 on hub 4
+[777392.331791] amdgpu 0000:06:00.0: amdgpu: ring comp_4.1.2.0 uses VM inv eng 4 on hub 4
+[777392.331792] amdgpu 0000:06:00.0: amdgpu: ring comp_4.1.3.0 uses VM inv eng 5 on hub 4
+[777392.331792] amdgpu 0000:06:00.0: amdgpu: ring comp_4.1.0.1 uses VM inv eng 6 on hub 4
+[777392.331793] amdgpu 0000:06:00.0: amdgpu: ring comp_4.1.1.1 uses VM inv eng 7 on hub 4
+[777392.331793] amdgpu 0000:06:00.0: amdgpu: ring comp_4.1.2.1 uses VM inv eng 8 on hub 4
+[777392.331794] amdgpu 0000:06:00.0: amdgpu: ring comp_4.1.3.1 uses VM inv eng 9 on hub 4
+[777392.331794] amdgpu 0000:06:00.0: amdgpu: ring kiq_4.2.1.0 uses VM inv eng 10 on hub 4
+[777392.331795] amdgpu 0000:06:00.0: amdgpu: ring comp_5.1.0.0 uses VM inv eng 0 on hub 5
+[777392.331795] amdgpu 0000:06:00.0: amdgpu: ring comp_5.1.1.0 uses VM inv eng 1 on hub 5
+[777392.331796] amdgpu 0000:06:00.0: amdgpu: ring comp_5.1.2.0 uses VM inv eng 4 on hub 5
+[777392.331796] amdgpu 0000:06:00.0: amdgpu: ring comp_5.1.3.0 uses VM inv eng 5 on hub 5
+[777392.331797] amdgpu 0000:06:00.0: amdgpu: ring comp_5.1.0.1 uses VM inv eng 6 on hub 5
+[777392.331797] amdgpu 0000:06:00.0: amdgpu: ring comp_5.1.1.1 uses VM inv eng 7 on hub 5
+[777392.331798] amdgpu 0000:06:00.0: amdgpu: ring comp_5.1.2.1 uses VM inv eng 8 on hub 5
+[777392.331799] amdgpu 0000:06:00.0: amdgpu: ring comp_5.1.3.1 uses VM inv eng 9 on hub 5
+[777392.331799] amdgpu 0000:06:00.0: amdgpu: ring kiq_5.2.1.0 uses VM inv eng 10 on hub 5
+[777392.331800] amdgpu 0000:06:00.0: amdgpu: ring comp_6.1.0.0 uses VM inv eng 0 on hub 6
+[777392.331800] amdgpu 0000:06:00.0: amdgpu: ring comp_6.1.1.0 uses VM inv eng 1 on hub 6
+[777392.331801] amdgpu 0000:06:00.0: amdgpu: ring comp_6.1.2.0 uses VM inv eng 4 on hub 6
+[777392.331801] amdgpu 0000:06:00.0: amdgpu: ring comp_6.1.3.0 uses VM inv eng 5 on hub 6
+[777392.331802] amdgpu 0000:06:00.0: amdgpu: ring comp_6.1.0.1 uses VM inv eng 6 on hub 6
+[777392.331802] amdgpu 0000:06:00.0: amdgpu: ring comp_6.1.1.1 uses VM inv eng 7 on hub 6
+[777392.331803] amdgpu 0000:06:00.0: amdgpu: ring comp_6.1.2.1 uses VM inv eng 8 on hub 6
+[777392.331803] amdgpu 0000:06:00.0: amdgpu: ring comp_6.1.3.1 uses VM inv eng 9 on hub 6
+[777392.331804] amdgpu 0000:06:00.0: amdgpu: ring kiq_6.2.1.0 uses VM inv eng 10 on hub 6
+[777392.331804] amdgpu 0000:06:00.0: amdgpu: ring comp_7.1.0.0 uses VM inv eng 0 on hub 7
+[777392.331805] amdgpu 0000:06:00.0: amdgpu: ring comp_7.1.1.0 uses VM inv eng 1 on hub 7
+[777392.331805] amdgpu 0000:06:00.0: amdgpu: ring comp_7.1.2.0 uses VM inv eng 4 on hub 7
+[777392.331806] amdgpu 0000:06:00.0: amdgpu: ring comp_7.1.3.0 uses VM inv eng 5 on hub 7
+[777392.331806] amdgpu 0000:06:00.0: amdgpu: ring comp_7.1.0.1 uses VM inv eng 6 on hub 7
+[777392.331807] amdgpu 0000:06:00.0: amdgpu: ring comp_7.1.1.1 uses VM inv eng 7 on hub 7
+[777392.331808] amdgpu 0000:06:00.0: amdgpu: ring comp_7.1.2.1 uses VM inv eng 8 on hub 7
+[777392.331808] amdgpu 0000:06:00.0: amdgpu: ring comp_7.1.3.1 uses VM inv eng 9 on hub 7
+[777392.331809] amdgpu 0000:06:00.0: amdgpu: ring kiq_7.2.1.0 uses VM inv eng 10 on hub 7
+[777392.331815] amdgpu 0000:06:00.0: amdgpu: ring sdma0.0 uses VM inv eng 0 on hub 8
+[777392.331816] amdgpu 0000:06:00.0: amdgpu: ring sdma0.1 uses VM inv eng 1 on hub 8
+[777392.331816] amdgpu 0000:06:00.0: amdgpu: ring sdma0.2 uses VM inv eng 4 on hub 8
+[777392.331817] amdgpu 0000:06:00.0: amdgpu: ring sdma0.3 uses VM inv eng 5 on hub 8
+[777392.331818] amdgpu 0000:06:00.0: amdgpu: ring sdma1.0 uses VM inv eng 0 on hub 9
+[777392.331818] amdgpu 0000:06:00.0: amdgpu: ring sdma1.1 uses VM inv eng 1 on hub 9
+[777392.331819] amdgpu 0000:06:00.0: amdgpu: ring sdma1.2 uses VM inv eng 4 on hub 9
+[777392.331819] amdgpu 0000:06:00.0: amdgpu: ring sdma1.3 uses VM inv eng 5 on hub 9
+[777392.331819] amdgpu 0000:06:00.0: amdgpu: ring sdma2.0 uses VM inv eng 0 on hub 10
+[777392.331820] amdgpu 0000:06:00.0: amdgpu: ring sdma2.1 uses VM inv eng 1 on hub 10
+[777392.331821] amdgpu 0000:06:00.0: amdgpu: ring sdma2.2 uses VM inv eng 4 on hub 10
+[777392.331821] amdgpu 0000:06:00.0: amdgpu: ring sdma2.3 uses VM inv eng 5 on hub 10
+[777392.331822] amdgpu 0000:06:00.0: amdgpu: ring sdma3.0 uses VM inv eng 0 on hub 11
+[777392.331822] amdgpu 0000:06:00.0: amdgpu: ring sdma3.1 uses VM inv eng 1 on hub 11
+[777392.331823] amdgpu 0000:06:00.0: amdgpu: ring sdma3.2 uses VM inv eng 4 on hub 11
+[777392.331823] amdgpu 0000:06:00.0: amdgpu: ring sdma3.3 uses VM inv eng 5 on hub 11
+[777392.331824] amdgpu 0000:06:00.0: amdgpu: ring vcn_unified_0 uses VM inv eng 6 on hub 8
+[777392.331825] amdgpu 0000:06:00.0: amdgpu: ring vcn_unified_1 uses VM inv eng 6 on hub 9
+[777392.331826] amdgpu 0000:06:00.0: amdgpu: ring vcn_unified_2 uses VM inv eng 6 on hub 10
+[777392.331827] amdgpu 0000:06:00.0: amdgpu: ring vcn_unified_3 uses VM inv eng 6 on hub 11
+[777392.331829] amdgpu 0000:06:00.0: amdgpu: ring jpeg_dec_0.0 uses VM inv eng 7 on hub 8
+[777392.331829] amdgpu 0000:06:00.0: amdgpu: ring jpeg_dec_0.1 uses VM inv eng 8 on hub 8
+[777392.331830] amdgpu 0000:06:00.0: amdgpu: ring jpeg_dec_0.2 uses VM inv eng 9 on hub 8
+[777392.331831] amdgpu 0000:06:00.0: amdgpu: ring jpeg_dec_0.3 uses VM inv eng 10 on hub 8
+[777392.331832] amdgpu 0000:06:00.0: amdgpu: ring jpeg_dec_0.4 uses VM inv eng 11 on hub 8
+[777392.331832] amdgpu 0000:06:00.0: amdgpu: ring jpeg_dec_0.5 uses VM inv eng 12 on hub 8
+[777392.331833] amdgpu 0000:06:00.0: amdgpu: ring jpeg_dec_0.6 uses VM inv eng 13 on hub 8
+[777392.331834] amdgpu 0000:06:00.0: amdgpu: ring jpeg_dec_0.7 uses VM inv eng 14 on hub 8
+[777392.331835] amdgpu 0000:06:00.0: amdgpu: ring jpeg_dec_1.0 uses VM inv eng 7 on hub 9
+[777392.331836] amdgpu 0000:06:00.0: amdgpu: ring jpeg_dec_1.1 uses VM inv eng 8 on hub 9
+[777392.331836] amdgpu 0000:06:00.0: amdgpu: ring jpeg_dec_1.2 uses VM inv eng 9 on hub 9
+[777392.331837] amdgpu 0000:06:00.0: amdgpu: ring jpeg_dec_1.3 uses VM inv eng 10 on hub 9
+[777392.331838] amdgpu 0000:06:00.0: amdgpu: ring jpeg_dec_1.4 uses VM inv eng 11 on hub 9
+[777392.331838] amdgpu 0000:06:00.0: amdgpu: ring jpeg_dec_1.5 uses VM inv eng 12 on hub 9
+[777392.331839] amdgpu 0000:06:00.0: amdgpu: ring jpeg_dec_1.6 uses VM inv eng 13 on hub 9
+[777392.331839] amdgpu 0000:06:00.0: amdgpu: ring jpeg_dec_1.7 uses VM inv eng 14 on hub 9
+[777392.331840] amdgpu 0000:06:00.0: amdgpu: ring jpeg_dec_2.0 uses VM inv eng 7 on hub 10
+[777392.331841] amdgpu 0000:06:00.0: amdgpu: ring jpeg_dec_2.1 uses VM inv eng 8 on hub 10
+[777392.331841] amdgpu 0000:06:00.0: amdgpu: ring jpeg_dec_2.2 uses VM inv eng 9 on hub 10
+[777392.331842] amdgpu 0000:06:00.0: amdgpu: ring jpeg_dec_2.3 uses VM inv eng 10 on hub 10
+[777392.331842] amdgpu 0000:06:00.0: amdgpu: ring jpeg_dec_2.4 uses VM inv eng 11 on hub 10
+[777392.331843] amdgpu 0000:06:00.0: amdgpu: ring jpeg_dec_2.5 uses VM inv eng 12 on hub 10
+[777392.331843] amdgpu 0000:06:00.0: amdgpu: ring jpeg_dec_2.6 uses VM inv eng 13 on hub 10
+[777392.331844] amdgpu 0000:06:00.0: amdgpu: ring jpeg_dec_2.7 uses VM inv eng 14 on hub 10
+[777392.331844] amdgpu 0000:06:00.0: amdgpu: ring jpeg_dec_3.0 uses VM inv eng 7 on hub 11
+[777392.331845] amdgpu 0000:06:00.0: amdgpu: ring jpeg_dec_3.1 uses VM inv eng 8 on hub 11
+[777392.331845] amdgpu 0000:06:00.0: amdgpu: ring jpeg_dec_3.2 uses VM inv eng 9 on hub 11
+[777392.331846] amdgpu 0000:06:00.0: amdgpu: ring jpeg_dec_3.3 uses VM inv eng 10 on hub 11
+[777392.331847] amdgpu 0000:06:00.0: amdgpu: ring jpeg_dec_3.4 uses VM inv eng 11 on hub 11
+[777392.331847] amdgpu 0000:06:00.0: amdgpu: ring jpeg_dec_3.5 uses VM inv eng 12 on hub 11
+[777392.331848] amdgpu 0000:06:00.0: amdgpu: ring jpeg_dec_3.6 uses VM inv eng 13 on hub 11
+[777392.331848] amdgpu 0000:06:00.0: amdgpu: ring jpeg_dec_3.7 uses VM inv eng 14 on hub 11
+[777392.344218] amdgpu 0000:06:00.0: amdgpu: Runtime PM not available
+[777392.344318] [drm] Initialized amdgpu 3.64.0 20150101 for 0000:06:00.0 on minor 9
+[777392.344364] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_7 on minor 10
+[777392.344413] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_8 on minor 11
+[777392.344450] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_9 on minor 12
+[777392.344491] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_10 on minor 13
+[777392.344542] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_11 on minor 14
+[777392.344581] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_12 on minor 15
+[777392.344618] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_13 on minor 16
+[777392.350065] amdgpu 0000:66:00.0: amdgpu: initializing kernel modesetting (IP DISCOVERY 0x1002:0x74A1 0x1002:0x74A1 0x00).
+[777392.350131] amdgpu 0000:66:00.0: amdgpu: register mmio base: 0xE9200000
+[777392.350132] amdgpu 0000:66:00.0: amdgpu: register mmio size: 2097152
+[777392.354470] amdgpu 0000:66:00.0: amdgpu: detected ip block number 0 <common_v2_0_0> (soc15_common)
+[777392.354472] amdgpu 0000:66:00.0: amdgpu: detected ip block number 1 <gmc_v9_0_0> (gmc_v9_0)
+[777392.354473] amdgpu 0000:66:00.0: amdgpu: detected ip block number 2 <ih_v4_2_0> (vega20_ih)
+[777392.354474] amdgpu 0000:66:00.0: amdgpu: detected ip block number 3 <psp_v13_0_0> (psp)
+[777392.354475] amdgpu 0000:66:00.0: amdgpu: detected ip block number 4 <smu_v13_0_0> (smu)
+[777392.354476] amdgpu 0000:66:00.0: amdgpu: detected ip block number 5 <gfx_v9_4_3> (gfx_v9_4_3)
+[777392.354478] amdgpu 0000:66:00.0: amdgpu: detected ip block number 6 <sdma_v4_4_2> (sdma_v4_4_2)
+[777392.354479] amdgpu 0000:66:00.0: amdgpu: detected ip block number 7 <ras_v1_0_0> (ras_v1_0)
+[777392.354480] amdgpu 0000:66:00.0: amdgpu: detected ip block number 8 <vcn_v4_0_3> (vcn_v4_0_3)
+[777392.354480] amdgpu 0000:66:00.0: amdgpu: detected ip block number 9 <jpeg_v4_0_3> (jpeg_v4_0_3)
+[777392.359300] amdgpu 0000:66:00.0: amdgpu: Fetched VBIOS from platform
+[777392.359303] amdgpu: ATOM BIOS: 113-M3000100-103
+[777392.360088] amdgpu 0000:66:00.0: amdgpu: Trusted Memory Zone (TMZ) feature not supported
+[777392.360202] amdgpu 0000:66:00.0: amdgpu: RAS INFO: ras initialized successfully, hardware ability[fdbff] ras_mask[fdbff]
+[777392.360358] amdgpu 0000:66:00.0: amdgpu: vm size is 262144 GB, 4 levels, block size is 9-bit, fragment size is 9-bit
+[777392.360377] amdgpu 0000:66:00.0: amdgpu: VRAM: 196592M 0x0000029000000000 - 0x000002BFFEFFFFFF (196592M used)
+[777392.360378] amdgpu 0000:66:00.0: amdgpu: GART: 512M 0x0000000000000000 - 0x000000001FFFFFFF
+[777392.360387] [drm] Detected VRAM RAM=196592M, BAR=262144M
+[777392.360387] [drm] RAM width 8192bits HBM
+[777392.360533] amdgpu 0000:66:00.0: amdgpu: amdgpu: 196592M of VRAM memory ready
+[777392.360535] amdgpu 0000:66:00.0: amdgpu: amdgpu: 773820M of GTT memory ready.
+[777392.360556] [drm] GART: num cpu pages 131072, num gpu pages 131072
+[777392.361592] [drm] PCIE GART of 512M enabled.
+[777392.361595] [drm] PTB located at 0x000002BFED700000
+[777392.368795] amdgpu 0000:66:00.0: amdgpu: [VCN instance 0] Found VCN firmware Version ENC: 1.24 DEC: 9 VEP: 0 Revision: 26
+[777392.368856] amdgpu 0000:66:00.0: amdgpu: [VCN instance 1] Found VCN firmware Version ENC: 1.24 DEC: 9 VEP: 0 Revision: 26
+[777392.368913] amdgpu 0000:66:00.0: amdgpu: [VCN instance 2] Found VCN firmware Version ENC: 1.24 DEC: 9 VEP: 0 Revision: 26
+[777392.368968] amdgpu 0000:66:00.0: amdgpu: [VCN instance 3] Found VCN firmware Version ENC: 1.24 DEC: 9 VEP: 0 Revision: 26
+[777395.074141] amdgpu 0000:66:00.0: amdgpu: RAP: optional rap ta ucode is not available
+[777395.075935] amdgpu 0000:66:00.0: amdgpu: SMU is initialized successfully!
+[777395.077658] amdgpu 0000:66:00.0: amdgpu: Requesting 1 partitions through PSP
+[777395.084640] amdgpu 0000:66:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777395.085184] amdgpu 0000:66:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777395.085752] amdgpu 0000:66:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777395.086332] amdgpu 0000:66:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777395.086948] amdgpu 0000:66:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777395.087537] amdgpu 0000:66:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777395.088154] amdgpu 0000:66:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777395.088773] amdgpu 0000:66:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777395.120456] amdgpu 0000:66:00.0: amdgpu: XGMI: Add node 3, hive 0xbfdb3d0edaa60097.
+[777395.365837] amdgpu: HMM registered 196592MB device memory
+[777395.366801] kfd kfd: amdgpu: Allocated 3969056 bytes on gart
+[777395.366874] kfd kfd: amdgpu: Total number of KFD nodes to be created: 1
+[777395.366877] kfd kfd: amdgpu: KFD node 0 partition 0 size 196592M
+[777395.366881] kfd kfd: amdgpu: Node: 0, interrupt_bitmap: 7777
+[777395.367231] amdgpu: Virtual CRAT table created for GPU
+[777395.369279] amdgpu: Topology: Add dGPU node [0x74a1:0x1002]
+[777395.685561] amdgpu 0000:66:00.0: added peer-to-peer DMA memory 0x54000000000-0x57fffffffff
+[777395.685568] amdgpu 0000:66:00.0: amdgpu: AIS: registered 196592MB device memory
+[777395.685571] kfd kfd: amdgpu: added device 1002:74a1
+[777395.700262] amdgpu 0000:66:00.0: amdgpu: SE 4, SH per SE 1, CU per SH 10, active_cu_number 304
+[777395.700271] amdgpu 0000:66:00.0: amdgpu: ring comp_0.1.0.0 uses VM inv eng 0 on hub 0
+[777395.700273] amdgpu 0000:66:00.0: amdgpu: ring comp_0.1.1.0 uses VM inv eng 1 on hub 0
+[777395.700274] amdgpu 0000:66:00.0: amdgpu: ring comp_0.1.2.0 uses VM inv eng 4 on hub 0
+[777395.700275] amdgpu 0000:66:00.0: amdgpu: ring comp_0.1.3.0 uses VM inv eng 5 on hub 0
+[777395.700275] amdgpu 0000:66:00.0: amdgpu: ring comp_0.1.0.1 uses VM inv eng 6 on hub 0
+[777395.700276] amdgpu 0000:66:00.0: amdgpu: ring comp_0.1.1.1 uses VM inv eng 7 on hub 0
+[777395.700276] amdgpu 0000:66:00.0: amdgpu: ring comp_0.1.2.1 uses VM inv eng 8 on hub 0
+[777395.700277] amdgpu 0000:66:00.0: amdgpu: ring comp_0.1.3.1 uses VM inv eng 9 on hub 0
+[777395.700277] amdgpu 0000:66:00.0: amdgpu: ring kiq_0.2.1.0 uses VM inv eng 10 on hub 0
+[777395.700278] amdgpu 0000:66:00.0: amdgpu: ring comp_1.1.0.0 uses VM inv eng 0 on hub 1
+[777395.700279] amdgpu 0000:66:00.0: amdgpu: ring comp_1.1.1.0 uses VM inv eng 1 on hub 1
+[777395.700279] amdgpu 0000:66:00.0: amdgpu: ring comp_1.1.2.0 uses VM inv eng 4 on hub 1
+[777395.700280] amdgpu 0000:66:00.0: amdgpu: ring comp_1.1.3.0 uses VM inv eng 5 on hub 1
+[777395.700280] amdgpu 0000:66:00.0: amdgpu: ring comp_1.1.0.1 uses VM inv eng 6 on hub 1
+[777395.700281] amdgpu 0000:66:00.0: amdgpu: ring comp_1.1.1.1 uses VM inv eng 7 on hub 1
+[777395.700282] amdgpu 0000:66:00.0: amdgpu: ring comp_1.1.2.1 uses VM inv eng 8 on hub 1
+[777395.700282] amdgpu 0000:66:00.0: amdgpu: ring comp_1.1.3.1 uses VM inv eng 9 on hub 1
+[777395.700283] amdgpu 0000:66:00.0: amdgpu: ring kiq_1.2.1.0 uses VM inv eng 10 on hub 1
+[777395.700283] amdgpu 0000:66:00.0: amdgpu: ring comp_2.1.0.0 uses VM inv eng 0 on hub 2
+[777395.700283] amdgpu 0000:66:00.0: amdgpu: ring comp_2.1.1.0 uses VM inv eng 1 on hub 2
+[777395.700284] amdgpu 0000:66:00.0: amdgpu: ring comp_2.1.2.0 uses VM inv eng 4 on hub 2
+[777395.700285] amdgpu 0000:66:00.0: amdgpu: ring comp_2.1.3.0 uses VM inv eng 5 on hub 2
+[777395.700285] amdgpu 0000:66:00.0: amdgpu: ring comp_2.1.0.1 uses VM inv eng 6 on hub 2
+[777395.700286] amdgpu 0000:66:00.0: amdgpu: ring comp_2.1.1.1 uses VM inv eng 7 on hub 2
+[777395.700286] amdgpu 0000:66:00.0: amdgpu: ring comp_2.1.2.1 uses VM inv eng 8 on hub 2
+[777395.700287] amdgpu 0000:66:00.0: amdgpu: ring comp_2.1.3.1 uses VM inv eng 9 on hub 2
+[777395.700287] amdgpu 0000:66:00.0: amdgpu: ring kiq_2.2.1.0 uses VM inv eng 10 on hub 2
+[777395.700288] amdgpu 0000:66:00.0: amdgpu: ring comp_3.1.0.0 uses VM inv eng 0 on hub 3
+[777395.700288] amdgpu 0000:66:00.0: amdgpu: ring comp_3.1.1.0 uses VM inv eng 1 on hub 3
+[777395.700289] amdgpu 0000:66:00.0: amdgpu: ring comp_3.1.2.0 uses VM inv eng 4 on hub 3
+[777395.700289] amdgpu 0000:66:00.0: amdgpu: ring comp_3.1.3.0 uses VM inv eng 5 on hub 3
+[777395.700290] amdgpu 0000:66:00.0: amdgpu: ring comp_3.1.0.1 uses VM inv eng 6 on hub 3
+[777395.700290] amdgpu 0000:66:00.0: amdgpu: ring comp_3.1.1.1 uses VM inv eng 7 on hub 3
+[777395.700291] amdgpu 0000:66:00.0: amdgpu: ring comp_3.1.2.1 uses VM inv eng 8 on hub 3
+[777395.700292] amdgpu 0000:66:00.0: amdgpu: ring comp_3.1.3.1 uses VM inv eng 9 on hub 3
+[777395.700292] amdgpu 0000:66:00.0: amdgpu: ring kiq_3.2.1.0 uses VM inv eng 10 on hub 3
+[777395.700293] amdgpu 0000:66:00.0: amdgpu: ring comp_4.1.0.0 uses VM inv eng 0 on hub 4
+[777395.700293] amdgpu 0000:66:00.0: amdgpu: ring comp_4.1.1.0 uses VM inv eng 1 on hub 4
+[777395.700294] amdgpu 0000:66:00.0: amdgpu: ring comp_4.1.2.0 uses VM inv eng 4 on hub 4
+[777395.700294] amdgpu 0000:66:00.0: amdgpu: ring comp_4.1.3.0 uses VM inv eng 5 on hub 4
+[777395.700295] amdgpu 0000:66:00.0: amdgpu: ring comp_4.1.0.1 uses VM inv eng 6 on hub 4
+[777395.700295] amdgpu 0000:66:00.0: amdgpu: ring comp_4.1.1.1 uses VM inv eng 7 on hub 4
+[777395.700296] amdgpu 0000:66:00.0: amdgpu: ring comp_4.1.2.1 uses VM inv eng 8 on hub 4
+[777395.700296] amdgpu 0000:66:00.0: amdgpu: ring comp_4.1.3.1 uses VM inv eng 9 on hub 4
+[777395.700297] amdgpu 0000:66:00.0: amdgpu: ring kiq_4.2.1.0 uses VM inv eng 10 on hub 4
+[777395.700297] amdgpu 0000:66:00.0: amdgpu: ring comp_5.1.0.0 uses VM inv eng 0 on hub 5
+[777395.700298] amdgpu 0000:66:00.0: amdgpu: ring comp_5.1.1.0 uses VM inv eng 1 on hub 5
+[777395.700298] amdgpu 0000:66:00.0: amdgpu: ring comp_5.1.2.0 uses VM inv eng 4 on hub 5
+[777395.700299] amdgpu 0000:66:00.0: amdgpu: ring comp_5.1.3.0 uses VM inv eng 5 on hub 5
+[777395.700299] amdgpu 0000:66:00.0: amdgpu: ring comp_5.1.0.1 uses VM inv eng 6 on hub 5
+[777395.700300] amdgpu 0000:66:00.0: amdgpu: ring comp_5.1.1.1 uses VM inv eng 7 on hub 5
+[777395.700300] amdgpu 0000:66:00.0: amdgpu: ring comp_5.1.2.1 uses VM inv eng 8 on hub 5
+[777395.700301] amdgpu 0000:66:00.0: amdgpu: ring comp_5.1.3.1 uses VM inv eng 9 on hub 5
+[777395.700301] amdgpu 0000:66:00.0: amdgpu: ring kiq_5.2.1.0 uses VM inv eng 10 on hub 5
+[777395.700302] amdgpu 0000:66:00.0: amdgpu: ring comp_6.1.0.0 uses VM inv eng 0 on hub 6
+[777395.700302] amdgpu 0000:66:00.0: amdgpu: ring comp_6.1.1.0 uses VM inv eng 1 on hub 6
+[777395.700303] amdgpu 0000:66:00.0: amdgpu: ring comp_6.1.2.0 uses VM inv eng 4 on hub 6
+[777395.700304] amdgpu 0000:66:00.0: amdgpu: ring comp_6.1.3.0 uses VM inv eng 5 on hub 6
+[777395.700304] amdgpu 0000:66:00.0: amdgpu: ring comp_6.1.0.1 uses VM inv eng 6 on hub 6
+[777395.700305] amdgpu 0000:66:00.0: amdgpu: ring comp_6.1.1.1 uses VM inv eng 7 on hub 6
+[777395.700305] amdgpu 0000:66:00.0: amdgpu: ring comp_6.1.2.1 uses VM inv eng 8 on hub 6
+[777395.700306] amdgpu 0000:66:00.0: amdgpu: ring comp_6.1.3.1 uses VM inv eng 9 on hub 6
+[777395.700307] amdgpu 0000:66:00.0: amdgpu: ring kiq_6.2.1.0 uses VM inv eng 10 on hub 6
+[777395.700308] amdgpu 0000:66:00.0: amdgpu: ring comp_7.1.0.0 uses VM inv eng 0 on hub 7
+[777395.700308] amdgpu 0000:66:00.0: amdgpu: ring comp_7.1.1.0 uses VM inv eng 1 on hub 7
+[777395.700309] amdgpu 0000:66:00.0: amdgpu: ring comp_7.1.2.0 uses VM inv eng 4 on hub 7
+[777395.700309] amdgpu 0000:66:00.0: amdgpu: ring comp_7.1.3.0 uses VM inv eng 5 on hub 7
+[777395.700310] amdgpu 0000:66:00.0: amdgpu: ring comp_7.1.0.1 uses VM inv eng 6 on hub 7
+[777395.700310] amdgpu 0000:66:00.0: amdgpu: ring comp_7.1.1.1 uses VM inv eng 7 on hub 7
+[777395.700311] amdgpu 0000:66:00.0: amdgpu: ring comp_7.1.2.1 uses VM inv eng 8 on hub 7
+[777395.700311] amdgpu 0000:66:00.0: amdgpu: ring comp_7.1.3.1 uses VM inv eng 9 on hub 7
+[777395.700312] amdgpu 0000:66:00.0: amdgpu: ring kiq_7.2.1.0 uses VM inv eng 10 on hub 7
+[777395.700313] amdgpu 0000:66:00.0: amdgpu: ring sdma0.0 uses VM inv eng 0 on hub 8
+[777395.700313] amdgpu 0000:66:00.0: amdgpu: ring sdma0.1 uses VM inv eng 1 on hub 8
+[777395.700314] amdgpu 0000:66:00.0: amdgpu: ring sdma0.2 uses VM inv eng 4 on hub 8
+[777395.700315] amdgpu 0000:66:00.0: amdgpu: ring sdma0.3 uses VM inv eng 5 on hub 8
+[777395.700316] amdgpu 0000:66:00.0: amdgpu: ring sdma1.0 uses VM inv eng 0 on hub 9
+[777395.700316] amdgpu 0000:66:00.0: amdgpu: ring sdma1.1 uses VM inv eng 1 on hub 9
+[777395.700317] amdgpu 0000:66:00.0: amdgpu: ring sdma1.2 uses VM inv eng 4 on hub 9
+[777395.700317] amdgpu 0000:66:00.0: amdgpu: ring sdma1.3 uses VM inv eng 5 on hub 9
+[777395.700318] amdgpu 0000:66:00.0: amdgpu: ring sdma2.0 uses VM inv eng 0 on hub 10
+[777395.700319] amdgpu 0000:66:00.0: amdgpu: ring sdma2.1 uses VM inv eng 1 on hub 10
+[777395.700319] amdgpu 0000:66:00.0: amdgpu: ring sdma2.2 uses VM inv eng 4 on hub 10
+[777395.700320] amdgpu 0000:66:00.0: amdgpu: ring sdma2.3 uses VM inv eng 5 on hub 10
+[777395.700321] amdgpu 0000:66:00.0: amdgpu: ring sdma3.0 uses VM inv eng 0 on hub 11
+[777395.700321] amdgpu 0000:66:00.0: amdgpu: ring sdma3.1 uses VM inv eng 1 on hub 11
+[777395.700322] amdgpu 0000:66:00.0: amdgpu: ring sdma3.2 uses VM inv eng 4 on hub 11
+[777395.700323] amdgpu 0000:66:00.0: amdgpu: ring sdma3.3 uses VM inv eng 5 on hub 11
+[777395.700323] amdgpu 0000:66:00.0: amdgpu: ring vcn_unified_0 uses VM inv eng 6 on hub 8
+[777395.700324] amdgpu 0000:66:00.0: amdgpu: ring vcn_unified_1 uses VM inv eng 6 on hub 9
+[777395.700325] amdgpu 0000:66:00.0: amdgpu: ring vcn_unified_2 uses VM inv eng 6 on hub 10
+[777395.700325] amdgpu 0000:66:00.0: amdgpu: ring vcn_unified_3 uses VM inv eng 6 on hub 11
+[777395.700326] amdgpu 0000:66:00.0: amdgpu: ring jpeg_dec_0.0 uses VM inv eng 7 on hub 8
+[777395.700327] amdgpu 0000:66:00.0: amdgpu: ring jpeg_dec_0.1 uses VM inv eng 8 on hub 8
+[777395.700327] amdgpu 0000:66:00.0: amdgpu: ring jpeg_dec_0.2 uses VM inv eng 9 on hub 8
+[777395.700328] amdgpu 0000:66:00.0: amdgpu: ring jpeg_dec_0.3 uses VM inv eng 10 on hub 8
+[777395.700328] amdgpu 0000:66:00.0: amdgpu: ring jpeg_dec_0.4 uses VM inv eng 11 on hub 8
+[777395.700329] amdgpu 0000:66:00.0: amdgpu: ring jpeg_dec_0.5 uses VM inv eng 12 on hub 8
+[777395.700329] amdgpu 0000:66:00.0: amdgpu: ring jpeg_dec_0.6 uses VM inv eng 13 on hub 8
+[777395.700330] amdgpu 0000:66:00.0: amdgpu: ring jpeg_dec_0.7 uses VM inv eng 14 on hub 8
+[777395.700330] amdgpu 0000:66:00.0: amdgpu: ring jpeg_dec_1.0 uses VM inv eng 7 on hub 9
+[777395.700331] amdgpu 0000:66:00.0: amdgpu: ring jpeg_dec_1.1 uses VM inv eng 8 on hub 9
+[777395.700332] amdgpu 0000:66:00.0: amdgpu: ring jpeg_dec_1.2 uses VM inv eng 9 on hub 9
+[777395.700332] amdgpu 0000:66:00.0: amdgpu: ring jpeg_dec_1.3 uses VM inv eng 10 on hub 9
+[777395.700333] amdgpu 0000:66:00.0: amdgpu: ring jpeg_dec_1.4 uses VM inv eng 11 on hub 9
+[777395.700333] amdgpu 0000:66:00.0: amdgpu: ring jpeg_dec_1.5 uses VM inv eng 12 on hub 9
+[777395.700334] amdgpu 0000:66:00.0: amdgpu: ring jpeg_dec_1.6 uses VM inv eng 13 on hub 9
+[777395.700334] amdgpu 0000:66:00.0: amdgpu: ring jpeg_dec_1.7 uses VM inv eng 14 on hub 9
+[777395.700335] amdgpu 0000:66:00.0: amdgpu: ring jpeg_dec_2.0 uses VM inv eng 7 on hub 10
+[777395.700335] amdgpu 0000:66:00.0: amdgpu: ring jpeg_dec_2.1 uses VM inv eng 8 on hub 10
+[777395.700336] amdgpu 0000:66:00.0: amdgpu: ring jpeg_dec_2.2 uses VM inv eng 9 on hub 10
+[777395.700337] amdgpu 0000:66:00.0: amdgpu: ring jpeg_dec_2.3 uses VM inv eng 10 on hub 10
+[777395.700337] amdgpu 0000:66:00.0: amdgpu: ring jpeg_dec_2.4 uses VM inv eng 11 on hub 10
+[777395.700338] amdgpu 0000:66:00.0: amdgpu: ring jpeg_dec_2.5 uses VM inv eng 12 on hub 10
+[777395.700338] amdgpu 0000:66:00.0: amdgpu: ring jpeg_dec_2.6 uses VM inv eng 13 on hub 10
+[777395.700339] amdgpu 0000:66:00.0: amdgpu: ring jpeg_dec_2.7 uses VM inv eng 14 on hub 10
+[777395.700339] amdgpu 0000:66:00.0: amdgpu: ring jpeg_dec_3.0 uses VM inv eng 7 on hub 11
+[777395.700340] amdgpu 0000:66:00.0: amdgpu: ring jpeg_dec_3.1 uses VM inv eng 8 on hub 11
+[777395.700340] amdgpu 0000:66:00.0: amdgpu: ring jpeg_dec_3.2 uses VM inv eng 9 on hub 11
+[777395.700341] amdgpu 0000:66:00.0: amdgpu: ring jpeg_dec_3.3 uses VM inv eng 10 on hub 11
+[777395.700341] amdgpu 0000:66:00.0: amdgpu: ring jpeg_dec_3.4 uses VM inv eng 11 on hub 11
+[777395.700342] amdgpu 0000:66:00.0: amdgpu: ring jpeg_dec_3.5 uses VM inv eng 12 on hub 11
+[777395.700342] amdgpu 0000:66:00.0: amdgpu: ring jpeg_dec_3.6 uses VM inv eng 13 on hub 11
+[777395.700343] amdgpu 0000:66:00.0: amdgpu: ring jpeg_dec_3.7 uses VM inv eng 14 on hub 11
+[777395.711775] amdgpu 0000:66:00.0: amdgpu: Runtime PM not available
+[777395.711893] [drm] Initialized amdgpu 3.64.0 20150101 for 0000:66:00.0 on minor 17
+[777395.711944] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_14 on minor 18
+[777395.711988] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_15 on minor 19
+[777395.712028] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_16 on minor 20
+[777395.712101] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_17 on minor 21
+[777395.712146] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_18 on minor 22
+[777395.712186] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_19 on minor 23
+[777395.712227] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_20 on minor 24
+[777395.717729] amdgpu 0000:16:00.0: amdgpu: initializing kernel modesetting (IP DISCOVERY 0x1002:0x74A1 0x1002:0x74A1 0x00).
+[777395.717798] amdgpu 0000:16:00.0: amdgpu: register mmio base: 0xD7200000
+[777395.717799] amdgpu 0000:16:00.0: amdgpu: register mmio size: 2097152
+[777395.722365] amdgpu 0000:16:00.0: amdgpu: detected ip block number 0 <common_v2_0_0> (soc15_common)
+[777395.722368] amdgpu 0000:16:00.0: amdgpu: detected ip block number 1 <gmc_v9_0_0> (gmc_v9_0)
+[777395.722370] amdgpu 0000:16:00.0: amdgpu: detected ip block number 2 <ih_v4_2_0> (vega20_ih)
+[777395.722371] amdgpu 0000:16:00.0: amdgpu: detected ip block number 3 <psp_v13_0_0> (psp)
+[777395.722372] amdgpu 0000:16:00.0: amdgpu: detected ip block number 4 <smu_v13_0_0> (smu)
+[777395.722373] amdgpu 0000:16:00.0: amdgpu: detected ip block number 5 <gfx_v9_4_3> (gfx_v9_4_3)
+[777395.722375] amdgpu 0000:16:00.0: amdgpu: detected ip block number 6 <sdma_v4_4_2> (sdma_v4_4_2)
+[777395.722376] amdgpu 0000:16:00.0: amdgpu: detected ip block number 7 <ras_v1_0_0> (ras_v1_0)
+[777395.722378] amdgpu 0000:16:00.0: amdgpu: detected ip block number 8 <vcn_v4_0_3> (vcn_v4_0_3)
+[777395.722379] amdgpu 0000:16:00.0: amdgpu: detected ip block number 9 <jpeg_v4_0_3> (jpeg_v4_0_3)
+[777395.727266] amdgpu 0000:16:00.0: amdgpu: Fetched VBIOS from platform
+[777395.727269] amdgpu: ATOM BIOS: 113-M3000100-103
+[777395.728054] amdgpu 0000:16:00.0: amdgpu: Trusted Memory Zone (TMZ) feature not supported
+[777395.728165] amdgpu 0000:16:00.0: amdgpu: RAS INFO: ras initialized successfully, hardware ability[fdbff] ras_mask[fdbff]
+[777395.728323] amdgpu 0000:16:00.0: amdgpu: vm size is 262144 GB, 4 levels, block size is 9-bit, fragment size is 9-bit
+[777395.728343] amdgpu 0000:16:00.0: amdgpu: VRAM: 196592M 0x0000026000000000 - 0x0000028FFEFFFFFF (196592M used)
+[777395.728344] amdgpu 0000:16:00.0: amdgpu: GART: 512M 0x0000000000000000 - 0x000000001FFFFFFF
+[777395.728353] [drm] Detected VRAM RAM=196592M, BAR=262144M
+[777395.728354] [drm] RAM width 8192bits HBM
+[777395.728466] amdgpu 0000:16:00.0: amdgpu: amdgpu: 196592M of VRAM memory ready
+[777395.728468] amdgpu 0000:16:00.0: amdgpu: amdgpu: 773820M of GTT memory ready.
+[777395.728489] [drm] GART: num cpu pages 131072, num gpu pages 131072
+[777395.729523] [drm] PCIE GART of 512M enabled.
+[777395.729526] [drm] PTB located at 0x0000028FED700000
+[777395.736715] amdgpu 0000:16:00.0: amdgpu: [VCN instance 0] Found VCN firmware Version ENC: 1.24 DEC: 9 VEP: 0 Revision: 26
+[777395.736773] amdgpu 0000:16:00.0: amdgpu: [VCN instance 1] Found VCN firmware Version ENC: 1.24 DEC: 9 VEP: 0 Revision: 26
+[777395.736832] amdgpu 0000:16:00.0: amdgpu: [VCN instance 2] Found VCN firmware Version ENC: 1.24 DEC: 9 VEP: 0 Revision: 26
+[777395.736886] amdgpu 0000:16:00.0: amdgpu: [VCN instance 3] Found VCN firmware Version ENC: 1.24 DEC: 9 VEP: 0 Revision: 26
+[777398.439553] amdgpu 0000:16:00.0: amdgpu: RAP: optional rap ta ucode is not available
+[777398.441149] amdgpu 0000:16:00.0: amdgpu: SMU is initialized successfully!
+[777398.442875] amdgpu 0000:16:00.0: amdgpu: Requesting 1 partitions through PSP
+[777398.449952] amdgpu 0000:16:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777398.450487] amdgpu 0000:16:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777398.451059] amdgpu 0000:16:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777398.451645] amdgpu 0000:16:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777398.452245] amdgpu 0000:16:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777398.452842] amdgpu 0000:16:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777398.453455] amdgpu 0000:16:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777398.454114] amdgpu 0000:16:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777398.489363] amdgpu 0000:16:00.0: amdgpu: XGMI: Add node 2, hive 0xbfdb3d0edaa60097.
+[777398.734962] amdgpu: HMM registered 196592MB device memory
+[777398.735878] kfd kfd: amdgpu: Allocated 3969056 bytes on gart
+[777398.735942] kfd kfd: amdgpu: Total number of KFD nodes to be created: 1
+[777398.735944] kfd kfd: amdgpu: KFD node 0 partition 0 size 196592M
+[777398.735948] kfd kfd: amdgpu: Node: 0, interrupt_bitmap: 7777
+[777398.736316] amdgpu: Virtual CRAT table created for GPU
+[777398.739444] amdgpu: Topology: Add dGPU node [0x74a1:0x1002]
+[777399.058131] amdgpu 0000:16:00.0: added peer-to-peer DMA memory 0xd4000000000-0xd7fffffffff
+[777399.058140] amdgpu 0000:16:00.0: amdgpu: AIS: registered 196592MB device memory
+[777399.058143] kfd kfd: amdgpu: added device 1002:74a1
+[777399.072190] amdgpu 0000:16:00.0: amdgpu: SE 4, SH per SE 1, CU per SH 10, active_cu_number 304
+[777399.072197] amdgpu 0000:16:00.0: amdgpu: ring comp_0.1.0.0 uses VM inv eng 0 on hub 0
+[777399.072199] amdgpu 0000:16:00.0: amdgpu: ring comp_0.1.1.0 uses VM inv eng 1 on hub 0
+[777399.072200] amdgpu 0000:16:00.0: amdgpu: ring comp_0.1.2.0 uses VM inv eng 4 on hub 0
+[777399.072201] amdgpu 0000:16:00.0: amdgpu: ring comp_0.1.3.0 uses VM inv eng 5 on hub 0
+[777399.072201] amdgpu 0000:16:00.0: amdgpu: ring comp_0.1.0.1 uses VM inv eng 6 on hub 0
+[777399.072202] amdgpu 0000:16:00.0: amdgpu: ring comp_0.1.1.1 uses VM inv eng 7 on hub 0
+[777399.072202] amdgpu 0000:16:00.0: amdgpu: ring comp_0.1.2.1 uses VM inv eng 8 on hub 0
+[777399.072203] amdgpu 0000:16:00.0: amdgpu: ring comp_0.1.3.1 uses VM inv eng 9 on hub 0
+[777399.072204] amdgpu 0000:16:00.0: amdgpu: ring kiq_0.2.1.0 uses VM inv eng 10 on hub 0
+[777399.072204] amdgpu 0000:16:00.0: amdgpu: ring comp_1.1.0.0 uses VM inv eng 0 on hub 1
+[777399.072205] amdgpu 0000:16:00.0: amdgpu: ring comp_1.1.1.0 uses VM inv eng 1 on hub 1
+[777399.072206] amdgpu 0000:16:00.0: amdgpu: ring comp_1.1.2.0 uses VM inv eng 4 on hub 1
+[777399.072207] amdgpu 0000:16:00.0: amdgpu: ring comp_1.1.3.0 uses VM inv eng 5 on hub 1
+[777399.072207] amdgpu 0000:16:00.0: amdgpu: ring comp_1.1.0.1 uses VM inv eng 6 on hub 1
+[777399.072208] amdgpu 0000:16:00.0: amdgpu: ring comp_1.1.1.1 uses VM inv eng 7 on hub 1
+[777399.072208] amdgpu 0000:16:00.0: amdgpu: ring comp_1.1.2.1 uses VM inv eng 8 on hub 1
+[777399.072209] amdgpu 0000:16:00.0: amdgpu: ring comp_1.1.3.1 uses VM inv eng 9 on hub 1
+[777399.072209] amdgpu 0000:16:00.0: amdgpu: ring kiq_1.2.1.0 uses VM inv eng 10 on hub 1
+[777399.072210] amdgpu 0000:16:00.0: amdgpu: ring comp_2.1.0.0 uses VM inv eng 0 on hub 2
+[777399.072210] amdgpu 0000:16:00.0: amdgpu: ring comp_2.1.1.0 uses VM inv eng 1 on hub 2
+[777399.072211] amdgpu 0000:16:00.0: amdgpu: ring comp_2.1.2.0 uses VM inv eng 4 on hub 2
+[777399.072212] amdgpu 0000:16:00.0: amdgpu: ring comp_2.1.3.0 uses VM inv eng 5 on hub 2
+[777399.072212] amdgpu 0000:16:00.0: amdgpu: ring comp_2.1.0.1 uses VM inv eng 6 on hub 2
+[777399.072213] amdgpu 0000:16:00.0: amdgpu: ring comp_2.1.1.1 uses VM inv eng 7 on hub 2
+[777399.072213] amdgpu 0000:16:00.0: amdgpu: ring comp_2.1.2.1 uses VM inv eng 8 on hub 2
+[777399.072214] amdgpu 0000:16:00.0: amdgpu: ring comp_2.1.3.1 uses VM inv eng 9 on hub 2
+[777399.072214] amdgpu 0000:16:00.0: amdgpu: ring kiq_2.2.1.0 uses VM inv eng 10 on hub 2
+[777399.072215] amdgpu 0000:16:00.0: amdgpu: ring comp_3.1.0.0 uses VM inv eng 0 on hub 3
+[777399.072215] amdgpu 0000:16:00.0: amdgpu: ring comp_3.1.1.0 uses VM inv eng 1 on hub 3
+[777399.072216] amdgpu 0000:16:00.0: amdgpu: ring comp_3.1.2.0 uses VM inv eng 4 on hub 3
+[777399.072216] amdgpu 0000:16:00.0: amdgpu: ring comp_3.1.3.0 uses VM inv eng 5 on hub 3
+[777399.072217] amdgpu 0000:16:00.0: amdgpu: ring comp_3.1.0.1 uses VM inv eng 6 on hub 3
+[777399.072217] amdgpu 0000:16:00.0: amdgpu: ring comp_3.1.1.1 uses VM inv eng 7 on hub 3
+[777399.072218] amdgpu 0000:16:00.0: amdgpu: ring comp_3.1.2.1 uses VM inv eng 8 on hub 3
+[777399.072218] amdgpu 0000:16:00.0: amdgpu: ring comp_3.1.3.1 uses VM inv eng 9 on hub 3
+[777399.072219] amdgpu 0000:16:00.0: amdgpu: ring kiq_3.2.1.0 uses VM inv eng 10 on hub 3
+[777399.072219] amdgpu 0000:16:00.0: amdgpu: ring comp_4.1.0.0 uses VM inv eng 0 on hub 4
+[777399.072220] amdgpu 0000:16:00.0: amdgpu: ring comp_4.1.1.0 uses VM inv eng 1 on hub 4
+[777399.072221] amdgpu 0000:16:00.0: amdgpu: ring comp_4.1.2.0 uses VM inv eng 4 on hub 4
+[777399.072221] amdgpu 0000:16:00.0: amdgpu: ring comp_4.1.3.0 uses VM inv eng 5 on hub 4
+[777399.072222] amdgpu 0000:16:00.0: amdgpu: ring comp_4.1.0.1 uses VM inv eng 6 on hub 4
+[777399.072222] amdgpu 0000:16:00.0: amdgpu: ring comp_4.1.1.1 uses VM inv eng 7 on hub 4
+[777399.072223] amdgpu 0000:16:00.0: amdgpu: ring comp_4.1.2.1 uses VM inv eng 8 on hub 4
+[777399.072223] amdgpu 0000:16:00.0: amdgpu: ring comp_4.1.3.1 uses VM inv eng 9 on hub 4
+[777399.072224] amdgpu 0000:16:00.0: amdgpu: ring kiq_4.2.1.0 uses VM inv eng 10 on hub 4
+[777399.072225] amdgpu 0000:16:00.0: amdgpu: ring comp_5.1.0.0 uses VM inv eng 0 on hub 5
+[777399.072225] amdgpu 0000:16:00.0: amdgpu: ring comp_5.1.1.0 uses VM inv eng 1 on hub 5
+[777399.072226] amdgpu 0000:16:00.0: amdgpu: ring comp_5.1.2.0 uses VM inv eng 4 on hub 5
+[777399.072227] amdgpu 0000:16:00.0: amdgpu: ring comp_5.1.3.0 uses VM inv eng 5 on hub 5
+[777399.072228] amdgpu 0000:16:00.0: amdgpu: ring comp_5.1.0.1 uses VM inv eng 6 on hub 5
+[777399.072228] amdgpu 0000:16:00.0: amdgpu: ring comp_5.1.1.1 uses VM inv eng 7 on hub 5
+[777399.072229] amdgpu 0000:16:00.0: amdgpu: ring comp_5.1.2.1 uses VM inv eng 8 on hub 5
+[777399.072229] amdgpu 0000:16:00.0: amdgpu: ring comp_5.1.3.1 uses VM inv eng 9 on hub 5
+[777399.072230] amdgpu 0000:16:00.0: amdgpu: ring kiq_5.2.1.0 uses VM inv eng 10 on hub 5
+[777399.072230] amdgpu 0000:16:00.0: amdgpu: ring comp_6.1.0.0 uses VM inv eng 0 on hub 6
+[777399.072231] amdgpu 0000:16:00.0: amdgpu: ring comp_6.1.1.0 uses VM inv eng 1 on hub 6
+[777399.072232] amdgpu 0000:16:00.0: amdgpu: ring comp_6.1.2.0 uses VM inv eng 4 on hub 6
+[777399.072232] amdgpu 0000:16:00.0: amdgpu: ring comp_6.1.3.0 uses VM inv eng 5 on hub 6
+[777399.072233] amdgpu 0000:16:00.0: amdgpu: ring comp_6.1.0.1 uses VM inv eng 6 on hub 6
+[777399.072233] amdgpu 0000:16:00.0: amdgpu: ring comp_6.1.1.1 uses VM inv eng 7 on hub 6
+[777399.072234] amdgpu 0000:16:00.0: amdgpu: ring comp_6.1.2.1 uses VM inv eng 8 on hub 6
+[777399.072234] amdgpu 0000:16:00.0: amdgpu: ring comp_6.1.3.1 uses VM inv eng 9 on hub 6
+[777399.072235] amdgpu 0000:16:00.0: amdgpu: ring kiq_6.2.1.0 uses VM inv eng 10 on hub 6
+[777399.072235] amdgpu 0000:16:00.0: amdgpu: ring comp_7.1.0.0 uses VM inv eng 0 on hub 7
+[777399.072236] amdgpu 0000:16:00.0: amdgpu: ring comp_7.1.1.0 uses VM inv eng 1 on hub 7
+[777399.072236] amdgpu 0000:16:00.0: amdgpu: ring comp_7.1.2.0 uses VM inv eng 4 on hub 7
+[777399.072237] amdgpu 0000:16:00.0: amdgpu: ring comp_7.1.3.0 uses VM inv eng 5 on hub 7
+[777399.072237] amdgpu 0000:16:00.0: amdgpu: ring comp_7.1.0.1 uses VM inv eng 6 on hub 7
+[777399.072238] amdgpu 0000:16:00.0: amdgpu: ring comp_7.1.1.1 uses VM inv eng 7 on hub 7
+[777399.072238] amdgpu 0000:16:00.0: amdgpu: ring comp_7.1.2.1 uses VM inv eng 8 on hub 7
+[777399.072239] amdgpu 0000:16:00.0: amdgpu: ring comp_7.1.3.1 uses VM inv eng 9 on hub 7
+[777399.072240] amdgpu 0000:16:00.0: amdgpu: ring kiq_7.2.1.0 uses VM inv eng 10 on hub 7
+[777399.072240] amdgpu 0000:16:00.0: amdgpu: ring sdma0.0 uses VM inv eng 0 on hub 8
+[777399.072241] amdgpu 0000:16:00.0: amdgpu: ring sdma0.1 uses VM inv eng 1 on hub 8
+[777399.072241] amdgpu 0000:16:00.0: amdgpu: ring sdma0.2 uses VM inv eng 4 on hub 8
+[777399.072242] amdgpu 0000:16:00.0: amdgpu: ring sdma0.3 uses VM inv eng 5 on hub 8
+[777399.072242] amdgpu 0000:16:00.0: amdgpu: ring sdma1.0 uses VM inv eng 0 on hub 9
+[777399.072243] amdgpu 0000:16:00.0: amdgpu: ring sdma1.1 uses VM inv eng 1 on hub 9
+[777399.072243] amdgpu 0000:16:00.0: amdgpu: ring sdma1.2 uses VM inv eng 4 on hub 9
+[777399.072244] amdgpu 0000:16:00.0: amdgpu: ring sdma1.3 uses VM inv eng 5 on hub 9
+[777399.072244] amdgpu 0000:16:00.0: amdgpu: ring sdma2.0 uses VM inv eng 0 on hub 10
+[777399.072245] amdgpu 0000:16:00.0: amdgpu: ring sdma2.1 uses VM inv eng 1 on hub 10
+[777399.072246] amdgpu 0000:16:00.0: amdgpu: ring sdma2.2 uses VM inv eng 4 on hub 10
+[777399.072246] amdgpu 0000:16:00.0: amdgpu: ring sdma2.3 uses VM inv eng 5 on hub 10
+[777399.072247] amdgpu 0000:16:00.0: amdgpu: ring sdma3.0 uses VM inv eng 0 on hub 11
+[777399.072247] amdgpu 0000:16:00.0: amdgpu: ring sdma3.1 uses VM inv eng 1 on hub 11
+[777399.072248] amdgpu 0000:16:00.0: amdgpu: ring sdma3.2 uses VM inv eng 4 on hub 11
+[777399.072248] amdgpu 0000:16:00.0: amdgpu: ring sdma3.3 uses VM inv eng 5 on hub 11
+[777399.072249] amdgpu 0000:16:00.0: amdgpu: ring vcn_unified_0 uses VM inv eng 6 on hub 8
+[777399.072250] amdgpu 0000:16:00.0: amdgpu: ring vcn_unified_1 uses VM inv eng 6 on hub 9
+[777399.072250] amdgpu 0000:16:00.0: amdgpu: ring vcn_unified_2 uses VM inv eng 6 on hub 10
+[777399.072251] amdgpu 0000:16:00.0: amdgpu: ring vcn_unified_3 uses VM inv eng 6 on hub 11
+[777399.072252] amdgpu 0000:16:00.0: amdgpu: ring jpeg_dec_0.0 uses VM inv eng 7 on hub 8
+[777399.072252] amdgpu 0000:16:00.0: amdgpu: ring jpeg_dec_0.1 uses VM inv eng 8 on hub 8
+[777399.072253] amdgpu 0000:16:00.0: amdgpu: ring jpeg_dec_0.2 uses VM inv eng 9 on hub 8
+[777399.072253] amdgpu 0000:16:00.0: amdgpu: ring jpeg_dec_0.3 uses VM inv eng 10 on hub 8
+[777399.072254] amdgpu 0000:16:00.0: amdgpu: ring jpeg_dec_0.4 uses VM inv eng 11 on hub 8
+[777399.072254] amdgpu 0000:16:00.0: amdgpu: ring jpeg_dec_0.5 uses VM inv eng 12 on hub 8
+[777399.072255] amdgpu 0000:16:00.0: amdgpu: ring jpeg_dec_0.6 uses VM inv eng 13 on hub 8
+[777399.072255] amdgpu 0000:16:00.0: amdgpu: ring jpeg_dec_0.7 uses VM inv eng 14 on hub 8
+[777399.072256] amdgpu 0000:16:00.0: amdgpu: ring jpeg_dec_1.0 uses VM inv eng 7 on hub 9
+[777399.072257] amdgpu 0000:16:00.0: amdgpu: ring jpeg_dec_1.1 uses VM inv eng 8 on hub 9
+[777399.072257] amdgpu 0000:16:00.0: amdgpu: ring jpeg_dec_1.2 uses VM inv eng 9 on hub 9
+[777399.072258] amdgpu 0000:16:00.0: amdgpu: ring jpeg_dec_1.3 uses VM inv eng 10 on hub 9
+[777399.072258] amdgpu 0000:16:00.0: amdgpu: ring jpeg_dec_1.4 uses VM inv eng 11 on hub 9
+[777399.072259] amdgpu 0000:16:00.0: amdgpu: ring jpeg_dec_1.5 uses VM inv eng 12 on hub 9
+[777399.072259] amdgpu 0000:16:00.0: amdgpu: ring jpeg_dec_1.6 uses VM inv eng 13 on hub 9
+[777399.072260] amdgpu 0000:16:00.0: amdgpu: ring jpeg_dec_1.7 uses VM inv eng 14 on hub 9
+[777399.072260] amdgpu 0000:16:00.0: amdgpu: ring jpeg_dec_2.0 uses VM inv eng 7 on hub 10
+[777399.072261] amdgpu 0000:16:00.0: amdgpu: ring jpeg_dec_2.1 uses VM inv eng 8 on hub 10
+[777399.072262] amdgpu 0000:16:00.0: amdgpu: ring jpeg_dec_2.2 uses VM inv eng 9 on hub 10
+[777399.072262] amdgpu 0000:16:00.0: amdgpu: ring jpeg_dec_2.3 uses VM inv eng 10 on hub 10
+[777399.072263] amdgpu 0000:16:00.0: amdgpu: ring jpeg_dec_2.4 uses VM inv eng 11 on hub 10
+[777399.072263] amdgpu 0000:16:00.0: amdgpu: ring jpeg_dec_2.5 uses VM inv eng 12 on hub 10
+[777399.072264] amdgpu 0000:16:00.0: amdgpu: ring jpeg_dec_2.6 uses VM inv eng 13 on hub 10
+[777399.072265] amdgpu 0000:16:00.0: amdgpu: ring jpeg_dec_2.7 uses VM inv eng 14 on hub 10
+[777399.072265] amdgpu 0000:16:00.0: amdgpu: ring jpeg_dec_3.0 uses VM inv eng 7 on hub 11
+[777399.072266] amdgpu 0000:16:00.0: amdgpu: ring jpeg_dec_3.1 uses VM inv eng 8 on hub 11
+[777399.072266] amdgpu 0000:16:00.0: amdgpu: ring jpeg_dec_3.2 uses VM inv eng 9 on hub 11
+[777399.072267] amdgpu 0000:16:00.0: amdgpu: ring jpeg_dec_3.3 uses VM inv eng 10 on hub 11
+[777399.072267] amdgpu 0000:16:00.0: amdgpu: ring jpeg_dec_3.4 uses VM inv eng 11 on hub 11
+[777399.072267] amdgpu 0000:16:00.0: amdgpu: ring jpeg_dec_3.5 uses VM inv eng 12 on hub 11
+[777399.072268] amdgpu 0000:16:00.0: amdgpu: ring jpeg_dec_3.6 uses VM inv eng 13 on hub 11
+[777399.072268] amdgpu 0000:16:00.0: amdgpu: ring jpeg_dec_3.7 uses VM inv eng 14 on hub 11
+[777399.085273] amdgpu 0000:16:00.0: amdgpu: Runtime PM not available
+[777399.085367] [drm] Initialized amdgpu 3.64.0 20150101 for 0000:16:00.0 on minor 25
+[777399.085414] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_21 on minor 26
+[777399.085453] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_22 on minor 27
+[777399.085491] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_23 on minor 28
+[777399.085534] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_24 on minor 29
+[777399.085575] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_25 on minor 30
+[777399.085611] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_26 on minor 31
+[777399.085648] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_27 on minor 32
+[777399.091145] amdgpu 0000:f6:00.0: amdgpu: initializing kernel modesetting (IP DISCOVERY 0x1002:0x74A1 0x1002:0x74A1 0x00).
+[777399.091293] amdgpu 0000:f6:00.0: amdgpu: register mmio base: 0xCBC00000
+[777399.091294] amdgpu 0000:f6:00.0: amdgpu: register mmio size: 2097152
+[777399.095919] amdgpu 0000:f6:00.0: amdgpu: detected ip block number 0 <common_v2_0_0> (soc15_common)
+[777399.095923] amdgpu 0000:f6:00.0: amdgpu: detected ip block number 1 <gmc_v9_0_0> (gmc_v9_0)
+[777399.095925] amdgpu 0000:f6:00.0: amdgpu: detected ip block number 2 <ih_v4_2_0> (vega20_ih)
+[777399.095927] amdgpu 0000:f6:00.0: amdgpu: detected ip block number 3 <psp_v13_0_0> (psp)
+[777399.095929] amdgpu 0000:f6:00.0: amdgpu: detected ip block number 4 <smu_v13_0_0> (smu)
+[777399.095931] amdgpu 0000:f6:00.0: amdgpu: detected ip block number 5 <gfx_v9_4_3> (gfx_v9_4_3)
+[777399.095934] amdgpu 0000:f6:00.0: amdgpu: detected ip block number 6 <sdma_v4_4_2> (sdma_v4_4_2)
+[777399.095936] amdgpu 0000:f6:00.0: amdgpu: detected ip block number 7 <ras_v1_0_0> (ras_v1_0)
+[777399.095938] amdgpu 0000:f6:00.0: amdgpu: detected ip block number 8 <vcn_v4_0_3> (vcn_v4_0_3)
+[777399.095939] amdgpu 0000:f6:00.0: amdgpu: detected ip block number 9 <jpeg_v4_0_3> (jpeg_v4_0_3)
+[777399.100777] amdgpu 0000:f6:00.0: amdgpu: Fetched VBIOS from platform
+[777399.100780] amdgpu: ATOM BIOS: 113-M3000100-103
+[777399.101575] amdgpu 0000:f6:00.0: amdgpu: Trusted Memory Zone (TMZ) feature not supported
+[777399.101693] amdgpu 0000:f6:00.0: amdgpu: RAS INFO: ras initialized successfully, hardware ability[fdbff] ras_mask[fdbff]
+[777399.101853] amdgpu 0000:f6:00.0: amdgpu: vm size is 262144 GB, 4 levels, block size is 9-bit, fragment size is 9-bit
+[777399.101875] amdgpu 0000:f6:00.0: amdgpu: VRAM: 196592M 0x000002F000000000 - 0x0000031FFEFFFFFF (196592M used)
+[777399.101877] amdgpu 0000:f6:00.0: amdgpu: GART: 512M 0x0000000000000000 - 0x000000001FFFFFFF
+[777399.101888] [drm] Detected VRAM RAM=196592M, BAR=262144M
+[777399.101889] [drm] RAM width 8192bits HBM
+[777399.102026] amdgpu 0000:f6:00.0: amdgpu: amdgpu: 196592M of VRAM memory ready
+[777399.102029] amdgpu 0000:f6:00.0: amdgpu: amdgpu: 773820M of GTT memory ready.
+[777399.102060] [drm] GART: num cpu pages 131072, num gpu pages 131072
+[777399.103045] [drm] PCIE GART of 512M enabled.
+[777399.103048] [drm] PTB located at 0x0000031FED700000
+[777399.110155] amdgpu 0000:f6:00.0: amdgpu: [VCN instance 0] Found VCN firmware Version ENC: 1.24 DEC: 9 VEP: 0 Revision: 26
+[777399.110213] amdgpu 0000:f6:00.0: amdgpu: [VCN instance 1] Found VCN firmware Version ENC: 1.24 DEC: 9 VEP: 0 Revision: 26
+[777399.110268] amdgpu 0000:f6:00.0: amdgpu: [VCN instance 2] Found VCN firmware Version ENC: 1.24 DEC: 9 VEP: 0 Revision: 26
+[777399.110323] amdgpu 0000:f6:00.0: amdgpu: [VCN instance 3] Found VCN firmware Version ENC: 1.24 DEC: 9 VEP: 0 Revision: 26
+[777401.815761] amdgpu 0000:f6:00.0: amdgpu: RAP: optional rap ta ucode is not available
+[777401.817335] amdgpu 0000:f6:00.0: amdgpu: SMU is initialized successfully!
+[777401.819009] amdgpu 0000:f6:00.0: amdgpu: Requesting 1 partitions through PSP
+[777401.826053] amdgpu 0000:f6:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777401.826590] amdgpu 0000:f6:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777401.827156] amdgpu 0000:f6:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777401.827735] amdgpu 0000:f6:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777401.828332] amdgpu 0000:f6:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777401.828921] amdgpu 0000:f6:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777401.829526] amdgpu 0000:f6:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777401.830158] amdgpu 0000:f6:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777401.869967] amdgpu 0000:f6:00.0: amdgpu: XGMI: Add node 5, hive 0xbfdb3d0edaa60097.
+[777402.115922] amdgpu: HMM registered 196592MB device memory
+[777402.116875] kfd kfd: amdgpu: Allocated 3969056 bytes on gart
+[777402.116961] kfd kfd: amdgpu: Total number of KFD nodes to be created: 1
+[777402.116964] kfd kfd: amdgpu: KFD node 0 partition 0 size 196592M
+[777402.116968] kfd kfd: amdgpu: Node: 0, interrupt_bitmap: 7777
+[777402.117340] amdgpu: Virtual CRAT table created for GPU
+[777402.121956] amdgpu: Topology: Add dGPU node [0x74a1:0x1002]
+[777402.442869] amdgpu 0000:f6:00.0: added peer-to-peer DMA memory 0x134000000000-0x137fffffffff
+[777402.442875] amdgpu 0000:f6:00.0: amdgpu: AIS: registered 196592MB device memory
+[777402.442878] kfd kfd: amdgpu: added device 1002:74a1
+[777402.457355] amdgpu 0000:f6:00.0: amdgpu: SE 4, SH per SE 1, CU per SH 10, active_cu_number 304
+[777402.457364] amdgpu 0000:f6:00.0: amdgpu: ring comp_0.1.0.0 uses VM inv eng 0 on hub 0
+[777402.457366] amdgpu 0000:f6:00.0: amdgpu: ring comp_0.1.1.0 uses VM inv eng 1 on hub 0
+[777402.457366] amdgpu 0000:f6:00.0: amdgpu: ring comp_0.1.2.0 uses VM inv eng 4 on hub 0
+[777402.457367] amdgpu 0000:f6:00.0: amdgpu: ring comp_0.1.3.0 uses VM inv eng 5 on hub 0
+[777402.457368] amdgpu 0000:f6:00.0: amdgpu: ring comp_0.1.0.1 uses VM inv eng 6 on hub 0
+[777402.457369] amdgpu 0000:f6:00.0: amdgpu: ring comp_0.1.1.1 uses VM inv eng 7 on hub 0
+[777402.457369] amdgpu 0000:f6:00.0: amdgpu: ring comp_0.1.2.1 uses VM inv eng 8 on hub 0
+[777402.457370] amdgpu 0000:f6:00.0: amdgpu: ring comp_0.1.3.1 uses VM inv eng 9 on hub 0
+[777402.457370] amdgpu 0000:f6:00.0: amdgpu: ring kiq_0.2.1.0 uses VM inv eng 10 on hub 0
+[777402.457371] amdgpu 0000:f6:00.0: amdgpu: ring comp_1.1.0.0 uses VM inv eng 0 on hub 1
+[777402.457372] amdgpu 0000:f6:00.0: amdgpu: ring comp_1.1.1.0 uses VM inv eng 1 on hub 1
+[777402.457372] amdgpu 0000:f6:00.0: amdgpu: ring comp_1.1.2.0 uses VM inv eng 4 on hub 1
+[777402.457373] amdgpu 0000:f6:00.0: amdgpu: ring comp_1.1.3.0 uses VM inv eng 5 on hub 1
+[777402.457374] amdgpu 0000:f6:00.0: amdgpu: ring comp_1.1.0.1 uses VM inv eng 6 on hub 1
+[777402.457374] amdgpu 0000:f6:00.0: amdgpu: ring comp_1.1.1.1 uses VM inv eng 7 on hub 1
+[777402.457375] amdgpu 0000:f6:00.0: amdgpu: ring comp_1.1.2.1 uses VM inv eng 8 on hub 1
+[777402.457376] amdgpu 0000:f6:00.0: amdgpu: ring comp_1.1.3.1 uses VM inv eng 9 on hub 1
+[777402.457376] amdgpu 0000:f6:00.0: amdgpu: ring kiq_1.2.1.0 uses VM inv eng 10 on hub 1
+[777402.457377] amdgpu 0000:f6:00.0: amdgpu: ring comp_2.1.0.0 uses VM inv eng 0 on hub 2
+[777402.457378] amdgpu 0000:f6:00.0: amdgpu: ring comp_2.1.1.0 uses VM inv eng 1 on hub 2
+[777402.457379] amdgpu 0000:f6:00.0: amdgpu: ring comp_2.1.2.0 uses VM inv eng 4 on hub 2
+[777402.457379] amdgpu 0000:f6:00.0: amdgpu: ring comp_2.1.3.0 uses VM inv eng 5 on hub 2
+[777402.457380] amdgpu 0000:f6:00.0: amdgpu: ring comp_2.1.0.1 uses VM inv eng 6 on hub 2
+[777402.457381] amdgpu 0000:f6:00.0: amdgpu: ring comp_2.1.1.1 uses VM inv eng 7 on hub 2
+[777402.457382] amdgpu 0000:f6:00.0: amdgpu: ring comp_2.1.2.1 uses VM inv eng 8 on hub 2
+[777402.457382] amdgpu 0000:f6:00.0: amdgpu: ring comp_2.1.3.1 uses VM inv eng 9 on hub 2
+[777402.457383] amdgpu 0000:f6:00.0: amdgpu: ring kiq_2.2.1.0 uses VM inv eng 10 on hub 2
+[777402.457383] amdgpu 0000:f6:00.0: amdgpu: ring comp_3.1.0.0 uses VM inv eng 0 on hub 3
+[777402.457384] amdgpu 0000:f6:00.0: amdgpu: ring comp_3.1.1.0 uses VM inv eng 1 on hub 3
+[777402.457385] amdgpu 0000:f6:00.0: amdgpu: ring comp_3.1.2.0 uses VM inv eng 4 on hub 3
+[777402.457385] amdgpu 0000:f6:00.0: amdgpu: ring comp_3.1.3.0 uses VM inv eng 5 on hub 3
+[777402.457386] amdgpu 0000:f6:00.0: amdgpu: ring comp_3.1.0.1 uses VM inv eng 6 on hub 3
+[777402.457387] amdgpu 0000:f6:00.0: amdgpu: ring comp_3.1.1.1 uses VM inv eng 7 on hub 3
+[777402.457387] amdgpu 0000:f6:00.0: amdgpu: ring comp_3.1.2.1 uses VM inv eng 8 on hub 3
+[777402.457388] amdgpu 0000:f6:00.0: amdgpu: ring comp_3.1.3.1 uses VM inv eng 9 on hub 3
+[777402.457389] amdgpu 0000:f6:00.0: amdgpu: ring kiq_3.2.1.0 uses VM inv eng 10 on hub 3
+[777402.457389] amdgpu 0000:f6:00.0: amdgpu: ring comp_4.1.0.0 uses VM inv eng 0 on hub 4
+[777402.457389] amdgpu 0000:f6:00.0: amdgpu: ring comp_4.1.1.0 uses VM inv eng 1 on hub 4
+[777402.457390] amdgpu 0000:f6:00.0: amdgpu: ring comp_4.1.2.0 uses VM inv eng 4 on hub 4
+[777402.457391] amdgpu 0000:f6:00.0: amdgpu: ring comp_4.1.3.0 uses VM inv eng 5 on hub 4
+[777402.457391] amdgpu 0000:f6:00.0: amdgpu: ring comp_4.1.0.1 uses VM inv eng 6 on hub 4
+[777402.457392] amdgpu 0000:f6:00.0: amdgpu: ring comp_4.1.1.1 uses VM inv eng 7 on hub 4
+[777402.457392] amdgpu 0000:f6:00.0: amdgpu: ring comp_4.1.2.1 uses VM inv eng 8 on hub 4
+[777402.457393] amdgpu 0000:f6:00.0: amdgpu: ring comp_4.1.3.1 uses VM inv eng 9 on hub 4
+[777402.457393] amdgpu 0000:f6:00.0: amdgpu: ring kiq_4.2.1.0 uses VM inv eng 10 on hub 4
+[777402.457394] amdgpu 0000:f6:00.0: amdgpu: ring comp_5.1.0.0 uses VM inv eng 0 on hub 5
+[777402.457394] amdgpu 0000:f6:00.0: amdgpu: ring comp_5.1.1.0 uses VM inv eng 1 on hub 5
+[777402.457395] amdgpu 0000:f6:00.0: amdgpu: ring comp_5.1.2.0 uses VM inv eng 4 on hub 5
+[777402.457395] amdgpu 0000:f6:00.0: amdgpu: ring comp_5.1.3.0 uses VM inv eng 5 on hub 5
+[777402.457396] amdgpu 0000:f6:00.0: amdgpu: ring comp_5.1.0.1 uses VM inv eng 6 on hub 5
+[777402.457396] amdgpu 0000:f6:00.0: amdgpu: ring comp_5.1.1.1 uses VM inv eng 7 on hub 5
+[777402.457397] amdgpu 0000:f6:00.0: amdgpu: ring comp_5.1.2.1 uses VM inv eng 8 on hub 5
+[777402.457397] amdgpu 0000:f6:00.0: amdgpu: ring comp_5.1.3.1 uses VM inv eng 9 on hub 5
+[777402.457398] amdgpu 0000:f6:00.0: amdgpu: ring kiq_5.2.1.0 uses VM inv eng 10 on hub 5
+[777402.457398] amdgpu 0000:f6:00.0: amdgpu: ring comp_6.1.0.0 uses VM inv eng 0 on hub 6
+[777402.457399] amdgpu 0000:f6:00.0: amdgpu: ring comp_6.1.1.0 uses VM inv eng 1 on hub 6
+[777402.457399] amdgpu 0000:f6:00.0: amdgpu: ring comp_6.1.2.0 uses VM inv eng 4 on hub 6
+[777402.457400] amdgpu 0000:f6:00.0: amdgpu: ring comp_6.1.3.0 uses VM inv eng 5 on hub 6
+[777402.457401] amdgpu 0000:f6:00.0: amdgpu: ring comp_6.1.0.1 uses VM inv eng 6 on hub 6
+[777402.457401] amdgpu 0000:f6:00.0: amdgpu: ring comp_6.1.1.1 uses VM inv eng 7 on hub 6
+[777402.457402] amdgpu 0000:f6:00.0: amdgpu: ring comp_6.1.2.1 uses VM inv eng 8 on hub 6
+[777402.457402] amdgpu 0000:f6:00.0: amdgpu: ring comp_6.1.3.1 uses VM inv eng 9 on hub 6
+[777402.457403] amdgpu 0000:f6:00.0: amdgpu: ring kiq_6.2.1.0 uses VM inv eng 10 on hub 6
+[777402.457403] amdgpu 0000:f6:00.0: amdgpu: ring comp_7.1.0.0 uses VM inv eng 0 on hub 7
+[777402.457404] amdgpu 0000:f6:00.0: amdgpu: ring comp_7.1.1.0 uses VM inv eng 1 on hub 7
+[777402.457404] amdgpu 0000:f6:00.0: amdgpu: ring comp_7.1.2.0 uses VM inv eng 4 on hub 7
+[777402.457405] amdgpu 0000:f6:00.0: amdgpu: ring comp_7.1.3.0 uses VM inv eng 5 on hub 7
+[777402.457405] amdgpu 0000:f6:00.0: amdgpu: ring comp_7.1.0.1 uses VM inv eng 6 on hub 7
+[777402.457406] amdgpu 0000:f6:00.0: amdgpu: ring comp_7.1.1.1 uses VM inv eng 7 on hub 7
+[777402.457407] amdgpu 0000:f6:00.0: amdgpu: ring comp_7.1.2.1 uses VM inv eng 8 on hub 7
+[777402.457407] amdgpu 0000:f6:00.0: amdgpu: ring comp_7.1.3.1 uses VM inv eng 9 on hub 7
+[777402.457408] amdgpu 0000:f6:00.0: amdgpu: ring kiq_7.2.1.0 uses VM inv eng 10 on hub 7
+[777402.457409] amdgpu 0000:f6:00.0: amdgpu: ring sdma0.0 uses VM inv eng 0 on hub 8
+[777402.457409] amdgpu 0000:f6:00.0: amdgpu: ring sdma0.1 uses VM inv eng 1 on hub 8
+[777402.457410] amdgpu 0000:f6:00.0: amdgpu: ring sdma0.2 uses VM inv eng 4 on hub 8
+[777402.457411] amdgpu 0000:f6:00.0: amdgpu: ring sdma0.3 uses VM inv eng 5 on hub 8
+[777402.457411] amdgpu 0000:f6:00.0: amdgpu: ring sdma1.0 uses VM inv eng 0 on hub 9
+[777402.457412] amdgpu 0000:f6:00.0: amdgpu: ring sdma1.1 uses VM inv eng 1 on hub 9
+[777402.457412] amdgpu 0000:f6:00.0: amdgpu: ring sdma1.2 uses VM inv eng 4 on hub 9
+[777402.457413] amdgpu 0000:f6:00.0: amdgpu: ring sdma1.3 uses VM inv eng 5 on hub 9
+[777402.457413] amdgpu 0000:f6:00.0: amdgpu: ring sdma2.0 uses VM inv eng 0 on hub 10
+[777402.457414] amdgpu 0000:f6:00.0: amdgpu: ring sdma2.1 uses VM inv eng 1 on hub 10
+[777402.457415] amdgpu 0000:f6:00.0: amdgpu: ring sdma2.2 uses VM inv eng 4 on hub 10
+[777402.457415] amdgpu 0000:f6:00.0: amdgpu: ring sdma2.3 uses VM inv eng 5 on hub 10
+[777402.457416] amdgpu 0000:f6:00.0: amdgpu: ring sdma3.0 uses VM inv eng 0 on hub 11
+[777402.457416] amdgpu 0000:f6:00.0: amdgpu: ring sdma3.1 uses VM inv eng 1 on hub 11
+[777402.457417] amdgpu 0000:f6:00.0: amdgpu: ring sdma3.2 uses VM inv eng 4 on hub 11
+[777402.457417] amdgpu 0000:f6:00.0: amdgpu: ring sdma3.3 uses VM inv eng 5 on hub 11
+[777402.457418] amdgpu 0000:f6:00.0: amdgpu: ring vcn_unified_0 uses VM inv eng 6 on hub 8
+[777402.457419] amdgpu 0000:f6:00.0: amdgpu: ring vcn_unified_1 uses VM inv eng 6 on hub 9
+[777402.457419] amdgpu 0000:f6:00.0: amdgpu: ring vcn_unified_2 uses VM inv eng 6 on hub 10
+[777402.457420] amdgpu 0000:f6:00.0: amdgpu: ring vcn_unified_3 uses VM inv eng 6 on hub 11
+[777402.457420] amdgpu 0000:f6:00.0: amdgpu: ring jpeg_dec_0.0 uses VM inv eng 7 on hub 8
+[777402.457421] amdgpu 0000:f6:00.0: amdgpu: ring jpeg_dec_0.1 uses VM inv eng 8 on hub 8
+[777402.457422] amdgpu 0000:f6:00.0: amdgpu: ring jpeg_dec_0.2 uses VM inv eng 9 on hub 8
+[777402.457422] amdgpu 0000:f6:00.0: amdgpu: ring jpeg_dec_0.3 uses VM inv eng 10 on hub 8
+[777402.457423] amdgpu 0000:f6:00.0: amdgpu: ring jpeg_dec_0.4 uses VM inv eng 11 on hub 8
+[777402.457423] amdgpu 0000:f6:00.0: amdgpu: ring jpeg_dec_0.5 uses VM inv eng 12 on hub 8
+[777402.457424] amdgpu 0000:f6:00.0: amdgpu: ring jpeg_dec_0.6 uses VM inv eng 13 on hub 8
+[777402.457424] amdgpu 0000:f6:00.0: amdgpu: ring jpeg_dec_0.7 uses VM inv eng 14 on hub 8
+[777402.457425] amdgpu 0000:f6:00.0: amdgpu: ring jpeg_dec_1.0 uses VM inv eng 7 on hub 9
+[777402.457426] amdgpu 0000:f6:00.0: amdgpu: ring jpeg_dec_1.1 uses VM inv eng 8 on hub 9
+[777402.457426] amdgpu 0000:f6:00.0: amdgpu: ring jpeg_dec_1.2 uses VM inv eng 9 on hub 9
+[777402.457427] amdgpu 0000:f6:00.0: amdgpu: ring jpeg_dec_1.3 uses VM inv eng 10 on hub 9
+[777402.457427] amdgpu 0000:f6:00.0: amdgpu: ring jpeg_dec_1.4 uses VM inv eng 11 on hub 9
+[777402.457428] amdgpu 0000:f6:00.0: amdgpu: ring jpeg_dec_1.5 uses VM inv eng 12 on hub 9
+[777402.457428] amdgpu 0000:f6:00.0: amdgpu: ring jpeg_dec_1.6 uses VM inv eng 13 on hub 9
+[777402.457429] amdgpu 0000:f6:00.0: amdgpu: ring jpeg_dec_1.7 uses VM inv eng 14 on hub 9
+[777402.457429] amdgpu 0000:f6:00.0: amdgpu: ring jpeg_dec_2.0 uses VM inv eng 7 on hub 10
+[777402.457430] amdgpu 0000:f6:00.0: amdgpu: ring jpeg_dec_2.1 uses VM inv eng 8 on hub 10
+[777402.457431] amdgpu 0000:f6:00.0: amdgpu: ring jpeg_dec_2.2 uses VM inv eng 9 on hub 10
+[777402.457431] amdgpu 0000:f6:00.0: amdgpu: ring jpeg_dec_2.3 uses VM inv eng 10 on hub 10
+[777402.457432] amdgpu 0000:f6:00.0: amdgpu: ring jpeg_dec_2.4 uses VM inv eng 11 on hub 10
+[777402.457433] amdgpu 0000:f6:00.0: amdgpu: ring jpeg_dec_2.5 uses VM inv eng 12 on hub 10
+[777402.457433] amdgpu 0000:f6:00.0: amdgpu: ring jpeg_dec_2.6 uses VM inv eng 13 on hub 10
+[777402.457434] amdgpu 0000:f6:00.0: amdgpu: ring jpeg_dec_2.7 uses VM inv eng 14 on hub 10
+[777402.457434] amdgpu 0000:f6:00.0: amdgpu: ring jpeg_dec_3.0 uses VM inv eng 7 on hub 11
+[777402.457435] amdgpu 0000:f6:00.0: amdgpu: ring jpeg_dec_3.1 uses VM inv eng 8 on hub 11
+[777402.457435] amdgpu 0000:f6:00.0: amdgpu: ring jpeg_dec_3.2 uses VM inv eng 9 on hub 11
+[777402.457436] amdgpu 0000:f6:00.0: amdgpu: ring jpeg_dec_3.3 uses VM inv eng 10 on hub 11
+[777402.457436] amdgpu 0000:f6:00.0: amdgpu: ring jpeg_dec_3.4 uses VM inv eng 11 on hub 11
+[777402.457437] amdgpu 0000:f6:00.0: amdgpu: ring jpeg_dec_3.5 uses VM inv eng 12 on hub 11
+[777402.457437] amdgpu 0000:f6:00.0: amdgpu: ring jpeg_dec_3.6 uses VM inv eng 13 on hub 11
+[777402.457438] amdgpu 0000:f6:00.0: amdgpu: ring jpeg_dec_3.7 uses VM inv eng 14 on hub 11
+[777402.470296] amdgpu 0000:f6:00.0: amdgpu: Runtime PM not available
+[777402.470394] [drm] Initialized amdgpu 3.64.0 20150101 for 0000:f6:00.0 on minor 33
+[777402.470428] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_28 on minor 34
+[777402.470458] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_29 on minor 35
+[777402.470486] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_30 on minor 36
+[777402.470513] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_31 on minor 37
+[777402.470539] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_32 on minor 38
+[777402.470566] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_33 on minor 39
+[777402.470600] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_34 on minor 40
+[777402.475923] amdgpu 0000:86:00.0: amdgpu: initializing kernel modesetting (IP DISCOVERY 0x1002:0x74A1 0x1002:0x74A1 0x00).
+[777402.476038] amdgpu 0000:86:00.0: amdgpu: register mmio base: 0xBCA00000
+[777402.476040] amdgpu 0000:86:00.0: amdgpu: register mmio size: 2097152
+[777402.483430] amdgpu 0000:86:00.0: amdgpu: detected ip block number 0 <common_v2_0_0> (soc15_common)
+[777402.483433] amdgpu 0000:86:00.0: amdgpu: detected ip block number 1 <gmc_v9_0_0> (gmc_v9_0)
+[777402.483435] amdgpu 0000:86:00.0: amdgpu: detected ip block number 2 <ih_v4_2_0> (vega20_ih)
+[777402.483437] amdgpu 0000:86:00.0: amdgpu: detected ip block number 3 <psp_v13_0_0> (psp)
+[777402.483439] amdgpu 0000:86:00.0: amdgpu: detected ip block number 4 <smu_v13_0_0> (smu)
+[777402.483441] amdgpu 0000:86:00.0: amdgpu: detected ip block number 5 <gfx_v9_4_3> (gfx_v9_4_3)
+[777402.483442] amdgpu 0000:86:00.0: amdgpu: detected ip block number 6 <sdma_v4_4_2> (sdma_v4_4_2)
+[777402.483444] amdgpu 0000:86:00.0: amdgpu: detected ip block number 7 <ras_v1_0_0> (ras_v1_0)
+[777402.483446] amdgpu 0000:86:00.0: amdgpu: detected ip block number 8 <vcn_v4_0_3> (vcn_v4_0_3)
+[777402.483447] amdgpu 0000:86:00.0: amdgpu: detected ip block number 9 <jpeg_v4_0_3> (jpeg_v4_0_3)
+[777402.488285] amdgpu 0000:86:00.0: amdgpu: Fetched VBIOS from platform
+[777402.488288] amdgpu: ATOM BIOS: 113-M3000100-103
+[777402.489076] amdgpu 0000:86:00.0: amdgpu: Trusted Memory Zone (TMZ) feature not supported
+[777402.489191] amdgpu 0000:86:00.0: amdgpu: RAS INFO: ras initialized successfully, hardware ability[fdbff] ras_mask[fdbff]
+[777402.489344] amdgpu 0000:86:00.0: amdgpu: vm size is 262144 GB, 4 levels, block size is 9-bit, fragment size is 9-bit
+[777402.489366] amdgpu 0000:86:00.0: amdgpu: VRAM: 196592M 0x0000032000000000 - 0x0000034FFEFFFFFF (196592M used)
+[777402.489368] amdgpu 0000:86:00.0: amdgpu: GART: 512M 0x0000000000000000 - 0x000000001FFFFFFF
+[777402.489377] [drm] Detected VRAM RAM=196592M, BAR=262144M
+[777402.489378] [drm] RAM width 8192bits HBM
+[777402.489506] amdgpu 0000:86:00.0: amdgpu: amdgpu: 196592M of VRAM memory ready
+[777402.489508] amdgpu 0000:86:00.0: amdgpu: amdgpu: 773820M of GTT memory ready.
+[777402.489524] [drm] GART: num cpu pages 131072, num gpu pages 131072
+[777402.490518] [drm] PCIE GART of 512M enabled.
+[777402.490521] [drm] PTB located at 0x0000034FED700000
+[777402.497634] amdgpu 0000:86:00.0: amdgpu: [VCN instance 0] Found VCN firmware Version ENC: 1.24 DEC: 9 VEP: 0 Revision: 26
+[777402.497692] amdgpu 0000:86:00.0: amdgpu: [VCN instance 1] Found VCN firmware Version ENC: 1.24 DEC: 9 VEP: 0 Revision: 26
+[777402.497746] amdgpu 0000:86:00.0: amdgpu: [VCN instance 2] Found VCN firmware Version ENC: 1.24 DEC: 9 VEP: 0 Revision: 26
+[777402.497806] amdgpu 0000:86:00.0: amdgpu: [VCN instance 3] Found VCN firmware Version ENC: 1.24 DEC: 9 VEP: 0 Revision: 26
+[777405.201846] amdgpu 0000:86:00.0: amdgpu: RAP: optional rap ta ucode is not available
+[777405.203273] amdgpu 0000:86:00.0: amdgpu: SMU is initialized successfully!
+[777405.204956] amdgpu 0000:86:00.0: amdgpu: Requesting 1 partitions through PSP
+[777405.211957] amdgpu 0000:86:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777405.212488] amdgpu 0000:86:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777405.213059] amdgpu 0000:86:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777405.213643] amdgpu 0000:86:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777405.214239] amdgpu 0000:86:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777405.214824] amdgpu 0000:86:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777405.215436] amdgpu 0000:86:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777405.216057] amdgpu 0000:86:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777405.261175] amdgpu 0000:86:00.0: amdgpu: XGMI: Add node 6, hive 0xbfdb3d0edaa60097.
+[777405.507362] amdgpu: HMM registered 196592MB device memory
+[777405.508319] kfd kfd: amdgpu: Allocated 3969056 bytes on gart
+[777405.508405] kfd kfd: amdgpu: Total number of KFD nodes to be created: 1
+[777405.508407] kfd kfd: amdgpu: KFD node 0 partition 0 size 196592M
+[777405.508411] kfd kfd: amdgpu: Node: 0, interrupt_bitmap: 7777
+[777405.508759] amdgpu: Virtual CRAT table created for GPU
+[777405.514035] amdgpu: Topology: Add dGPU node [0x74a1:0x1002]
+[777405.834022] amdgpu 0000:86:00.0: added peer-to-peer DMA memory 0x1b4000000000-0x1b7fffffffff
+[777405.834028] amdgpu 0000:86:00.0: amdgpu: AIS: registered 196592MB device memory
+[777405.834032] kfd kfd: amdgpu: added device 1002:74a1
+[777405.848555] amdgpu 0000:86:00.0: amdgpu: SE 4, SH per SE 1, CU per SH 10, active_cu_number 304
+[777405.848563] amdgpu 0000:86:00.0: amdgpu: ring comp_0.1.0.0 uses VM inv eng 0 on hub 0
+[777405.848565] amdgpu 0000:86:00.0: amdgpu: ring comp_0.1.1.0 uses VM inv eng 1 on hub 0
+[777405.848566] amdgpu 0000:86:00.0: amdgpu: ring comp_0.1.2.0 uses VM inv eng 4 on hub 0
+[777405.848566] amdgpu 0000:86:00.0: amdgpu: ring comp_0.1.3.0 uses VM inv eng 5 on hub 0
+[777405.848567] amdgpu 0000:86:00.0: amdgpu: ring comp_0.1.0.1 uses VM inv eng 6 on hub 0
+[777405.848568] amdgpu 0000:86:00.0: amdgpu: ring comp_0.1.1.1 uses VM inv eng 7 on hub 0
+[777405.848568] amdgpu 0000:86:00.0: amdgpu: ring comp_0.1.2.1 uses VM inv eng 8 on hub 0
+[777405.848569] amdgpu 0000:86:00.0: amdgpu: ring comp_0.1.3.1 uses VM inv eng 9 on hub 0
+[777405.848570] amdgpu 0000:86:00.0: amdgpu: ring kiq_0.2.1.0 uses VM inv eng 10 on hub 0
+[777405.848570] amdgpu 0000:86:00.0: amdgpu: ring comp_1.1.0.0 uses VM inv eng 0 on hub 1
+[777405.848571] amdgpu 0000:86:00.0: amdgpu: ring comp_1.1.1.0 uses VM inv eng 1 on hub 1
+[777405.848571] amdgpu 0000:86:00.0: amdgpu: ring comp_1.1.2.0 uses VM inv eng 4 on hub 1
+[777405.848572] amdgpu 0000:86:00.0: amdgpu: ring comp_1.1.3.0 uses VM inv eng 5 on hub 1
+[777405.848573] amdgpu 0000:86:00.0: amdgpu: ring comp_1.1.0.1 uses VM inv eng 6 on hub 1
+[777405.848573] amdgpu 0000:86:00.0: amdgpu: ring comp_1.1.1.1 uses VM inv eng 7 on hub 1
+[777405.848574] amdgpu 0000:86:00.0: amdgpu: ring comp_1.1.2.1 uses VM inv eng 8 on hub 1
+[777405.848574] amdgpu 0000:86:00.0: amdgpu: ring comp_1.1.3.1 uses VM inv eng 9 on hub 1
+[777405.848575] amdgpu 0000:86:00.0: amdgpu: ring kiq_1.2.1.0 uses VM inv eng 10 on hub 1
+[777405.848575] amdgpu 0000:86:00.0: amdgpu: ring comp_2.1.0.0 uses VM inv eng 0 on hub 2
+[777405.848576] amdgpu 0000:86:00.0: amdgpu: ring comp_2.1.1.0 uses VM inv eng 1 on hub 2
+[777405.848576] amdgpu 0000:86:00.0: amdgpu: ring comp_2.1.2.0 uses VM inv eng 4 on hub 2
+[777405.848577] amdgpu 0000:86:00.0: amdgpu: ring comp_2.1.3.0 uses VM inv eng 5 on hub 2
+[777405.848578] amdgpu 0000:86:00.0: amdgpu: ring comp_2.1.0.1 uses VM inv eng 6 on hub 2
+[777405.848578] amdgpu 0000:86:00.0: amdgpu: ring comp_2.1.1.1 uses VM inv eng 7 on hub 2
+[777405.848578] amdgpu 0000:86:00.0: amdgpu: ring comp_2.1.2.1 uses VM inv eng 8 on hub 2
+[777405.848579] amdgpu 0000:86:00.0: amdgpu: ring comp_2.1.3.1 uses VM inv eng 9 on hub 2
+[777405.848580] amdgpu 0000:86:00.0: amdgpu: ring kiq_2.2.1.0 uses VM inv eng 10 on hub 2
+[777405.848580] amdgpu 0000:86:00.0: amdgpu: ring comp_3.1.0.0 uses VM inv eng 0 on hub 3
+[777405.848581] amdgpu 0000:86:00.0: amdgpu: ring comp_3.1.1.0 uses VM inv eng 1 on hub 3
+[777405.848581] amdgpu 0000:86:00.0: amdgpu: ring comp_3.1.2.0 uses VM inv eng 4 on hub 3
+[777405.848582] amdgpu 0000:86:00.0: amdgpu: ring comp_3.1.3.0 uses VM inv eng 5 on hub 3
+[777405.848582] amdgpu 0000:86:00.0: amdgpu: ring comp_3.1.0.1 uses VM inv eng 6 on hub 3
+[777405.848583] amdgpu 0000:86:00.0: amdgpu: ring comp_3.1.1.1 uses VM inv eng 7 on hub 3
+[777405.848583] amdgpu 0000:86:00.0: amdgpu: ring comp_3.1.2.1 uses VM inv eng 8 on hub 3
+[777405.848584] amdgpu 0000:86:00.0: amdgpu: ring comp_3.1.3.1 uses VM inv eng 9 on hub 3
+[777405.848584] amdgpu 0000:86:00.0: amdgpu: ring kiq_3.2.1.0 uses VM inv eng 10 on hub 3
+[777405.848585] amdgpu 0000:86:00.0: amdgpu: ring comp_4.1.0.0 uses VM inv eng 0 on hub 4
+[777405.848585] amdgpu 0000:86:00.0: amdgpu: ring comp_4.1.1.0 uses VM inv eng 1 on hub 4
+[777405.848586] amdgpu 0000:86:00.0: amdgpu: ring comp_4.1.2.0 uses VM inv eng 4 on hub 4
+[777405.848586] amdgpu 0000:86:00.0: amdgpu: ring comp_4.1.3.0 uses VM inv eng 5 on hub 4
+[777405.848587] amdgpu 0000:86:00.0: amdgpu: ring comp_4.1.0.1 uses VM inv eng 6 on hub 4
+[777405.848587] amdgpu 0000:86:00.0: amdgpu: ring comp_4.1.1.1 uses VM inv eng 7 on hub 4
+[777405.848588] amdgpu 0000:86:00.0: amdgpu: ring comp_4.1.2.1 uses VM inv eng 8 on hub 4
+[777405.848589] amdgpu 0000:86:00.0: amdgpu: ring comp_4.1.3.1 uses VM inv eng 9 on hub 4
+[777405.848589] amdgpu 0000:86:00.0: amdgpu: ring kiq_4.2.1.0 uses VM inv eng 10 on hub 4
+[777405.848590] amdgpu 0000:86:00.0: amdgpu: ring comp_5.1.0.0 uses VM inv eng 0 on hub 5
+[777405.848590] amdgpu 0000:86:00.0: amdgpu: ring comp_5.1.1.0 uses VM inv eng 1 on hub 5
+[777405.848591] amdgpu 0000:86:00.0: amdgpu: ring comp_5.1.2.0 uses VM inv eng 4 on hub 5
+[777405.848591] amdgpu 0000:86:00.0: amdgpu: ring comp_5.1.3.0 uses VM inv eng 5 on hub 5
+[777405.848592] amdgpu 0000:86:00.0: amdgpu: ring comp_5.1.0.1 uses VM inv eng 6 on hub 5
+[777405.848592] amdgpu 0000:86:00.0: amdgpu: ring comp_5.1.1.1 uses VM inv eng 7 on hub 5
+[777405.848593] amdgpu 0000:86:00.0: amdgpu: ring comp_5.1.2.1 uses VM inv eng 8 on hub 5
+[777405.848593] amdgpu 0000:86:00.0: amdgpu: ring comp_5.1.3.1 uses VM inv eng 9 on hub 5
+[777405.848594] amdgpu 0000:86:00.0: amdgpu: ring kiq_5.2.1.0 uses VM inv eng 10 on hub 5
+[777405.848595] amdgpu 0000:86:00.0: amdgpu: ring comp_6.1.0.0 uses VM inv eng 0 on hub 6
+[777405.848595] amdgpu 0000:86:00.0: amdgpu: ring comp_6.1.1.0 uses VM inv eng 1 on hub 6
+[777405.848596] amdgpu 0000:86:00.0: amdgpu: ring comp_6.1.2.0 uses VM inv eng 4 on hub 6
+[777405.848596] amdgpu 0000:86:00.0: amdgpu: ring comp_6.1.3.0 uses VM inv eng 5 on hub 6
+[777405.848597] amdgpu 0000:86:00.0: amdgpu: ring comp_6.1.0.1 uses VM inv eng 6 on hub 6
+[777405.848597] amdgpu 0000:86:00.0: amdgpu: ring comp_6.1.1.1 uses VM inv eng 7 on hub 6
+[777405.848598] amdgpu 0000:86:00.0: amdgpu: ring comp_6.1.2.1 uses VM inv eng 8 on hub 6
+[777405.848599] amdgpu 0000:86:00.0: amdgpu: ring comp_6.1.3.1 uses VM inv eng 9 on hub 6
+[777405.848599] amdgpu 0000:86:00.0: amdgpu: ring kiq_6.2.1.0 uses VM inv eng 10 on hub 6
+[777405.848600] amdgpu 0000:86:00.0: amdgpu: ring comp_7.1.0.0 uses VM inv eng 0 on hub 7
+[777405.848600] amdgpu 0000:86:00.0: amdgpu: ring comp_7.1.1.0 uses VM inv eng 1 on hub 7
+[777405.848601] amdgpu 0000:86:00.0: amdgpu: ring comp_7.1.2.0 uses VM inv eng 4 on hub 7
+[777405.848601] amdgpu 0000:86:00.0: amdgpu: ring comp_7.1.3.0 uses VM inv eng 5 on hub 7
+[777405.848602] amdgpu 0000:86:00.0: amdgpu: ring comp_7.1.0.1 uses VM inv eng 6 on hub 7
+[777405.848602] amdgpu 0000:86:00.0: amdgpu: ring comp_7.1.1.1 uses VM inv eng 7 on hub 7
+[777405.848603] amdgpu 0000:86:00.0: amdgpu: ring comp_7.1.2.1 uses VM inv eng 8 on hub 7
+[777405.848603] amdgpu 0000:86:00.0: amdgpu: ring comp_7.1.3.1 uses VM inv eng 9 on hub 7
+[777405.848604] amdgpu 0000:86:00.0: amdgpu: ring kiq_7.2.1.0 uses VM inv eng 10 on hub 7
+[777405.848605] amdgpu 0000:86:00.0: amdgpu: ring sdma0.0 uses VM inv eng 0 on hub 8
+[777405.848605] amdgpu 0000:86:00.0: amdgpu: ring sdma0.1 uses VM inv eng 1 on hub 8
+[777405.848606] amdgpu 0000:86:00.0: amdgpu: ring sdma0.2 uses VM inv eng 4 on hub 8
+[777405.848606] amdgpu 0000:86:00.0: amdgpu: ring sdma0.3 uses VM inv eng 5 on hub 8
+[777405.848607] amdgpu 0000:86:00.0: amdgpu: ring sdma1.0 uses VM inv eng 0 on hub 9
+[777405.848608] amdgpu 0000:86:00.0: amdgpu: ring sdma1.1 uses VM inv eng 1 on hub 9
+[777405.848608] amdgpu 0000:86:00.0: amdgpu: ring sdma1.2 uses VM inv eng 4 on hub 9
+[777405.848609] amdgpu 0000:86:00.0: amdgpu: ring sdma1.3 uses VM inv eng 5 on hub 9
+[777405.848609] amdgpu 0000:86:00.0: amdgpu: ring sdma2.0 uses VM inv eng 0 on hub 10
+[777405.848610] amdgpu 0000:86:00.0: amdgpu: ring sdma2.1 uses VM inv eng 1 on hub 10
+[777405.848610] amdgpu 0000:86:00.0: amdgpu: ring sdma2.2 uses VM inv eng 4 on hub 10
+[777405.848611] amdgpu 0000:86:00.0: amdgpu: ring sdma2.3 uses VM inv eng 5 on hub 10
+[777405.848611] amdgpu 0000:86:00.0: amdgpu: ring sdma3.0 uses VM inv eng 0 on hub 11
+[777405.848612] amdgpu 0000:86:00.0: amdgpu: ring sdma3.1 uses VM inv eng 1 on hub 11
+[777405.848613] amdgpu 0000:86:00.0: amdgpu: ring sdma3.2 uses VM inv eng 4 on hub 11
+[777405.848613] amdgpu 0000:86:00.0: amdgpu: ring sdma3.3 uses VM inv eng 5 on hub 11
+[777405.848614] amdgpu 0000:86:00.0: amdgpu: ring vcn_unified_0 uses VM inv eng 6 on hub 8
+[777405.848614] amdgpu 0000:86:00.0: amdgpu: ring vcn_unified_1 uses VM inv eng 6 on hub 9
+[777405.848615] amdgpu 0000:86:00.0: amdgpu: ring vcn_unified_2 uses VM inv eng 6 on hub 10
+[777405.848616] amdgpu 0000:86:00.0: amdgpu: ring vcn_unified_3 uses VM inv eng 6 on hub 11
+[777405.848616] amdgpu 0000:86:00.0: amdgpu: ring jpeg_dec_0.0 uses VM inv eng 7 on hub 8
+[777405.848617] amdgpu 0000:86:00.0: amdgpu: ring jpeg_dec_0.1 uses VM inv eng 8 on hub 8
+[777405.848618] amdgpu 0000:86:00.0: amdgpu: ring jpeg_dec_0.2 uses VM inv eng 9 on hub 8
+[777405.848618] amdgpu 0000:86:00.0: amdgpu: ring jpeg_dec_0.3 uses VM inv eng 10 on hub 8
+[777405.848619] amdgpu 0000:86:00.0: amdgpu: ring jpeg_dec_0.4 uses VM inv eng 11 on hub 8
+[777405.848619] amdgpu 0000:86:00.0: amdgpu: ring jpeg_dec_0.5 uses VM inv eng 12 on hub 8
+[777405.848620] amdgpu 0000:86:00.0: amdgpu: ring jpeg_dec_0.6 uses VM inv eng 13 on hub 8
+[777405.848620] amdgpu 0000:86:00.0: amdgpu: ring jpeg_dec_0.7 uses VM inv eng 14 on hub 8
+[777405.848621] amdgpu 0000:86:00.0: amdgpu: ring jpeg_dec_1.0 uses VM inv eng 7 on hub 9
+[777405.848622] amdgpu 0000:86:00.0: amdgpu: ring jpeg_dec_1.1 uses VM inv eng 8 on hub 9
+[777405.848622] amdgpu 0000:86:00.0: amdgpu: ring jpeg_dec_1.2 uses VM inv eng 9 on hub 9
+[777405.848623] amdgpu 0000:86:00.0: amdgpu: ring jpeg_dec_1.3 uses VM inv eng 10 on hub 9
+[777405.848623] amdgpu 0000:86:00.0: amdgpu: ring jpeg_dec_1.4 uses VM inv eng 11 on hub 9
+[777405.848624] amdgpu 0000:86:00.0: amdgpu: ring jpeg_dec_1.5 uses VM inv eng 12 on hub 9
+[777405.848624] amdgpu 0000:86:00.0: amdgpu: ring jpeg_dec_1.6 uses VM inv eng 13 on hub 9
+[777405.848625] amdgpu 0000:86:00.0: amdgpu: ring jpeg_dec_1.7 uses VM inv eng 14 on hub 9
+[777405.848625] amdgpu 0000:86:00.0: amdgpu: ring jpeg_dec_2.0 uses VM inv eng 7 on hub 10
+[777405.848626] amdgpu 0000:86:00.0: amdgpu: ring jpeg_dec_2.1 uses VM inv eng 8 on hub 10
+[777405.848627] amdgpu 0000:86:00.0: amdgpu: ring jpeg_dec_2.2 uses VM inv eng 9 on hub 10
+[777405.848627] amdgpu 0000:86:00.0: amdgpu: ring jpeg_dec_2.3 uses VM inv eng 10 on hub 10
+[777405.848628] amdgpu 0000:86:00.0: amdgpu: ring jpeg_dec_2.4 uses VM inv eng 11 on hub 10
+[777405.848628] amdgpu 0000:86:00.0: amdgpu: ring jpeg_dec_2.5 uses VM inv eng 12 on hub 10
+[777405.848629] amdgpu 0000:86:00.0: amdgpu: ring jpeg_dec_2.6 uses VM inv eng 13 on hub 10
+[777405.848630] amdgpu 0000:86:00.0: amdgpu: ring jpeg_dec_2.7 uses VM inv eng 14 on hub 10
+[777405.848630] amdgpu 0000:86:00.0: amdgpu: ring jpeg_dec_3.0 uses VM inv eng 7 on hub 11
+[777405.848631] amdgpu 0000:86:00.0: amdgpu: ring jpeg_dec_3.1 uses VM inv eng 8 on hub 11
+[777405.848631] amdgpu 0000:86:00.0: amdgpu: ring jpeg_dec_3.2 uses VM inv eng 9 on hub 11
+[777405.848632] amdgpu 0000:86:00.0: amdgpu: ring jpeg_dec_3.3 uses VM inv eng 10 on hub 11
+[777405.848632] amdgpu 0000:86:00.0: amdgpu: ring jpeg_dec_3.4 uses VM inv eng 11 on hub 11
+[777405.848633] amdgpu 0000:86:00.0: amdgpu: ring jpeg_dec_3.5 uses VM inv eng 12 on hub 11
+[777405.848633] amdgpu 0000:86:00.0: amdgpu: ring jpeg_dec_3.6 uses VM inv eng 13 on hub 11
+[777405.848634] amdgpu 0000:86:00.0: amdgpu: ring jpeg_dec_3.7 uses VM inv eng 14 on hub 11
+[777405.861255] amdgpu 0000:86:00.0: amdgpu: Runtime PM not available
+[777405.861358] [drm] Initialized amdgpu 3.64.0 20150101 for 0000:86:00.0 on minor 41
+[777405.861402] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_35 on minor 42
+[777405.861449] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_36 on minor 43
+[777405.861483] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_37 on minor 44
+[777405.861518] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_38 on minor 45
+[777405.861546] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_39 on minor 46
+[777405.861588] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_40 on minor 47
+[777405.861619] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_41 on minor 48
+[777405.866935] amdgpu 0000:e6:00.0: amdgpu: initializing kernel modesetting (IP DISCOVERY 0x1002:0x74A1 0x1002:0x74A1 0x00).
+[777405.867050] amdgpu 0000:e6:00.0: amdgpu: register mmio base: 0xC7200000
+[777405.867052] amdgpu 0000:e6:00.0: amdgpu: register mmio size: 2097152
+[777405.871789] amdgpu 0000:e6:00.0: amdgpu: detected ip block number 0 <common_v2_0_0> (soc15_common)
+[777405.871793] amdgpu 0000:e6:00.0: amdgpu: detected ip block number 1 <gmc_v9_0_0> (gmc_v9_0)
+[777405.871795] amdgpu 0000:e6:00.0: amdgpu: detected ip block number 2 <ih_v4_2_0> (vega20_ih)
+[777405.871796] amdgpu 0000:e6:00.0: amdgpu: detected ip block number 3 <psp_v13_0_0> (psp)
+[777405.871798] amdgpu 0000:e6:00.0: amdgpu: detected ip block number 4 <smu_v13_0_0> (smu)
+[777405.871799] amdgpu 0000:e6:00.0: amdgpu: detected ip block number 5 <gfx_v9_4_3> (gfx_v9_4_3)
+[777405.871801] amdgpu 0000:e6:00.0: amdgpu: detected ip block number 6 <sdma_v4_4_2> (sdma_v4_4_2)
+[777405.871802] amdgpu 0000:e6:00.0: amdgpu: detected ip block number 7 <ras_v1_0_0> (ras_v1_0)
+[777405.871804] amdgpu 0000:e6:00.0: amdgpu: detected ip block number 8 <vcn_v4_0_3> (vcn_v4_0_3)
+[777405.871805] amdgpu 0000:e6:00.0: amdgpu: detected ip block number 9 <jpeg_v4_0_3> (jpeg_v4_0_3)
+[777405.876740] amdgpu 0000:e6:00.0: amdgpu: Fetched VBIOS from platform
+[777405.876743] amdgpu: ATOM BIOS: 113-M3000100-103
+[777405.877530] amdgpu 0000:e6:00.0: amdgpu: Trusted Memory Zone (TMZ) feature not supported
+[777405.877641] amdgpu 0000:e6:00.0: amdgpu: RAS INFO: ras initialized successfully, hardware ability[fdbff] ras_mask[fdbff]
+[777405.877800] amdgpu 0000:e6:00.0: amdgpu: vm size is 262144 GB, 4 levels, block size is 9-bit, fragment size is 9-bit
+[777405.877819] amdgpu 0000:e6:00.0: amdgpu: VRAM: 196592M 0x0000035000000000 - 0x0000037FFEFFFFFF (196592M used)
+[777405.877821] amdgpu 0000:e6:00.0: amdgpu: GART: 512M 0x0000000000000000 - 0x000000001FFFFFFF
+[777405.877836] [drm] Detected VRAM RAM=196592M, BAR=262144M
+[777405.877840] [drm] RAM width 8192bits HBM
+[777405.877967] amdgpu 0000:e6:00.0: amdgpu: amdgpu: 196592M of VRAM memory ready
+[777405.877969] amdgpu 0000:e6:00.0: amdgpu: amdgpu: 773820M of GTT memory ready.
+[777405.877985] [drm] GART: num cpu pages 131072, num gpu pages 131072
+[777405.879025] [drm] PCIE GART of 512M enabled.
+[777405.879029] [drm] PTB located at 0x0000037FED700000
+[777405.886225] amdgpu 0000:e6:00.0: amdgpu: [VCN instance 0] Found VCN firmware Version ENC: 1.24 DEC: 9 VEP: 0 Revision: 26
+[777405.886283] amdgpu 0000:e6:00.0: amdgpu: [VCN instance 1] Found VCN firmware Version ENC: 1.24 DEC: 9 VEP: 0 Revision: 26
+[777405.886341] amdgpu 0000:e6:00.0: amdgpu: [VCN instance 2] Found VCN firmware Version ENC: 1.24 DEC: 9 VEP: 0 Revision: 26
+[777405.886396] amdgpu 0000:e6:00.0: amdgpu: [VCN instance 3] Found VCN firmware Version ENC: 1.24 DEC: 9 VEP: 0 Revision: 26
+[777408.591055] amdgpu 0000:e6:00.0: amdgpu: RAP: optional rap ta ucode is not available
+[777408.592990] amdgpu 0000:e6:00.0: amdgpu: SMU is initialized successfully!
+[777408.594709] amdgpu 0000:e6:00.0: amdgpu: Requesting 1 partitions through PSP
+[777408.601864] amdgpu 0000:e6:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777408.602398] amdgpu 0000:e6:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777408.602968] amdgpu 0000:e6:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777408.603553] amdgpu 0000:e6:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777408.604149] amdgpu 0000:e6:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777408.604744] amdgpu 0000:e6:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777408.605352] amdgpu 0000:e6:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777408.605981] amdgpu 0000:e6:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777408.657082] amdgpu 0000:e6:00.0: amdgpu: XGMI: Add node 7, hive 0xbfdb3d0edaa60097.
+[777408.903878] amdgpu: HMM registered 196592MB device memory
+[777408.904791] kfd kfd: amdgpu: Allocated 3969056 bytes on gart
+[777408.904888] kfd kfd: amdgpu: Total number of KFD nodes to be created: 1
+[777408.904891] kfd kfd: amdgpu: KFD node 0 partition 0 size 196592M
+[777408.904895] kfd kfd: amdgpu: Node: 0, interrupt_bitmap: 7777
+[777408.905257] amdgpu: Virtual CRAT table created for GPU
+[777408.911803] amdgpu: Topology: Add dGPU node [0x74a1:0x1002]
+[777409.231217] amdgpu 0000:e6:00.0: added peer-to-peer DMA memory 0x154000000000-0x157fffffffff
+[777409.231222] amdgpu 0000:e6:00.0: amdgpu: AIS: registered 196592MB device memory
+[777409.231226] kfd kfd: amdgpu: added device 1002:74a1
+[777409.245485] amdgpu 0000:e6:00.0: amdgpu: SE 4, SH per SE 1, CU per SH 10, active_cu_number 304
+[777409.245491] amdgpu 0000:e6:00.0: amdgpu: ring comp_0.1.0.0 uses VM inv eng 0 on hub 0
+[777409.245493] amdgpu 0000:e6:00.0: amdgpu: ring comp_0.1.1.0 uses VM inv eng 1 on hub 0
+[777409.245494] amdgpu 0000:e6:00.0: amdgpu: ring comp_0.1.2.0 uses VM inv eng 4 on hub 0
+[777409.245495] amdgpu 0000:e6:00.0: amdgpu: ring comp_0.1.3.0 uses VM inv eng 5 on hub 0
+[777409.245496] amdgpu 0000:e6:00.0: amdgpu: ring comp_0.1.0.1 uses VM inv eng 6 on hub 0
+[777409.245496] amdgpu 0000:e6:00.0: amdgpu: ring comp_0.1.1.1 uses VM inv eng 7 on hub 0
+[777409.245497] amdgpu 0000:e6:00.0: amdgpu: ring comp_0.1.2.1 uses VM inv eng 8 on hub 0
+[777409.245498] amdgpu 0000:e6:00.0: amdgpu: ring comp_0.1.3.1 uses VM inv eng 9 on hub 0
+[777409.245498] amdgpu 0000:e6:00.0: amdgpu: ring kiq_0.2.1.0 uses VM inv eng 10 on hub 0
+[777409.245499] amdgpu 0000:e6:00.0: amdgpu: ring comp_1.1.0.0 uses VM inv eng 0 on hub 1
+[777409.245500] amdgpu 0000:e6:00.0: amdgpu: ring comp_1.1.1.0 uses VM inv eng 1 on hub 1
+[777409.245500] amdgpu 0000:e6:00.0: amdgpu: ring comp_1.1.2.0 uses VM inv eng 4 on hub 1
+[777409.245501] amdgpu 0000:e6:00.0: amdgpu: ring comp_1.1.3.0 uses VM inv eng 5 on hub 1
+[777409.245501] amdgpu 0000:e6:00.0: amdgpu: ring comp_1.1.0.1 uses VM inv eng 6 on hub 1
+[777409.245502] amdgpu 0000:e6:00.0: amdgpu: ring comp_1.1.1.1 uses VM inv eng 7 on hub 1
+[777409.245503] amdgpu 0000:e6:00.0: amdgpu: ring comp_1.1.2.1 uses VM inv eng 8 on hub 1
+[777409.245503] amdgpu 0000:e6:00.0: amdgpu: ring comp_1.1.3.1 uses VM inv eng 9 on hub 1
+[777409.245504] amdgpu 0000:e6:00.0: amdgpu: ring kiq_1.2.1.0 uses VM inv eng 10 on hub 1
+[777409.245504] amdgpu 0000:e6:00.0: amdgpu: ring comp_2.1.0.0 uses VM inv eng 0 on hub 2
+[777409.245505] amdgpu 0000:e6:00.0: amdgpu: ring comp_2.1.1.0 uses VM inv eng 1 on hub 2
+[777409.245505] amdgpu 0000:e6:00.0: amdgpu: ring comp_2.1.2.0 uses VM inv eng 4 on hub 2
+[777409.245506] amdgpu 0000:e6:00.0: amdgpu: ring comp_2.1.3.0 uses VM inv eng 5 on hub 2
+[777409.245507] amdgpu 0000:e6:00.0: amdgpu: ring comp_2.1.0.1 uses VM inv eng 6 on hub 2
+[777409.245507] amdgpu 0000:e6:00.0: amdgpu: ring comp_2.1.1.1 uses VM inv eng 7 on hub 2
+[777409.245508] amdgpu 0000:e6:00.0: amdgpu: ring comp_2.1.2.1 uses VM inv eng 8 on hub 2
+[777409.245508] amdgpu 0000:e6:00.0: amdgpu: ring comp_2.1.3.1 uses VM inv eng 9 on hub 2
+[777409.245509] amdgpu 0000:e6:00.0: amdgpu: ring kiq_2.2.1.0 uses VM inv eng 10 on hub 2
+[777409.245509] amdgpu 0000:e6:00.0: amdgpu: ring comp_3.1.0.0 uses VM inv eng 0 on hub 3
+[777409.245510] amdgpu 0000:e6:00.0: amdgpu: ring comp_3.1.1.0 uses VM inv eng 1 on hub 3
+[777409.245510] amdgpu 0000:e6:00.0: amdgpu: ring comp_3.1.2.0 uses VM inv eng 4 on hub 3
+[777409.245511] amdgpu 0000:e6:00.0: amdgpu: ring comp_3.1.3.0 uses VM inv eng 5 on hub 3
+[777409.245512] amdgpu 0000:e6:00.0: amdgpu: ring comp_3.1.0.1 uses VM inv eng 6 on hub 3
+[777409.245512] amdgpu 0000:e6:00.0: amdgpu: ring comp_3.1.1.1 uses VM inv eng 7 on hub 3
+[777409.245513] amdgpu 0000:e6:00.0: amdgpu: ring comp_3.1.2.1 uses VM inv eng 8 on hub 3
+[777409.245513] amdgpu 0000:e6:00.0: amdgpu: ring comp_3.1.3.1 uses VM inv eng 9 on hub 3
+[777409.245514] amdgpu 0000:e6:00.0: amdgpu: ring kiq_3.2.1.0 uses VM inv eng 10 on hub 3
+[777409.245514] amdgpu 0000:e6:00.0: amdgpu: ring comp_4.1.0.0 uses VM inv eng 0 on hub 4
+[777409.245515] amdgpu 0000:e6:00.0: amdgpu: ring comp_4.1.1.0 uses VM inv eng 1 on hub 4
+[777409.245515] amdgpu 0000:e6:00.0: amdgpu: ring comp_4.1.2.0 uses VM inv eng 4 on hub 4
+[777409.245516] amdgpu 0000:e6:00.0: amdgpu: ring comp_4.1.3.0 uses VM inv eng 5 on hub 4
+[777409.245517] amdgpu 0000:e6:00.0: amdgpu: ring comp_4.1.0.1 uses VM inv eng 6 on hub 4
+[777409.245517] amdgpu 0000:e6:00.0: amdgpu: ring comp_4.1.1.1 uses VM inv eng 7 on hub 4
+[777409.245518] amdgpu 0000:e6:00.0: amdgpu: ring comp_4.1.2.1 uses VM inv eng 8 on hub 4
+[777409.245518] amdgpu 0000:e6:00.0: amdgpu: ring comp_4.1.3.1 uses VM inv eng 9 on hub 4
+[777409.245519] amdgpu 0000:e6:00.0: amdgpu: ring kiq_4.2.1.0 uses VM inv eng 10 on hub 4
+[777409.245519] amdgpu 0000:e6:00.0: amdgpu: ring comp_5.1.0.0 uses VM inv eng 0 on hub 5
+[777409.245520] amdgpu 0000:e6:00.0: amdgpu: ring comp_5.1.1.0 uses VM inv eng 1 on hub 5
+[777409.245521] amdgpu 0000:e6:00.0: amdgpu: ring comp_5.1.2.0 uses VM inv eng 4 on hub 5
+[777409.245521] amdgpu 0000:e6:00.0: amdgpu: ring comp_5.1.3.0 uses VM inv eng 5 on hub 5
+[777409.245522] amdgpu 0000:e6:00.0: amdgpu: ring comp_5.1.0.1 uses VM inv eng 6 on hub 5
+[777409.245522] amdgpu 0000:e6:00.0: amdgpu: ring comp_5.1.1.1 uses VM inv eng 7 on hub 5
+[777409.245523] amdgpu 0000:e6:00.0: amdgpu: ring comp_5.1.2.1 uses VM inv eng 8 on hub 5
+[777409.245523] amdgpu 0000:e6:00.0: amdgpu: ring comp_5.1.3.1 uses VM inv eng 9 on hub 5
+[777409.245524] amdgpu 0000:e6:00.0: amdgpu: ring kiq_5.2.1.0 uses VM inv eng 10 on hub 5
+[777409.245524] amdgpu 0000:e6:00.0: amdgpu: ring comp_6.1.0.0 uses VM inv eng 0 on hub 6
+[777409.245525] amdgpu 0000:e6:00.0: amdgpu: ring comp_6.1.1.0 uses VM inv eng 1 on hub 6
+[777409.245525] amdgpu 0000:e6:00.0: amdgpu: ring comp_6.1.2.0 uses VM inv eng 4 on hub 6
+[777409.245526] amdgpu 0000:e6:00.0: amdgpu: ring comp_6.1.3.0 uses VM inv eng 5 on hub 6
+[777409.245526] amdgpu 0000:e6:00.0: amdgpu: ring comp_6.1.0.1 uses VM inv eng 6 on hub 6
+[777409.245527] amdgpu 0000:e6:00.0: amdgpu: ring comp_6.1.1.1 uses VM inv eng 7 on hub 6
+[777409.245528] amdgpu 0000:e6:00.0: amdgpu: ring comp_6.1.2.1 uses VM inv eng 8 on hub 6
+[777409.245528] amdgpu 0000:e6:00.0: amdgpu: ring comp_6.1.3.1 uses VM inv eng 9 on hub 6
+[777409.245529] amdgpu 0000:e6:00.0: amdgpu: ring kiq_6.2.1.0 uses VM inv eng 10 on hub 6
+[777409.245529] amdgpu 0000:e6:00.0: amdgpu: ring comp_7.1.0.0 uses VM inv eng 0 on hub 7
+[777409.245530] amdgpu 0000:e6:00.0: amdgpu: ring comp_7.1.1.0 uses VM inv eng 1 on hub 7
+[777409.245530] amdgpu 0000:e6:00.0: amdgpu: ring comp_7.1.2.0 uses VM inv eng 4 on hub 7
+[777409.245531] amdgpu 0000:e6:00.0: amdgpu: ring comp_7.1.3.0 uses VM inv eng 5 on hub 7
+[777409.245531] amdgpu 0000:e6:00.0: amdgpu: ring comp_7.1.0.1 uses VM inv eng 6 on hub 7
+[777409.245532] amdgpu 0000:e6:00.0: amdgpu: ring comp_7.1.1.1 uses VM inv eng 7 on hub 7
+[777409.245532] amdgpu 0000:e6:00.0: amdgpu: ring comp_7.1.2.1 uses VM inv eng 8 on hub 7
+[777409.245533] amdgpu 0000:e6:00.0: amdgpu: ring comp_7.1.3.1 uses VM inv eng 9 on hub 7
+[777409.245533] amdgpu 0000:e6:00.0: amdgpu: ring kiq_7.2.1.0 uses VM inv eng 10 on hub 7
+[777409.245534] amdgpu 0000:e6:00.0: amdgpu: ring sdma0.0 uses VM inv eng 0 on hub 8
+[777409.245534] amdgpu 0000:e6:00.0: amdgpu: ring sdma0.1 uses VM inv eng 1 on hub 8
+[777409.245535] amdgpu 0000:e6:00.0: amdgpu: ring sdma0.2 uses VM inv eng 4 on hub 8
+[777409.245536] amdgpu 0000:e6:00.0: amdgpu: ring sdma0.3 uses VM inv eng 5 on hub 8
+[777409.245536] amdgpu 0000:e6:00.0: amdgpu: ring sdma1.0 uses VM inv eng 0 on hub 9
+[777409.245537] amdgpu 0000:e6:00.0: amdgpu: ring sdma1.1 uses VM inv eng 1 on hub 9
+[777409.245537] amdgpu 0000:e6:00.0: amdgpu: ring sdma1.2 uses VM inv eng 4 on hub 9
+[777409.245538] amdgpu 0000:e6:00.0: amdgpu: ring sdma1.3 uses VM inv eng 5 on hub 9
+[777409.245538] amdgpu 0000:e6:00.0: amdgpu: ring sdma2.0 uses VM inv eng 0 on hub 10
+[777409.245539] amdgpu 0000:e6:00.0: amdgpu: ring sdma2.1 uses VM inv eng 1 on hub 10
+[777409.245539] amdgpu 0000:e6:00.0: amdgpu: ring sdma2.2 uses VM inv eng 4 on hub 10
+[777409.245540] amdgpu 0000:e6:00.0: amdgpu: ring sdma2.3 uses VM inv eng 5 on hub 10
+[777409.245540] amdgpu 0000:e6:00.0: amdgpu: ring sdma3.0 uses VM inv eng 0 on hub 11
+[777409.245541] amdgpu 0000:e6:00.0: amdgpu: ring sdma3.1 uses VM inv eng 1 on hub 11
+[777409.245541] amdgpu 0000:e6:00.0: amdgpu: ring sdma3.2 uses VM inv eng 4 on hub 11
+[777409.245542] amdgpu 0000:e6:00.0: amdgpu: ring sdma3.3 uses VM inv eng 5 on hub 11
+[777409.245543] amdgpu 0000:e6:00.0: amdgpu: ring vcn_unified_0 uses VM inv eng 6 on hub 8
+[777409.245543] amdgpu 0000:e6:00.0: amdgpu: ring vcn_unified_1 uses VM inv eng 6 on hub 9
+[777409.245544] amdgpu 0000:e6:00.0: amdgpu: ring vcn_unified_2 uses VM inv eng 6 on hub 10
+[777409.245545] amdgpu 0000:e6:00.0: amdgpu: ring vcn_unified_3 uses VM inv eng 6 on hub 11
+[777409.245545] amdgpu 0000:e6:00.0: amdgpu: ring jpeg_dec_0.0 uses VM inv eng 7 on hub 8
+[777409.245546] amdgpu 0000:e6:00.0: amdgpu: ring jpeg_dec_0.1 uses VM inv eng 8 on hub 8
+[777409.245547] amdgpu 0000:e6:00.0: amdgpu: ring jpeg_dec_0.2 uses VM inv eng 9 on hub 8
+[777409.245547] amdgpu 0000:e6:00.0: amdgpu: ring jpeg_dec_0.3 uses VM inv eng 10 on hub 8
+[777409.245548] amdgpu 0000:e6:00.0: amdgpu: ring jpeg_dec_0.4 uses VM inv eng 11 on hub 8
+[777409.245548] amdgpu 0000:e6:00.0: amdgpu: ring jpeg_dec_0.5 uses VM inv eng 12 on hub 8
+[777409.245549] amdgpu 0000:e6:00.0: amdgpu: ring jpeg_dec_0.6 uses VM inv eng 13 on hub 8
+[777409.245549] amdgpu 0000:e6:00.0: amdgpu: ring jpeg_dec_0.7 uses VM inv eng 14 on hub 8
+[777409.245550] amdgpu 0000:e6:00.0: amdgpu: ring jpeg_dec_1.0 uses VM inv eng 7 on hub 9
+[777409.245551] amdgpu 0000:e6:00.0: amdgpu: ring jpeg_dec_1.1 uses VM inv eng 8 on hub 9
+[777409.245551] amdgpu 0000:e6:00.0: amdgpu: ring jpeg_dec_1.2 uses VM inv eng 9 on hub 9
+[777409.245552] amdgpu 0000:e6:00.0: amdgpu: ring jpeg_dec_1.3 uses VM inv eng 10 on hub 9
+[777409.245552] amdgpu 0000:e6:00.0: amdgpu: ring jpeg_dec_1.4 uses VM inv eng 11 on hub 9
+[777409.245553] amdgpu 0000:e6:00.0: amdgpu: ring jpeg_dec_1.5 uses VM inv eng 12 on hub 9
+[777409.245553] amdgpu 0000:e6:00.0: amdgpu: ring jpeg_dec_1.6 uses VM inv eng 13 on hub 9
+[777409.245554] amdgpu 0000:e6:00.0: amdgpu: ring jpeg_dec_1.7 uses VM inv eng 14 on hub 9
+[777409.245554] amdgpu 0000:e6:00.0: amdgpu: ring jpeg_dec_2.0 uses VM inv eng 7 on hub 10
+[777409.245555] amdgpu 0000:e6:00.0: amdgpu: ring jpeg_dec_2.1 uses VM inv eng 8 on hub 10
+[777409.245555] amdgpu 0000:e6:00.0: amdgpu: ring jpeg_dec_2.2 uses VM inv eng 9 on hub 10
+[777409.245556] amdgpu 0000:e6:00.0: amdgpu: ring jpeg_dec_2.3 uses VM inv eng 10 on hub 10
+[777409.245557] amdgpu 0000:e6:00.0: amdgpu: ring jpeg_dec_2.4 uses VM inv eng 11 on hub 10
+[777409.245557] amdgpu 0000:e6:00.0: amdgpu: ring jpeg_dec_2.5 uses VM inv eng 12 on hub 10
+[777409.245558] amdgpu 0000:e6:00.0: amdgpu: ring jpeg_dec_2.6 uses VM inv eng 13 on hub 10
+[777409.245558] amdgpu 0000:e6:00.0: amdgpu: ring jpeg_dec_2.7 uses VM inv eng 14 on hub 10
+[777409.245559] amdgpu 0000:e6:00.0: amdgpu: ring jpeg_dec_3.0 uses VM inv eng 7 on hub 11
+[777409.245559] amdgpu 0000:e6:00.0: amdgpu: ring jpeg_dec_3.1 uses VM inv eng 8 on hub 11
+[777409.245560] amdgpu 0000:e6:00.0: amdgpu: ring jpeg_dec_3.2 uses VM inv eng 9 on hub 11
+[777409.245560] amdgpu 0000:e6:00.0: amdgpu: ring jpeg_dec_3.3 uses VM inv eng 10 on hub 11
+[777409.245561] amdgpu 0000:e6:00.0: amdgpu: ring jpeg_dec_3.4 uses VM inv eng 11 on hub 11
+[777409.245561] amdgpu 0000:e6:00.0: amdgpu: ring jpeg_dec_3.5 uses VM inv eng 12 on hub 11
+[777409.245562] amdgpu 0000:e6:00.0: amdgpu: ring jpeg_dec_3.6 uses VM inv eng 13 on hub 11
+[777409.245562] amdgpu 0000:e6:00.0: amdgpu: ring jpeg_dec_3.7 uses VM inv eng 14 on hub 11
+[777409.257383] amdgpu 0000:e6:00.0: amdgpu: Runtime PM not available
+[777409.257470] [drm] Initialized amdgpu 3.64.0 20150101 for 0000:e6:00.0 on minor 49
+[777409.257509] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_42 on minor 50
+[777409.257542] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_43 on minor 51
+[777409.257572] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_44 on minor 52
+[777409.257601] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_45 on minor 53
+[777409.257630] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_46 on minor 54
+[777409.257663] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_47 on minor 55
+[777409.257692] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_48 on minor 56
+[777409.263037] amdgpu 0000:96:00.0: amdgpu: initializing kernel modesetting (IP DISCOVERY 0x1002:0x74A1 0x1002:0x74A1 0x00).
+[777409.263157] amdgpu 0000:96:00.0: amdgpu: register mmio base: 0xB8200000
+[777409.263159] amdgpu 0000:96:00.0: amdgpu: register mmio size: 2097152
+[777409.267876] amdgpu 0000:96:00.0: amdgpu: detected ip block number 0 <common_v2_0_0> (soc15_common)
+[777409.267879] amdgpu 0000:96:00.0: amdgpu: detected ip block number 1 <gmc_v9_0_0> (gmc_v9_0)
+[777409.267881] amdgpu 0000:96:00.0: amdgpu: detected ip block number 2 <ih_v4_2_0> (vega20_ih)
+[777409.267883] amdgpu 0000:96:00.0: amdgpu: detected ip block number 3 <psp_v13_0_0> (psp)
+[777409.267884] amdgpu 0000:96:00.0: amdgpu: detected ip block number 4 <smu_v13_0_0> (smu)
+[777409.267886] amdgpu 0000:96:00.0: amdgpu: detected ip block number 5 <gfx_v9_4_3> (gfx_v9_4_3)
+[777409.267888] amdgpu 0000:96:00.0: amdgpu: detected ip block number 6 <sdma_v4_4_2> (sdma_v4_4_2)
+[777409.267889] amdgpu 0000:96:00.0: amdgpu: detected ip block number 7 <ras_v1_0_0> (ras_v1_0)
+[777409.267891] amdgpu 0000:96:00.0: amdgpu: detected ip block number 8 <vcn_v4_0_3> (vcn_v4_0_3)
+[777409.267892] amdgpu 0000:96:00.0: amdgpu: detected ip block number 9 <jpeg_v4_0_3> (jpeg_v4_0_3)
+[777409.274424] amdgpu 0000:96:00.0: amdgpu: Fetched VBIOS from platform
+[777409.274428] amdgpu: ATOM BIOS: 113-M3000100-103
+[777409.275221] amdgpu 0000:96:00.0: amdgpu: Trusted Memory Zone (TMZ) feature not supported
+[777409.275339] amdgpu 0000:96:00.0: amdgpu: RAS INFO: ras initialized successfully, hardware ability[fdbff] ras_mask[fdbff]
+[777409.275499] amdgpu 0000:96:00.0: amdgpu: vm size is 262144 GB, 4 levels, block size is 9-bit, fragment size is 9-bit
+[777409.275517] amdgpu 0000:96:00.0: amdgpu: VRAM: 196592M 0x000002C000000000 - 0x000002EFFEFFFFFF (196592M used)
+[777409.275520] amdgpu 0000:96:00.0: amdgpu: GART: 512M 0x0000000000000000 - 0x000000001FFFFFFF
+[777409.275530] [drm] Detected VRAM RAM=196592M, BAR=262144M
+[777409.275532] [drm] RAM width 8192bits HBM
+[777409.275634] amdgpu 0000:96:00.0: amdgpu: amdgpu: 196592M of VRAM memory ready
+[777409.275636] amdgpu 0000:96:00.0: amdgpu: amdgpu: 773820M of GTT memory ready.
+[777409.275656] [drm] GART: num cpu pages 131072, num gpu pages 131072
+[777409.276710] [drm] PCIE GART of 512M enabled.
+[777409.276713] [drm] PTB located at 0x000002EFED700000
+[777409.283966] amdgpu 0000:96:00.0: amdgpu: [VCN instance 0] Found VCN firmware Version ENC: 1.24 DEC: 9 VEP: 0 Revision: 26
+[777409.284027] amdgpu 0000:96:00.0: amdgpu: [VCN instance 1] Found VCN firmware Version ENC: 1.24 DEC: 9 VEP: 0 Revision: 26
+[777409.284081] amdgpu 0000:96:00.0: amdgpu: [VCN instance 2] Found VCN firmware Version ENC: 1.24 DEC: 9 VEP: 0 Revision: 26
+[777409.284135] amdgpu 0000:96:00.0: amdgpu: [VCN instance 3] Found VCN firmware Version ENC: 1.24 DEC: 9 VEP: 0 Revision: 26
+[777411.988469] amdgpu 0000:96:00.0: amdgpu: RAP: optional rap ta ucode is not available
+[777411.989997] amdgpu 0000:96:00.0: amdgpu: SMU is initialized successfully!
+[777411.991723] amdgpu 0000:96:00.0: amdgpu: Requesting 1 partitions through PSP
+[777411.998873] amdgpu 0000:96:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777411.999414] amdgpu 0000:96:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777411.999985] amdgpu 0000:96:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777412.000570] amdgpu 0000:96:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777412.001182] amdgpu 0000:96:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777412.001780] amdgpu 0000:96:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777412.002391] amdgpu 0000:96:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777412.003055] amdgpu 0000:96:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[777412.060703] amdgpu 0000:96:00.0: amdgpu: XGMI: Add node 4, hive 0xbfdb3d0edaa60097.
+[777412.306794] amdgpu: HMM registered 196592MB device memory
+[777412.307756] kfd kfd: amdgpu: Allocated 3969056 bytes on gart
+[777412.307857] kfd kfd: amdgpu: Total number of KFD nodes to be created: 1
+[777412.307860] kfd kfd: amdgpu: KFD node 0 partition 0 size 196592M
+[777412.307864] kfd kfd: amdgpu: Node: 0, interrupt_bitmap: 7777
+[777412.308250] amdgpu: Virtual CRAT table created for GPU
+[777412.315384] amdgpu: Topology: Add dGPU node [0x74a1:0x1002]
+[777412.638293] amdgpu 0000:96:00.0: added peer-to-peer DMA memory 0x1d4000000000-0x1d7fffffffff
+[777412.638299] amdgpu 0000:96:00.0: amdgpu: AIS: registered 196592MB device memory
+[777412.638302] kfd kfd: amdgpu: added device 1002:74a1
+[777412.653300] amdgpu 0000:96:00.0: amdgpu: SE 4, SH per SE 1, CU per SH 10, active_cu_number 304
+[777412.653309] amdgpu 0000:96:00.0: amdgpu: ring comp_0.1.0.0 uses VM inv eng 0 on hub 0
+[777412.653311] amdgpu 0000:96:00.0: amdgpu: ring comp_0.1.1.0 uses VM inv eng 1 on hub 0
+[777412.653311] amdgpu 0000:96:00.0: amdgpu: ring comp_0.1.2.0 uses VM inv eng 4 on hub 0
+[777412.653312] amdgpu 0000:96:00.0: amdgpu: ring comp_0.1.3.0 uses VM inv eng 5 on hub 0
+[777412.653313] amdgpu 0000:96:00.0: amdgpu: ring comp_0.1.0.1 uses VM inv eng 6 on hub 0
+[777412.653313] amdgpu 0000:96:00.0: amdgpu: ring comp_0.1.1.1 uses VM inv eng 7 on hub 0
+[777412.653314] amdgpu 0000:96:00.0: amdgpu: ring comp_0.1.2.1 uses VM inv eng 8 on hub 0
+[777412.653314] amdgpu 0000:96:00.0: amdgpu: ring comp_0.1.3.1 uses VM inv eng 9 on hub 0
+[777412.653315] amdgpu 0000:96:00.0: amdgpu: ring kiq_0.2.1.0 uses VM inv eng 10 on hub 0
+[777412.653316] amdgpu 0000:96:00.0: amdgpu: ring comp_1.1.0.0 uses VM inv eng 0 on hub 1
+[777412.653317] amdgpu 0000:96:00.0: amdgpu: ring comp_1.1.1.0 uses VM inv eng 1 on hub 1
+[777412.653317] amdgpu 0000:96:00.0: amdgpu: ring comp_1.1.2.0 uses VM inv eng 4 on hub 1
+[777412.653318] amdgpu 0000:96:00.0: amdgpu: ring comp_1.1.3.0 uses VM inv eng 5 on hub 1
+[777412.653318] amdgpu 0000:96:00.0: amdgpu: ring comp_1.1.0.1 uses VM inv eng 6 on hub 1
+[777412.653319] amdgpu 0000:96:00.0: amdgpu: ring comp_1.1.1.1 uses VM inv eng 7 on hub 1
+[777412.653319] amdgpu 0000:96:00.0: amdgpu: ring comp_1.1.2.1 uses VM inv eng 8 on hub 1
+[777412.653320] amdgpu 0000:96:00.0: amdgpu: ring comp_1.1.3.1 uses VM inv eng 9 on hub 1
+[777412.653320] amdgpu 0000:96:00.0: amdgpu: ring kiq_1.2.1.0 uses VM inv eng 10 on hub 1
+[777412.653321] amdgpu 0000:96:00.0: amdgpu: ring comp_2.1.0.0 uses VM inv eng 0 on hub 2
+[777412.653321] amdgpu 0000:96:00.0: amdgpu: ring comp_2.1.1.0 uses VM inv eng 1 on hub 2
+[777412.653322] amdgpu 0000:96:00.0: amdgpu: ring comp_2.1.2.0 uses VM inv eng 4 on hub 2
+[777412.653323] amdgpu 0000:96:00.0: amdgpu: ring comp_2.1.3.0 uses VM inv eng 5 on hub 2
+[777412.653323] amdgpu 0000:96:00.0: amdgpu: ring comp_2.1.0.1 uses VM inv eng 6 on hub 2
+[777412.653324] amdgpu 0000:96:00.0: amdgpu: ring comp_2.1.1.1 uses VM inv eng 7 on hub 2
+[777412.653324] amdgpu 0000:96:00.0: amdgpu: ring comp_2.1.2.1 uses VM inv eng 8 on hub 2
+[777412.653325] amdgpu 0000:96:00.0: amdgpu: ring comp_2.1.3.1 uses VM inv eng 9 on hub 2
+[777412.653325] amdgpu 0000:96:00.0: amdgpu: ring kiq_2.2.1.0 uses VM inv eng 10 on hub 2
+[777412.653326] amdgpu 0000:96:00.0: amdgpu: ring comp_3.1.0.0 uses VM inv eng 0 on hub 3
+[777412.653326] amdgpu 0000:96:00.0: amdgpu: ring comp_3.1.1.0 uses VM inv eng 1 on hub 3
+[777412.653327] amdgpu 0000:96:00.0: amdgpu: ring comp_3.1.2.0 uses VM inv eng 4 on hub 3
+[777412.653327] amdgpu 0000:96:00.0: amdgpu: ring comp_3.1.3.0 uses VM inv eng 5 on hub 3
+[777412.653328] amdgpu 0000:96:00.0: amdgpu: ring comp_3.1.0.1 uses VM inv eng 6 on hub 3
+[777412.653328] amdgpu 0000:96:00.0: amdgpu: ring comp_3.1.1.1 uses VM inv eng 7 on hub 3
+[777412.653329] amdgpu 0000:96:00.0: amdgpu: ring comp_3.1.2.1 uses VM inv eng 8 on hub 3
+[777412.653330] amdgpu 0000:96:00.0: amdgpu: ring comp_3.1.3.1 uses VM inv eng 9 on hub 3
+[777412.653330] amdgpu 0000:96:00.0: amdgpu: ring kiq_3.2.1.0 uses VM inv eng 10 on hub 3
+[777412.653331] amdgpu 0000:96:00.0: amdgpu: ring comp_4.1.0.0 uses VM inv eng 0 on hub 4
+[777412.653331] amdgpu 0000:96:00.0: amdgpu: ring comp_4.1.1.0 uses VM inv eng 1 on hub 4
+[777412.653332] amdgpu 0000:96:00.0: amdgpu: ring comp_4.1.2.0 uses VM inv eng 4 on hub 4
+[777412.653332] amdgpu 0000:96:00.0: amdgpu: ring comp_4.1.3.0 uses VM inv eng 5 on hub 4
+[777412.653333] amdgpu 0000:96:00.0: amdgpu: ring comp_4.1.0.1 uses VM inv eng 6 on hub 4
+[777412.653333] amdgpu 0000:96:00.0: amdgpu: ring comp_4.1.1.1 uses VM inv eng 7 on hub 4
+[777412.653334] amdgpu 0000:96:00.0: amdgpu: ring comp_4.1.2.1 uses VM inv eng 8 on hub 4
+[777412.653334] amdgpu 0000:96:00.0: amdgpu: ring comp_4.1.3.1 uses VM inv eng 9 on hub 4
+[777412.653335] amdgpu 0000:96:00.0: amdgpu: ring kiq_4.2.1.0 uses VM inv eng 10 on hub 4
+[777412.653335] amdgpu 0000:96:00.0: amdgpu: ring comp_5.1.0.0 uses VM inv eng 0 on hub 5
+[777412.653336] amdgpu 0000:96:00.0: amdgpu: ring comp_5.1.1.0 uses VM inv eng 1 on hub 5
+[777412.653336] amdgpu 0000:96:00.0: amdgpu: ring comp_5.1.2.0 uses VM inv eng 4 on hub 5
+[777412.653337] amdgpu 0000:96:00.0: amdgpu: ring comp_5.1.3.0 uses VM inv eng 5 on hub 5
+[777412.653338] amdgpu 0000:96:00.0: amdgpu: ring comp_5.1.0.1 uses VM inv eng 6 on hub 5
+[777412.653338] amdgpu 0000:96:00.0: amdgpu: ring comp_5.1.1.1 uses VM inv eng 7 on hub 5
+[777412.653339] amdgpu 0000:96:00.0: amdgpu: ring comp_5.1.2.1 uses VM inv eng 8 on hub 5
+[777412.653339] amdgpu 0000:96:00.0: amdgpu: ring comp_5.1.3.1 uses VM inv eng 9 on hub 5
+[777412.653340] amdgpu 0000:96:00.0: amdgpu: ring kiq_5.2.1.0 uses VM inv eng 10 on hub 5
+[777412.653340] amdgpu 0000:96:00.0: amdgpu: ring comp_6.1.0.0 uses VM inv eng 0 on hub 6
+[777412.653341] amdgpu 0000:96:00.0: amdgpu: ring comp_6.1.1.0 uses VM inv eng 1 on hub 6
+[777412.653341] amdgpu 0000:96:00.0: amdgpu: ring comp_6.1.2.0 uses VM inv eng 4 on hub 6
+[777412.653342] amdgpu 0000:96:00.0: amdgpu: ring comp_6.1.3.0 uses VM inv eng 5 on hub 6
+[777412.653342] amdgpu 0000:96:00.0: amdgpu: ring comp_6.1.0.1 uses VM inv eng 6 on hub 6
+[777412.653343] amdgpu 0000:96:00.0: amdgpu: ring comp_6.1.1.1 uses VM inv eng 7 on hub 6
+[777412.653344] amdgpu 0000:96:00.0: amdgpu: ring comp_6.1.2.1 uses VM inv eng 8 on hub 6
+[777412.653344] amdgpu 0000:96:00.0: amdgpu: ring comp_6.1.3.1 uses VM inv eng 9 on hub 6
+[777412.653345] amdgpu 0000:96:00.0: amdgpu: ring kiq_6.2.1.0 uses VM inv eng 10 on hub 6
+[777412.653345] amdgpu 0000:96:00.0: amdgpu: ring comp_7.1.0.0 uses VM inv eng 0 on hub 7
+[777412.653346] amdgpu 0000:96:00.0: amdgpu: ring comp_7.1.1.0 uses VM inv eng 1 on hub 7
+[777412.653346] amdgpu 0000:96:00.0: amdgpu: ring comp_7.1.2.0 uses VM inv eng 4 on hub 7
+[777412.653347] amdgpu 0000:96:00.0: amdgpu: ring comp_7.1.3.0 uses VM inv eng 5 on hub 7
+[777412.653347] amdgpu 0000:96:00.0: amdgpu: ring comp_7.1.0.1 uses VM inv eng 6 on hub 7
+[777412.653348] amdgpu 0000:96:00.0: amdgpu: ring comp_7.1.1.1 uses VM inv eng 7 on hub 7
+[777412.653348] amdgpu 0000:96:00.0: amdgpu: ring comp_7.1.2.1 uses VM inv eng 8 on hub 7
+[777412.653349] amdgpu 0000:96:00.0: amdgpu: ring comp_7.1.3.1 uses VM inv eng 9 on hub 7
+[777412.653349] amdgpu 0000:96:00.0: amdgpu: ring kiq_7.2.1.0 uses VM inv eng 10 on hub 7
+[777412.653350] amdgpu 0000:96:00.0: amdgpu: ring sdma0.0 uses VM inv eng 0 on hub 8
+[777412.653350] amdgpu 0000:96:00.0: amdgpu: ring sdma0.1 uses VM inv eng 1 on hub 8
+[777412.653351] amdgpu 0000:96:00.0: amdgpu: ring sdma0.2 uses VM inv eng 4 on hub 8
+[777412.653352] amdgpu 0000:96:00.0: amdgpu: ring sdma0.3 uses VM inv eng 5 on hub 8
+[777412.653352] amdgpu 0000:96:00.0: amdgpu: ring sdma1.0 uses VM inv eng 0 on hub 9
+[777412.653353] amdgpu 0000:96:00.0: amdgpu: ring sdma1.1 uses VM inv eng 1 on hub 9
+[777412.653353] amdgpu 0000:96:00.0: amdgpu: ring sdma1.2 uses VM inv eng 4 on hub 9
+[777412.653354] amdgpu 0000:96:00.0: amdgpu: ring sdma1.3 uses VM inv eng 5 on hub 9
+[777412.653355] amdgpu 0000:96:00.0: amdgpu: ring sdma2.0 uses VM inv eng 0 on hub 10
+[777412.653355] amdgpu 0000:96:00.0: amdgpu: ring sdma2.1 uses VM inv eng 1 on hub 10
+[777412.653356] amdgpu 0000:96:00.0: amdgpu: ring sdma2.2 uses VM inv eng 4 on hub 10
+[777412.653356] amdgpu 0000:96:00.0: amdgpu: ring sdma2.3 uses VM inv eng 5 on hub 10
+[777412.653357] amdgpu 0000:96:00.0: amdgpu: ring sdma3.0 uses VM inv eng 0 on hub 11
+[777412.653357] amdgpu 0000:96:00.0: amdgpu: ring sdma3.1 uses VM inv eng 1 on hub 11
+[777412.653358] amdgpu 0000:96:00.0: amdgpu: ring sdma3.2 uses VM inv eng 4 on hub 11
+[777412.653358] amdgpu 0000:96:00.0: amdgpu: ring sdma3.3 uses VM inv eng 5 on hub 11
+[777412.653359] amdgpu 0000:96:00.0: amdgpu: ring vcn_unified_0 uses VM inv eng 6 on hub 8
+[777412.653360] amdgpu 0000:96:00.0: amdgpu: ring vcn_unified_1 uses VM inv eng 6 on hub 9
+[777412.653360] amdgpu 0000:96:00.0: amdgpu: ring vcn_unified_2 uses VM inv eng 6 on hub 10
+[777412.653361] amdgpu 0000:96:00.0: amdgpu: ring vcn_unified_3 uses VM inv eng 6 on hub 11
+[777412.653362] amdgpu 0000:96:00.0: amdgpu: ring jpeg_dec_0.0 uses VM inv eng 7 on hub 8
+[777412.653362] amdgpu 0000:96:00.0: amdgpu: ring jpeg_dec_0.1 uses VM inv eng 8 on hub 8
+[777412.653363] amdgpu 0000:96:00.0: amdgpu: ring jpeg_dec_0.2 uses VM inv eng 9 on hub 8
+[777412.653363] amdgpu 0000:96:00.0: amdgpu: ring jpeg_dec_0.3 uses VM inv eng 10 on hub 8
+[777412.653364] amdgpu 0000:96:00.0: amdgpu: ring jpeg_dec_0.4 uses VM inv eng 11 on hub 8
+[777412.653364] amdgpu 0000:96:00.0: amdgpu: ring jpeg_dec_0.5 uses VM inv eng 12 on hub 8
+[777412.653365] amdgpu 0000:96:00.0: amdgpu: ring jpeg_dec_0.6 uses VM inv eng 13 on hub 8
+[777412.653365] amdgpu 0000:96:00.0: amdgpu: ring jpeg_dec_0.7 uses VM inv eng 14 on hub 8
+[777412.653366] amdgpu 0000:96:00.0: amdgpu: ring jpeg_dec_1.0 uses VM inv eng 7 on hub 9
+[777412.653367] amdgpu 0000:96:00.0: amdgpu: ring jpeg_dec_1.1 uses VM inv eng 8 on hub 9
+[777412.653367] amdgpu 0000:96:00.0: amdgpu: ring jpeg_dec_1.2 uses VM inv eng 9 on hub 9
+[777412.653368] amdgpu 0000:96:00.0: amdgpu: ring jpeg_dec_1.3 uses VM inv eng 10 on hub 9
+[777412.653368] amdgpu 0000:96:00.0: amdgpu: ring jpeg_dec_1.4 uses VM inv eng 11 on hub 9
+[777412.653369] amdgpu 0000:96:00.0: amdgpu: ring jpeg_dec_1.5 uses VM inv eng 12 on hub 9
+[777412.653369] amdgpu 0000:96:00.0: amdgpu: ring jpeg_dec_1.6 uses VM inv eng 13 on hub 9
+[777412.653370] amdgpu 0000:96:00.0: amdgpu: ring jpeg_dec_1.7 uses VM inv eng 14 on hub 9
+[777412.653371] amdgpu 0000:96:00.0: amdgpu: ring jpeg_dec_2.0 uses VM inv eng 7 on hub 10
+[777412.653371] amdgpu 0000:96:00.0: amdgpu: ring jpeg_dec_2.1 uses VM inv eng 8 on hub 10
+[777412.653372] amdgpu 0000:96:00.0: amdgpu: ring jpeg_dec_2.2 uses VM inv eng 9 on hub 10
+[777412.653372] amdgpu 0000:96:00.0: amdgpu: ring jpeg_dec_2.3 uses VM inv eng 10 on hub 10
+[777412.653373] amdgpu 0000:96:00.0: amdgpu: ring jpeg_dec_2.4 uses VM inv eng 11 on hub 10
+[777412.653374] amdgpu 0000:96:00.0: amdgpu: ring jpeg_dec_2.5 uses VM inv eng 12 on hub 10
+[777412.653374] amdgpu 0000:96:00.0: amdgpu: ring jpeg_dec_2.6 uses VM inv eng 13 on hub 10
+[777412.653375] amdgpu 0000:96:00.0: amdgpu: ring jpeg_dec_2.7 uses VM inv eng 14 on hub 10
+[777412.653375] amdgpu 0000:96:00.0: amdgpu: ring jpeg_dec_3.0 uses VM inv eng 7 on hub 11
+[777412.653376] amdgpu 0000:96:00.0: amdgpu: ring jpeg_dec_3.1 uses VM inv eng 8 on hub 11
+[777412.653376] amdgpu 0000:96:00.0: amdgpu: ring jpeg_dec_3.2 uses VM inv eng 9 on hub 11
+[777412.653377] amdgpu 0000:96:00.0: amdgpu: ring jpeg_dec_3.3 uses VM inv eng 10 on hub 11
+[777412.653377] amdgpu 0000:96:00.0: amdgpu: ring jpeg_dec_3.4 uses VM inv eng 11 on hub 11
+[777412.653378] amdgpu 0000:96:00.0: amdgpu: ring jpeg_dec_3.5 uses VM inv eng 12 on hub 11
+[777412.653378] amdgpu 0000:96:00.0: amdgpu: ring jpeg_dec_3.6 uses VM inv eng 13 on hub 11
+[777412.653379] amdgpu 0000:96:00.0: amdgpu: ring jpeg_dec_3.7 uses VM inv eng 14 on hub 11
+[777412.665173] amdgpu 0000:96:00.0: amdgpu: Runtime PM not available
+[777412.665276] [drm] Initialized amdgpu 3.64.0 20150101 for 0000:96:00.0 on minor 57
+[777412.665311] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_49 on minor 58
+[777412.665349] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_50 on minor 59
+[777412.665380] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_51 on minor 60
+[777412.665411] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_52 on minor 61
+[777412.665447] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_53 on minor 62
+[777412.665481] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_54 on minor 63
+[777412.665512] [drm] Initialized amdgpu 3.64.0 20150101 for amdgpu_xcp_55 on minor 192
+[777415.804715] audit: type=1400 audit(1790805246.735:389): apparmor="AUDIT" operation="userns_create" class="namespace" info="Userns create - transitioning profile" profile="unconfined" pid=1542563 comm="3" requested="userns_create" target="unprivileged_userns"
+[777415.810975] audit: type=1400 audit(1790805246.742:390): apparmor="AUDIT" operation="userns_create" class="namespace" info="Userns create - transitioning profile" profile="unconfined" pid=1542567 comm="3" requested="userns_create" target="unprivileged_userns"

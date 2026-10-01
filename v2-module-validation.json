@@ -1,0 +1,36 @@
+{
+  "stock": {
+    "sha256": "eb12c22ecf375aa8a83a673be60e438f371a6e22457bd24773a968569a0b1d24",
+    "vermagic": "6.8.0-138-generic SMP preempt mod_unload modversions",
+    "depends": "drm_display_helper,amdkcl,amdttm,cec,amd-sched,video,drm_suballoc_helper,amddrm_exec,i2c-algo-bit,amdxcp,amddrm_buddy,amddrm_ttm_helper",
+    "signer": "node-0 Secure Boot Module Signature key",
+    "import_count": 1110,
+    "crc_mismatches_vs_stock": {},
+    "new_imports_vs_stock": [],
+    "removed_imports_vs_stock": []
+  },
+  "baseline": {
+    "sha256": "14f1964a6ca3a99fa96c054d3bf709d2e0344cc0b0eef93b99f8e8b6495512e6",
+    "vermagic": "6.8.0-138-generic SMP preempt mod_unload modversions",
+    "depends": "drm_display_helper,amdkcl,amdttm,cec,amd-sched,video,drm_suballoc_helper,amddrm_exec,i2c-algo-bit,amdxcp,amddrm_buddy,amddrm_ttm_helper",
+    "signer": "",
+    "import_count": 1110,
+    "crc_mismatches_vs_stock": {},
+    "new_imports_vs_stock": [],
+    "removed_imports_vs_stock": []
+  },
+  "patched": {
+    "sha256": "8e69802032838610fc9dc1c9fd351d0793b94aa87e1b8e6f5e041e1fd83058ec",
+    "vermagic": "6.8.0-138-generic SMP preempt mod_unload modversions",
+    "depends": "drm_display_helper,amdkcl,amdttm,cec,amd-sched,video,drm_suballoc_helper,amddrm_exec,i2c-algo-bit,amdxcp,amddrm_buddy,amddrm_ttm_helper",
+    "signer": "",
+    "import_count": 1110,
+    "crc_mismatches_vs_stock": {},
+    "new_imports_vs_stock": [],
+    "removed_imports_vs_stock": []
+  },
+  "patched_parameters": [
+    "nps_test_bdf:EXPERIMENTAL per-device NPS request for exact PCI BDF; blocks NPS changes on other GPUs; default disabled (charp)"
+  ],
+  "warning_difference": []
+}
